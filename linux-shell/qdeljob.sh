@@ -1,6 +1,3 @@
-#!/bin/bash
-for ((number=13088712;number <= 13088738;number++))
-	{
-		qdel $number
-	}
-	exit 0
+for (( i=117348; i <= 117356; i++ ))
+  do `qdel $i`
+done

@@ -13,7 +13,7 @@ do
     done
 
 
-#    for((i=200;i<=800;i=i+100));
-#    do
-#	      echo -n $i'     ' >> ./PV.dat; grep 'enthalpy' $i/scf/OUTCAR | gawk '{print $9}' >> ./PV.dat
-#      done
+    for((i=200;i<=800;i=i+100));
+    do
+	      echo -n $i'     ' >> ./PV.dat; grep 'enthalpy' $i/scf/OUTCAR | gawk '{print $9}' >> ./PV.dat
+      done
