@@ -13,6 +13,6 @@ All the scripts shown in this repo. are all written by myself. Any one who is in
 
 ### Revision history:
 
-14th, December 2017, create repo;
+14th, December 2017, create repo.;
 
 15th, December 2017, add some scripts
