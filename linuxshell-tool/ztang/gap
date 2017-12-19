@@ -1,0 +1,5 @@
+grep "      4     " OUTCAR | head -8 | \
+awk 'BEGIN{i=1}{a[i]=$2 ; i=i+1} END{for (j=1;j<i;j++) print j,a[j]}' > vband.dat
+grep "      5     " OUTCAR | head -8 | \
+awk 'BEGIN{i=1}{a[i]=$2 ; i=i+1} END{for (j=1;j<i;j++) print j,a[j]}' > cband.dat
+

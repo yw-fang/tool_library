@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ $# -ne 1 ]; then
+   echo "Usage: `basename $0` band_file"
+   exit -1
+fi
+
+if [ ! -f $1 ]; then
+   echo "Cannot open $1"
+   exit -1
+fi
+
+THKROOT=/home/users/fangsun/
+BIN=$THKROOT/bin
+
+BNAME=`basename $1 .band` && $BIN/bnd.gnu $1 > /dev/null 2>&1
+[ -f $BNAME.GNUBAND ] && rm $BNAME.GNUBAND
+[ -f $BNAME.BANDDAT1 ] && mv $BNAME.BANDDAT1 $BNAME.up
+[ -f $BNAME.BANDDAT2 ] && mv $BNAME.BANDDAT2 $BNAME.dn 
+
+

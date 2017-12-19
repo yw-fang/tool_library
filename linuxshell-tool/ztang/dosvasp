@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+####DOS for VASP,fangsun
+
+open OUTCAR,"./OUTCAR" or die "Can't open OUTCAR,$!\n";
+while(<OUTCAR>){
+	if(/ISPIN/){$nspin=(split)[2];}
+	if(/NEDOS/){$nsplit=(split)[5];}
+}
+#print $nspin. " " .$nsplit. "\n";
+
+open DOSCAR,"./DOSCAR" or die "Can't open DOSCAR,$!\n";
+chomp($nlines=`cat DOSCAR|wc -l`);
+#print $nlines/5 ."\n";
+$number=($nlines-5)/($nsplit+1);
+#print $number ."\n";
+
+foreach (1..5){
+	$fuck=<DOSCAR>;
+}
+
+mkdir "DOSFILE",0755 if ! -e DOSFILE; 
+if ($nspin==1){ 
+	for($i=1;$i<=$number;$i++){
+		$Ef=(split ' ',<DOSCAR>)[-2];
+		#print "$Ef\n";
+		open DOSFILE, "> ./DOSFILE/DOS".($i-1);
+		for($j=1;$j<=$nsplit;$j++){
+			$_=<DOSCAR>;
+			@line=split;
+			$line[0]=$line[0]-$Ef;
+			print DOSFILE "@line\n";
+		}
+		close DOSFILE;
+	}	
+}
+if ($nspin==2){
+	for($i=1;$i<=$number;$i++){
+		$Ef=(split ' ',<DOSCAR>)[-2];
+		#print "$Ef\n";
+		open DOSFILE, "> ./DOSFILE/DOS".($i-1);
+		#open DOSFILEDN, "> ./DOSFILE/DOSDN".($i-1);
+		for($j=1;$j<=$nsplit;$j++){
+			$_=<DOSCAR>;
+			@line=split;
+			$line[0]=$line[0]-$Ef;
+			#print @line," ", $#line,"\n";
+			for($k=2;$k<=$#line;$k+=2){
+				#push @spindn,$line[$k];
+				#push @spinup,$line[$k-1];
+				$line[$k]=-1*$line[$k];
+			}
+			print DOSFILE  "@line\n";
+			#print DOSFILEDN  $line[0].' '."@spindn\n";
+			#undef @spindn;
+			#undef @spinup;
+		}
+		close DOSFILE;
+		#close DOSFILEDN;
+	}
+}	

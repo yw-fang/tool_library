@@ -1,0 +1,75 @@
+#!/usr/bin/perl 
+
+########### This is my second perl program,not so easy as thought. fangsun,2010-09-01.
+
+#####band for VASP, not fit for nonconlinear calculation.
+
+##get nband and nkpoint
+ open EIGENVAL,"EIGENVAL" or die "Can't open EIGENVAL,$!\n";
+ foreach (1..5){
+ 	$dump=<EIGENVAL>;
+ }
+$_=<EIGENVAL>;
+ ($unknow,$nkpoint,$nband)= split;
+ die "Can't get nkpoint and nband in EIGENVCAL file\n" if (! defined $nkpoint);
+
+##get nspin 
+ open OUTCAR,"OUTCAR" or die "Can't open OUTCAR,$!\n";
+ while(<OUTCAR>){
+	if(/ISPIN/){
+		@spin=split;
+		$nspin=$spin[2];
+	}
+ }
+ die "Can't get ISPIN in the OUTCAR file\n" if (! defined @spin);
+
+##get Ef
+ open OUTCAR1,"../OUTCAR" or die "Can't open ../OUTCAR,$!\n";
+ while(<OUTCAR1>){
+ 	if(/E-fermi/){
+		@Ef=split;
+		$Ef=$Ef[2];
+	}
+ }
+ die "Can't get E-fermi in the../OUTCAR file\n" if (! defined @Ef);
+
+
+#print $nband,$nkpoint,$nspin,$Ef."\n";
+
+
+##now is for band
+ <EIGENVAL>;
+ for($i=1;$i<=$nkpoint;$i++){
+	<EIGENVAL>;
+	for($j=1;$j<=$nband;$j++){
+		$_=<EIGENVAL>;
+		@line=split;
+		#print "@line\n";
+		$energyup[$i][$j]=$line[1]-$Ef;
+		$energydn[$i][$j]=$line[2]-$Ef;
+	}
+	$dump=<EIGENVAL>; 
+}
+##ISPIN=1
+if (! defined $line[2]){
+ 	 open BAND ,"> ./band.dat";
+	 for($i=1;$i<=$nband;$i++){
+ 		for($j=1;$j<=$nkpoint;$j++){
+			print BAND ($j ." ". $energyup[$j][$i]."\n");
+		}
+		print BAND ("\n\n");
+	 } 
+}
+##ISPIN=2
+else {
+	open BANDUP, "> ./bandup.dat";
+	open BANDDN, "> ./banddn.dat";
+	 for($i=1;$i<=$nband;$i++){
+ 		for($j=1;$j<=$nkpoint;$j++){
+			print BANDUP ($j ." ". $energyup[$j][$i]."\n");
+			print BANDDN ($j ." ". $energydn[$j][$i]."\n");
+		}
+		print BANDUP ("\n\n");
+		print BANDDN ("\n\n");
+	 } 
+}		
