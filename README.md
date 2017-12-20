@@ -18,3 +18,5 @@ All the scripts shown in this repo. are all written by myself. Any one who is in
 15th, December 2017, add some scripts
 
 19th, Decemebr, 2017, rename the sub-directores. Add fortran directory
+
+20th, December, 2017, I am thinking to change the directory tree of this repo. From now on, I will gradually divede this repo. into several parts which corresponds to different functions/softwares.
