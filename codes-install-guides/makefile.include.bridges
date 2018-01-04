@@ -1,0 +1,104 @@
+# Precompiler options
+# CPP_OPTIONS= -DMPI -DHOST=\"LinuxIFC\" -DIFC \
+#              -DCACHE_SIZE=4000 -DPGF90 -Davoidalloc \
+#              -DMPI_BLOCK=8000 -Duse_collective \
+#              -DnoAugXCmeta -Duse_bse_te \
+#              -Duse_shmem -Dkind8
+#CPP_OPTIONS= -DMPI -DHOST=\"IFC91_ompi\" -DIFC \
+#             -DCACHE_SIZE=4000 -DPGF90 -Davoidalloc \
+#             -DMPI_BLOCK=8000 -DscaLAPACK -Duse_collective \
+#             -DnoAugXCmeta -Duse_bse_te \
+#             -Duse_shmem -Dtbdyn
+# For large problem sizes, a MPI allreduce call during wave function output may cause the code to hang.
+# It is therefore suggested not to use -Duse_collective as a precompiler option 
+CPP_OPTIONS= -DMPI -DHOST=\"LinuxIFC\" -DIFC \
+             -DCACHE_SIZE=4000 -DPGF90 -Davoidalloc \
+             -DMPI_BLOCK=8000 -DscaLAPACK \
+             -DnoAugXCmeta -Duse_bse_te -Duse_collective \
+             -Duse_shmem -Dkind8
+
+CPP        = fpp -f_com=no -free -w0  $*$(FUFFIX) $*$(SUFFIX) $(CPP_OPTIONS)
+
+FC         = mpiifort
+FCL        = mpiifort -mkl -lstdc++
+
+FREE       = -free -names lowercase
+
+FFLAGS     = -assume byterecl
+OFLAG      = -O2
+INLINE     = $(OFLAG)
+DEBUG      = -FR -O0
+CXX_PARS   = icpc
+
+# MKLROOT    = /opt/intel/compilers_and_libraries_2016.3.210/linux/mkl
+MKLROOT    = /opt/intel/compilers_and_libraries_2017.4.196/linux/mkl
+MKL_PATH   = $(MKLROOT)/lib/intel64
+BLAS       =
+LAPACK     =
+BLACS      =
+SCALAPACK  = -L$(MKL_PATH) -lmkl_scalapack_lp64 \
+-Wl,--start-group -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lmkl_blacs_intelmpi_lp64 -Wl,--end-group
+
+# FFT_ROOT   := /opt/intel/compilers_and_libraries_2016.3.210/linux/mkl
+FFT_ROOT   := /opt/intel/compilers_and_libraries_2017.4.196/linux/mkl
+FFT_LIB    :=
+
+OBJECTS     = fftmpiw.o fftmpi_map.o fft3dlib.o fftw3d.o
+
+INCS       =-I$(FFT_ROOT)/include/fftw
+
+LLIBS      := $(SCALAPACK) $(LAPACK) $(BLAS) $(FFT_LIB)
+LIBS      += parser
+LLIBS     += -Lparser -lparser -lstdc++
+
+# Redefine special rules
+#SOURCE_O1  =
+#OBJECTS_O1 = radial.o wave_high.o wave_high_gpu.o paw.o
+OBJECTS_O1 += fftw3d.o fftmpi.o fftmpiw.o
+OBJECTS_O2 += fft3dlib.o
+
+#SOURCE_O2  =
+#OBJECTS_O2 = wave.o cl_shift.o us.o LDApU.o
+
+# For what used to be vasp.5.lib
+CPP_LIB    = gcc -E -P -C $*$(FUFFIX) >$*$(SUFFIX)
+FC_LIB     = $(FC)
+CC_LIB     = icc
+CFLAGS_LIB = -O
+#FFLAGS_LIB = -O1 -FI
+FFLAGS_LIB = -O1
+#FREE_LIB   = -FR
+FREE_LIB   = $(FREE)
+
+OBJECTS_LIB= linpack_double.o getshmem.o
+
+# Normally no need to change this
+SRCDIR     = ../../src
+BINDIR     = ../../bin
+
+#================================================
+# GPU Stuff
+
+#CPP_GPU    = -DASYNC_TRANS -DRPROMU_STREAM \
+#             -DRACC0MU_STREAM -DRPROMU_BLOCK -DRACC0MU_BLOCK \
+#             -DRPROMU_CPROJ_OVERLAP -DPlanStream -DPinCR \
+#             -DCUDA_GPU -DUSE_PINNED_MEMORY -DCUDA_HIGH \
+#             -DCUFFT_MIN=28 -DFFT_NUM_STREAM=1 -DNumStream \
+#             -DDO_NOT_USE_POTLOK_GPU 
+CPP_GPU    = -DCUDA_GPU -DRPROMU_CPROJ_OVERLAP -DUSE_PINNED_MEMORY -DCUFFT_MIN=28
+
+OBJECTS_GPU = fftmpiw.o fftmpi_map.o fft3dlib.o fftw3d_gpu.o fftmpiw_gpu.o
+
+CUDA_ROOT  := /opt/packages/cuda/7.5
+NVCC       := $(CUDA_ROOT)/bin/nvcc
+CUDA_LIB   := -L$(CUDA_ROOT)/lib64 -lnvToolsExt -lcudart -lcufft -lcublas
+
+#GENCODE_ARCH    := -gencode=arch=compute_30,code=sm_37
+GENCODE_ARCH    := -gencode=arch=compute_52,code=sm_52
+#GENCODE_ARCH    := -gencode=arch=compute_60,code=sm_60
+
+#MAGMA_ROOT := /opt/packages/Magma/magma-2.0.1/lib
+
+# So that nvcc knows how to include MPI headers
+# MPI_INC    := /opt/intel/compilers_and_libraries_2016.3.210/linux/mpi/intel64/include
+MPI_INC    := /opt/intel/compilers_and_libraries_2017.4.196/linux/mpi/intel64/include
