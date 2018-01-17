@@ -1,0 +1,27 @@
+TEMP=/home/cgduan/fyw/vaspwork/LWN/new/pw/tmp
+for q in `seq 10 1 14` ; do
+
+cat > input.$q << EOF
+phonon calculation for LWN
+ &inputph
+  tr2_ph=1.0d-13,
+  prefix = 'LWN',
+  fildvscf='LWNdv',
+  amass(1)=138.905000,
+  amass(2)=183.840000,
+  amass(3)=14.006700,
+  alpha_mix =  0.2,
+  outdir = './tmp'
+  fildyn='LWN.dyn',
+  trans=.true.,
+  ldisp=.true.
+  nq1=4, nq2=4, nq3=4
+  start_q=$q
+  last_q=$q
+/
+EOF
+
+mkdir $TEMP/$q
+cp -r $TEMP/LWN.* $TEMP/$q
+
+done
