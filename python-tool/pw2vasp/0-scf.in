@@ -1,0 +1,59 @@
+
+&control
+ calculation = 'scf',
+ verbosity = 'high',
+ restart_mode = 'from_scratch',
+ prefix = 'BAD',
+! tstress = .true.,
+! tprnfor = .true.,
+ pseudo_dir = '/home/fyw/vaspwork/BaPd2As2/I4mmm/pwscf-pbe/pot',
+ outdir = './tmp'
+! etot_conv_thr=1.0D-7,
+! forc_conv_thr=1.0D-4,
+! nstep=200
+/ 
+
+&system
+ ibrav=0, nat=5, ntyp=3,
+ ecutwfc=40,
+ ecutrho=400,
+ occupations='smearing', smearing='gaussian', degauss=0.02
+/
+
+&electrons
+! diagonalization='david',
+! mixing_mode = 'plain',
+ mixing_beta = 0.7,
+ conv_thr =  1.0d-8,
+/ 
+
+!&ions
+!  ion_dynamics = 'bfgs',
+!  ion_positions = 'from_input',
+!  pot_extrapolation = "second_order",
+!  wfc_extrapolation = "second_order",
+!/
+
+&cell
+  press = 0
+/
+
+ATOMIC_SPECIES
+ Ba 137.327000 Ba.pbe-spn-rrkjus_psl.1.0.0.UPF
+ As 74.921600 As.pbe-n-rrkjus_psl.1.0.0.UPF
+ Pd 106.420000 Pd.pbe-spn-rrkjus_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS (crystal)
+Ba       0.000000000   0.000000000   0.000000000
+As       0.375231986   0.375231986   0.000000000
+As       0.624768014   0.624768014   0.000000000
+Pd       0.750000000   0.250000000   0.500000000
+Pd       0.250000000   0.750000000   0.500000000
+
+K_POINTS automatic
+8 8 8 0 0 0
+
+CELL_PARAMETERS (bohr)
+  -4.167619347   4.167619347   9.767254194
+   4.167619347  -4.167619347   9.767254194
+   4.167619347   4.167619347  -9.767254194
