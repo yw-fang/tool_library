@@ -1,14 +1,12 @@
 # This file is used to generate input launch file for thermal conductivity calculations using VASP
-# Yue-Wen FANG, created Feb. 8, 2018
-# in 3 functions: generate_vasp_params(), generate_qe_params() and generate_lammps_params().
-# generate_inputs() function at the end of the file decides which function to use according to the plugin
+# Yue-Wen FANG, created in Feb. 8, 2018
 # version 0.0.1 Feb. 9, 2018
 
 #usage: python generate_launchfile_thermal.py
 #make sure you have sampe.py and POSCAR in the current folder.
 
 
-#Import the modules needed to run this script
+#import the modules needed to run this script
 import os
 from os.path import exists
 import numpy as np
@@ -231,10 +229,3 @@ with open(title,'wt') as f:
     with open('sample.py') as f2:
         for linef2 in f2:
             f.write(linef2)
-
-
-
-
-
-
-
