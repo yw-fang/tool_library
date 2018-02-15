@@ -1,6 +1,8 @@
 # This file is used to generate input launch file for thermal conductivity calculations using VASP
 # Yue-Wen FANG, created in Feb. 8, 2018
 # version 0.0.1 Feb. 9, 2018
+# use python 3
+# usage: python generate_launchfile_thermal.py
 
 #usage: python generate_launchfile_thermal.py
 #make sure you have sampe.py and POSCAR in the current folder.
