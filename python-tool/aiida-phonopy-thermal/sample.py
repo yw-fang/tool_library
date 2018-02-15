@@ -22,8 +22,8 @@ ph_settings = ParameterData(dict={'supercell': [[2, 0, 0],
                                   'distance': 0.01,
                                   'mesh': [20, 20, 20],
                                   'symmetry_precision': 1e-5,
-                                  'code': {'fc2': 'phonopy_tot@boston_in',  # this uses phonopy.phonopy
-                                           'fc3': 'phono3py@stern_in'},  # this uses phonopy.phono3py
+                                  'code': {'fc2': 'phonopy@boston-lab',  # this uses phonopy.phonopy
+                                           'fc3': 'phono3py@boston-lab'},  # this uses phonopy.phono3py
                                   'machine': machine_dict
                                   })
 
@@ -43,14 +43,15 @@ if code_to_use == 'VASP':
         'GGA'    : 'PS'
     }
 
-    settings_dict = {'code': {'optimize': 'vasp@stern_in',
-                              'forces': 'vasp@stern_in'},
+    settings_dict = {'code': {'optimize': 'vasp.boston@stern_in',
+                              'forces': 'vasp.boston@stern_in',
+                              'born_charges': 'vasp.boston@boston-lab'},
                      'parameters': incar_dict,
                      # 'kpoints_density': 0.5,  # k-point density (higher priority)
                      'kpoints_mesh': [2, 2, 2],  # k-point mesh (gamma centered)
-                     'kpoints_offset': [0.5, 0.5, 0.5],  # k-point offset
+                     #'kpoints_offset': [0.5, 0.5, 0.5],  # k-point offset
                      'pseudos_family': 'pbe_test_family',
-                     'family_folder': '/Users/abel/VASP/test_paw/',
+                     'family_folder': '/home/ywfang/FANG/study/software/vasp-sourcecode/v54pot/aiida-pbe',
                      'machine': machine_dict
                      }
 
@@ -66,8 +67,8 @@ if code_to_use == 'QE':
         'ELECTRONS': {'conv_thr': 1.e-6,}
     }
 
-    settings_dict = {'code': {'optimize': 'pw6@boston_in',
-                              'forces': 'pw6@boston_in'},
+    settings_dict = {'code': {'optimize': 'pw6@boston-lab',
+                              'forces': 'pw6@boston-lab'},
                      'parameters': parameters_dict,
                      'kpoints_density': 0.5,  # k-point density
                      'pseudos_family': 'pbe_test_family',
@@ -93,8 +94,8 @@ if code_to_use == 'LAMMPS':
                   'max_evaluations': 1000000,
                   'max_iterations': 500000}
 
-    settings_dict = {'code': {'optimize': 'lammps_optimize@boston_in',
-                              'forces': 'lammps_force@boston_in'},
+    settings_dict = {'code': {'optimize': 'lammps_optimize@boston-lab',
+                              'forces': 'lammps_force@boston-lab'},
                      'parameters': parameters,
                      'potential': potential,
                      'machine': machine_dict
