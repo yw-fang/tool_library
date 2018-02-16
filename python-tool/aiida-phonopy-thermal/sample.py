@@ -27,9 +27,9 @@ ph_settings = ParameterData(dict={'supercell': [[2, 0, 0],
                                   'machine': machine_dict
                                   })
 
-#code_to_use = 'VASP'
+code_to_use = 'VASP'
 #code_to_use = 'QE'
-code_to_use = 'LAMMPS'
+#code_to_use = 'LAMMPS'
 
 # VASP SPECIFIC
 if code_to_use == 'VASP':
@@ -43,8 +43,8 @@ if code_to_use == 'VASP':
         'GGA'    : 'PS'
     }
 
-    settings_dict = {'code': {'optimize': 'vasp.boston@stern_in',
-                              'forces': 'vasp.boston@stern_in',
+    settings_dict = {'code': {'optimize': 'vasp.boston@boston-lab',
+                              'forces': 'vasp.boston@boston-lab',
                               'born_charges': 'vasp.boston@boston-lab'},
                      'parameters': incar_dict,
                      # 'kpoints_density': 0.5,  # k-point density (higher priority)
@@ -106,32 +106,34 @@ if code_to_use == 'LAMMPS':
 ThermalPhono3py = WorkflowFactory('phonopy.thermal')
 
 # Chose how to run the calculation
-run_by_deamon = False
+run_by_deamon = True
 if not run_by_deamon:
     result = run(ThermalPhono3py,
-                 structure=structure,
-                 es_settings=es_settings,
-                 ph_settings=ph_settings,
-                 # Optional settings
-                 # pressure=Float(0), # Pressure at which the optimization takes place (no effect if optimize = False)
-                 optimize=Bool(False),
-                 use_nac=Bool(False),
-                 chunks=Int(120),  # set the number of maximum simultaneous calculations
-                 initial_cutoff=Float(2.0),  # Initial cutoff in Angstrom
-                 step=Float(1.0),  # Step cutoff in Angstrom
-                 gp_chunks=Int(1)  # Number of computers in distributed phono3py calculation
-                 )
+            structure=structure,
+            es_settings=es_settings,
+            ph_settings=ph_settings,
+            # Optional settings
+            # pressure=Float(0), # Pressure at which the optimization takes place (no effect if optimize = False)
+            optimize=Bool(True),
+            use_nac=Bool(True),
+            chunks=Int(120),  # set the number of maximum simultaneous calculations
+            initial_cutoff=Float(4.0),  # Initial cutoff in Angstrom
+            step=Float(1.0),  # Step cutoff in Angstrom
+            gp_chunks=Int(1)  # Number of computers in distributed phono3py calculation
+            )
     print (result)
 else:
     future = submit(ThermalPhono3py,
-                    structure=structure,
-                    es_settings=es_settings,
-                    ph_settings=ph_settings,
-                    # Optional settings
-                    # pressure=Float(0),
-                    optimize=Bool(True),
-                    use_nac=Bool(False),
-                    chunks=Int(120),  # set the number of maximum simultaneous calculations
-                    step=Float(2.0),
-                    )
+            structure=structure,
+            es_settings=es_settings,
+            ph_settings=ph_settings,
+            # Optional settings
+            # pressure=Float(0),
+            optimize=Bool(True),
+            use_nac=Bool(True),
+            chunks=Int(120),  # set the number of maximum simultaneous calculations
+            initial_cutoff=Float(4.0),  # Initial cutoff in Angstrom
+            step=Float(1.0),  # Step cutoff in Angstrom
+            gp_chunks=Int(1)  # Number of computers in distributed phono3py calculation
+            )
     print('Running workchain with pk={}'.format(future.pid))
