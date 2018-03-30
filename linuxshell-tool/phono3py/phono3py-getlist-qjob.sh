@@ -1,6 +1,7 @@
 #!/bin/bash
 #usage: before running this command, please make sure that you have these following files
 #POSCAR-unitcell, aiidasubmit-phono3py.sh
+cp aiidasubmit-phono3py.sh ../
 rm -rf structure_list*.dat
 phono3py --cutoff-pair=0.1 -d --dim="2 2 2" -c POSCAR-unitcell > out.log
 phono3py-distance.sh disp_fc3.yaml > tmp.dat
@@ -23,7 +24,6 @@ for((i=1;i<=$lines;i=i+1));
   cp disp_fc3.yaml ../disp_fc3.yaml
       for j in `ls POSCAR-0*|sed s/POSCAR-//`;do echo 'disp-'$j'/vasprun.xml' >> structure_list$i.dat; done
   cp structure_list$i.dat ../structure_list$i.dat
-  cp aiidasubmit-phono3py.sh .
   cd ../
   phono3py --cf3_file structure_list$i.dat
   mkdir $i
