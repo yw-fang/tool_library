@@ -25,7 +25,8 @@ for((i=1;i<=$lines;i=i+1));
       for j in `ls POSCAR-0*|sed s/POSCAR-//`;do echo 'disp-'$j'/vasprun.xml' >> structure_list$i.dat; done
   cp structure_list$i.dat ../structure_list$i.dat
   cd ../
-  phono3py --cf3_file structure_list$i.dat
+  phono3py --cf3-file structure_list$i.dat 
+  #in the new version of phono3py, --cf3_file is changed to --cf3-file
   mkdir $i
   mv FORCES_FC*  disp_fc3.yaml $i
   cd $i
