@@ -48,6 +48,7 @@ for file in filelist:
     file_vasp = file + '.vasp'
     structure = mg.Structure.from_file(file_vasp)
     file_cif = file + '.cif'
-    structure.to(filename=file_cif)
-#    print('The space group of', file, 'is {}'.
-#          format(symmetry.get_space_group_symbol()))
+# export CIF with symmetry
+    mg.io.cif.CifWriter(structure, symprec=0.1).write_file(file_cif)
+# export CIF without symmetry, symmetry uses P1
+#    structure.to(filename=file_cif)
