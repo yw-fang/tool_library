@@ -23,9 +23,10 @@ for filename in os.listdir(path):
 # print(filelist)
 
 
-###################define functions##################
+# #################define functions##################
 def atoi(text):
     return int(text) if text.isdigit() else text
+
 
 def natural_keys(text):
     '''
@@ -39,7 +40,8 @@ def natural_keys(text):
     gn=google_rich_qa
     '''
     return [atoi(c) for c in re.split('(\d+)', text)]
-#####################################################
+# ###################################################
+
 
 filelist.sort(key=natural_keys)
 # print(filelist)
