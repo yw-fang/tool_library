@@ -1,9 +1,12 @@
-# Purpose: generate supercell from POSCAR
-# Author: Yue-Wen FANG
-# Date: 2018 March 18th
 from pymatgen.io.vasp import Poscar
 # from pymatgen import *
 # import ase
+# Purpose: generate supercell from POSCAR
+__author__ = "Yue-Wen FANG"
+__maintainer__ = "Yue-Wen FANG"
+__email__ = "fyuewen@gmail.com"
+__status__ = "Development"
+__creation_date__ = "March 18th, 2018"
 
 p = Poscar.from_file('POSCAR')
 sd = p.selective_dynamics
