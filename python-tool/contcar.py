@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # update 2010.6.21
 # update 2010.10.26
 # update 2011.03.24
@@ -54,7 +53,7 @@ def icontcar(caldir):
     f.close()
     if lat == True:
         for i in range(2, 5):
-            contcar[i] = '1.0   1.0   1.0 \n' 
+            contcar[i] = '1.0   1.0   1.0 \n'
     #if atom == True or lat == True:
     ff = open(caldir + '/CONTCAR', 'w')
     for i in range(0, len(contcar)):
