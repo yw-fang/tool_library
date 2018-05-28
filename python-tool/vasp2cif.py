@@ -48,7 +48,8 @@ for file in filelist:
     file_vasp = file + '.vasp'
     structure = mg.Structure.from_file(file_vasp)
     file_cif = file + '.cif'
+    file_cif_P1 = file + '_P1.cif'
 # export symmetried CIF, symprec controls the tolerance
     mg.io.cif.CifWriter(structure, symprec=0.1).write_file(file_cif)
 # export CIF with P1 symmetry
-#    structure.to(filename=file_cif)
+    structure.to(filename=file_cif_P1)
