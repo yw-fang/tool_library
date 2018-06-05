@@ -2,9 +2,10 @@
 ## Author: Y.-W.FANG at Kyoto University
 number_of_cutoff=$(ls -l structure_list* | wc -l)
 echo $numer_of_cutoff
-line=$(gawk '/xx/{print NR}' 1/_scheduler-stdout.txt)  #locate the line with keyword 'xx'
+#locate the line with keyword 'tetrahedron'
+line=$(gawk '/with\ tetrahedron\ method/{print NR}' 1/_scheduler-stdout.txt)  
 echo $line
-roomline=$(expr $line+31 | bc)  #locate the line with LTC at 300 K
+roomline=$(expr $line+32 | bc)  #locate the line with LTC at 300 K
 echo $roomline
 rm -rf tmp1.dat
 rm -rf  cutoff-ltc.csv
