@@ -32,7 +32,7 @@ for i in range(nqpoint):
 gruneisen_array = np.array(gruneisen_list)
 # print(gruneisen_array)
 sum_gruneisen = sum(gruneisen_list[0:len(gruneisen_list)])
-average_gruneisen = sum_gruneisen/nqpoint
+average_gruneisen = sum_gruneisen/(nqpoint*band_length)
 print(average_gruneisen)
 # print(band[:])
 # print(type(freq), type(gruneisen))
