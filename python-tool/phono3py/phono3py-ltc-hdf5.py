@@ -22,7 +22,8 @@ for filename in os.listdir(path):
     name, file_extension = os.path.splitext(filename)
     boolean_value = file_extension == '.hdf5'
     if boolean_value:
-        filelist.append(name)
+        if 'kappa' in name:
+            filelist.append(name)
 # print(filelist)
 
 
