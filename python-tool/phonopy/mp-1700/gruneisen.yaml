@@ -1,0 +1,5393 @@
+mesh: [    20,    20,    20 ]
+nqpoint: 245
+phonon:
+- q-position: [  0.0250000,  0.0250000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    2.2926896810
+    frequency:    0.7197368958
+  - # 2
+    gruneisen:    2.2926896783
+    frequency:    0.7197368958
+  - # 3
+    gruneisen:    2.0166787901
+    frequency:    1.0900507028
+  - # 4
+    gruneisen:    1.4489144498
+    frequency:   19.5106124661
+  - # 5
+    gruneisen:    1.4489144498
+    frequency:   19.5106124661
+  - # 6
+    gruneisen:    1.4439067119
+    frequency:   19.5555962349
+
+- q-position: [  0.0750000,  0.0250000,  0.0250000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:    0.4340753569
+    frequency:    1.7748694634
+  - # 2
+    gruneisen:    0.6504470765
+    frequency:    1.8137237687
+  - # 3
+    gruneisen:    1.2150141744
+    frequency:    2.7202885486
+  - # 4
+    gruneisen:    1.4519989191
+    frequency:   19.5237915043
+  - # 5
+    gruneisen:    1.4430994073
+    frequency:   19.6192317414
+  - # 6
+    gruneisen:    1.4133903236
+    frequency:   19.8907799700
+
+- q-position: [  0.1250000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:    0.2020531121
+    frequency:    3.0009966198
+  - # 2
+    gruneisen:    0.3485097775
+    frequency:    3.0796585012
+  - # 3
+    gruneisen:    1.1397192951
+    frequency:    4.7596211717
+  - # 4
+    gruneisen:    1.4504174708
+    frequency:   19.6500480882
+  - # 5
+    gruneisen:    1.4367025200
+    frequency:   19.7971358003
+  - # 6
+    gruneisen:    1.3552312624
+    frequency:   20.5600763144
+
+- q-position: [  0.1750000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:    0.1108736941
+    frequency:    4.0695188765
+  - # 2
+    gruneisen:    0.2281068045
+    frequency:    4.1912258445
+  - # 3
+    gruneisen:    1.1274430563
+    frequency:    6.8034560963
+  - # 4
+    gruneisen:    1.4501477274
+    frequency:   19.8105091584
+  - # 5
+    gruneisen:    1.4351860401
+    frequency:   19.9685382127
+  - # 6
+    gruneisen:    1.2883426411
+    frequency:   21.3680485970
+
+- q-position: [  0.2250000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:    0.0320510853
+    frequency:    4.9202681054
+  - # 2
+    gruneisen:    0.1381248154
+    frequency:    5.0826346976
+  - # 3
+    gruneisen:    1.1193449747
+    frequency:    8.7975898839
+  - # 4
+    gruneisen:    1.4566688177
+    frequency:   19.9242316592
+  - # 5
+    gruneisen:    1.4433010061
+    frequency:   20.0595369693
+  - # 6
+    gruneisen:    1.2278695541
+    frequency:   22.0999877693
+
+- q-position: [  0.2750000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:   -0.0517335394
+    frequency:    5.5519638399
+  - # 2
+    gruneisen:    0.0509750507
+    frequency:    5.7450009450
+  - # 3
+    gruneisen:    1.1047020258
+    frequency:   10.7190812249
+  - # 4
+    gruneisen:    1.4730920487
+    frequency:   19.9369394235
+  - # 5
+    gruneisen:    1.4632973514
+    frequency:   20.0278338537
+  - # 6
+    gruneisen:    1.1815562920
+    frequency:   22.5909154379
+
+- q-position: [  0.3250000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:   -0.1387086656
+    frequency:    5.9972748200
+  - # 2
+    gruneisen:   -0.0381253692
+    frequency:    6.2031446410
+  - # 3
+    gruneisen:    1.0815821786
+    frequency:   12.5438382850
+  - # 4
+    gruneisen:    1.4993346825
+    frequency:   19.8368411399
+  - # 5
+    gruneisen:    1.4941299291
+    frequency:   19.8769225075
+  - # 6
+    gruneisen:    1.1521609908
+    frequency:   22.7549228223
+
+- q-position: [  0.3750000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:   -0.2193976334
+    frequency:    6.3024081538
+  - # 2
+    gruneisen:   -0.1255036997
+    frequency:    6.4974098952
+  - # 3
+    gruneisen:    1.0506329069
+    frequency:   14.2299943647
+  - # 4
+    gruneisen:    1.5311669803
+    frequency:   19.6527149458
+  - # 5
+    gruneisen:    1.5317465719
+    frequency:   19.6553199800
+  - # 6
+    gruneisen:    1.1407012270
+    frequency:   22.5878923517
+
+- q-position: [  0.4250000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:   -0.2811377153
+    frequency:    6.5076442213
+  - # 2
+    gruneisen:   -0.2028094978
+    frequency:    6.6668352614
+  - # 3
+    gruneisen:    1.0129102958
+    frequency:   15.6943929951
+  - # 4
+    gruneisen:    1.5665392521
+    frequency:   19.4263936351
+  - # 5
+    gruneisen:    1.5631137028
+    frequency:   19.4541721898
+  - # 6
+    gruneisen:    1.1482737297
+    frequency:   22.1686680085
+
+- q-position: [  0.4750000,  0.0250000,  0.0250000 ]
+  multiplicity: 10
+  band:
+  - # 1
+    gruneisen:   -0.3128174514
+    frequency:    6.6360237300
+  - # 2
+    gruneisen:   -0.2596667629
+    frequency:    6.7392405034
+  - # 3
+    gruneisen:    0.9731904954
+    frequency:   16.7553165574
+  - # 4
+    gruneisen:    1.5909529608
+    frequency:   19.2698090761
+  - # 5
+    gruneisen:    1.5839912644
+    frequency:   19.3042185409
+  - # 6
+    gruneisen:    1.1722553186
+    frequency:   21.6938268153
+
+- q-position: [ -0.4750000,  0.0250000,  0.0250000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:   -0.3088220041
+    frequency:    6.6936812619
+  - # 2
+    gruneisen:   -0.2866360641
+    frequency:    6.7306606718
+  - # 3
+    gruneisen:    0.9575286453
+    frequency:   17.0703850707
+  - # 4
+    gruneisen:    1.5972452673
+    frequency:   19.2310433280
+  - # 5
+    gruneisen:    1.5892591891
+    frequency:   19.2592325044
+  - # 6
+    gruneisen:    1.1848954170
+    frequency:   21.5233054903
+
+- q-position: [  0.0750000,  0.0750000,  0.0250000 ]
+  multiplicity: 5
+  band:
+  - # 1
+    gruneisen:    0.5514353125
+    frequency:    2.1484355875
+  - # 2
+    gruneisen:    0.5257642763
+    frequency:    2.1497950993
+  - # 3
+    gruneisen:    1.0902345511
+    frequency:    3.2102931510
+  - # 4
+    gruneisen:    1.4542082179
+    frequency:   19.5233479557
+  - # 5
+    gruneisen:    1.4529322369
+    frequency:   19.5357159985
+  - # 6
+    gruneisen:    1.3872547303
+    frequency:   20.1959298356
+
+- q-position: [  0.1250000,  0.0750000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.2995120063
+    frequency:    3.0691912875
+  - # 2
+    gruneisen:    0.4552346923
+    frequency:    3.1672814215
+  - # 3
+    gruneisen:    1.0662428755
+    frequency:    4.6749076039
+  - # 4
+    gruneisen:    1.4605343398
+    frequency:   19.5466792526
+  - # 5
+    gruneisen:    1.4484248731
+    frequency:   19.6680748760
+  - # 6
+    gruneisen:    1.3360068132
+    frequency:   20.8203656753
+
+- q-position: [  0.1750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:    0.1829928194
+    frequency:    4.0599381093
+  - # 2
+    gruneisen:    0.3507238903
+    frequency:    4.2505979666
+  - # 3
+    gruneisen:    1.0831830472
+    frequency:    6.4419186350
+  - # 4
+    gruneisen:    1.4630707435
+    frequency:   19.6638913271
+  - # 5
+    gruneisen:    1.4430117460
+    frequency:   19.8628671165
+  - # 6
+    gruneisen:    1.2777875620
+    frequency:   21.5590807765
+
+- q-position: [  0.2250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:    0.0990669690
+    frequency:    4.9135740847
+  - # 2
+    gruneisen:    0.2629543675
+    frequency:    5.1802263275
+  - # 3
+    gruneisen:    1.0925935710
+    frequency:    8.2932638737
+  - # 4
+    gruneisen:    1.4678618247
+    frequency:   19.7906265913
+  - # 5
+    gruneisen:    1.4452886210
+    frequency:   20.0124841677
+  - # 6
+    gruneisen:    1.2230831257
+    frequency:   22.2449291337
+
+- q-position: [  0.2750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:    0.0189117206
+    frequency:    5.5753088806
+  - # 2
+    gruneisen:    0.1794418851
+    frequency:    5.9006995363
+  - # 3
+    gruneisen:    1.0893331501
+    frequency:   10.1435249245
+  - # 4
+    gruneisen:    1.4796434418
+    frequency:   19.8527687366
+  - # 5
+    gruneisen:    1.4598201161
+    frequency:   20.0479237040
+  - # 6
+    gruneisen:    1.1789774115
+    frequency:   22.7278225808
+
+- q-position: [  0.3250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.0617911593
+    frequency:    6.0593599771
+  - # 2
+    gruneisen:    0.0958742083
+    frequency:    6.4163939251
+  - # 3
+    gruneisen:    1.0744941054
+    frequency:   11.9416094231
+  - # 4
+    gruneisen:    1.5003731271
+    frequency:   19.8101360346
+  - # 5
+    gruneisen:    1.4863953948
+    frequency:   19.9573254222
+  - # 6
+    gruneisen:    1.1491361141
+    frequency:   22.9141419992
+
+- q-position: [  0.3750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.1369499445
+    frequency:    6.4076852857
+  - # 2
+    gruneisen:    0.0139635604
+    frequency:    6.7571104005
+  - # 3
+    gruneisen:    1.0506091346
+    frequency:   13.6371416518
+  - # 4
+    gruneisen:    1.5295995098
+    frequency:   19.6627255482
+  - # 5
+    gruneisen:    1.5191471383
+    frequency:   19.7836222385
+  - # 6
+    gruneisen:    1.1355692993
+    frequency:   22.7819380510
+
+- q-position: [  0.4250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.1979379273
+    frequency:    6.6567142728
+  - # 2
+    gruneisen:   -0.0591009906
+    frequency:    6.9622032525
+  - # 3
+    gruneisen:    1.0208010160
+    frequency:   15.1549712194
+  - # 4
+    gruneisen:    1.5632400722
+    frequency:   19.4586680097
+  - # 5
+    gruneisen:    1.5474366927
+    frequency:   19.5922637436
+  - # 6
+    gruneisen:    1.1404344692
+    frequency:   22.3842549997
+
+- q-position: [  0.4750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.2424616527
+    frequency:    6.8115945587
+  - # 2
+    gruneisen:   -0.1087420267
+    frequency:    7.0769247685
+  - # 3
+    gruneisen:    0.9904989224
+    frequency:   16.3510756452
+  - # 4
+    gruneisen:    1.5912423842
+    frequency:   19.2798994448
+  - # 5
+    gruneisen:    1.5597558493
+    frequency:   19.4423860405
+  - # 6
+    gruneisen:    1.1649373068
+    frequency:   21.8704688646
+
+- q-position: [  0.5250000,  0.0750000,  0.0250000 ]
+  multiplicity: 21
+  band:
+  - # 1
+    gruneisen:   -0.2742254753
+    frequency:    6.8465925624
+  - # 2
+    gruneisen:   -0.1186514043
+    frequency:    7.1477586541
+  - # 3
+    gruneisen:    0.9733813101
+    frequency:   16.9397623156
+  - # 4
+    gruneisen:    1.6046993791
+    frequency:   19.1913752899
+  - # 5
+    gruneisen:    1.5540498896
+    frequency:   19.3816985592
+  - # 6
+    gruneisen:    1.1912704348
+    frequency:   21.5460125667
+
+- q-position: [ -0.4250000,  0.0750000,  0.0250000 ]
+  multiplicity: 21
+  band:
+  - # 1
+    gruneisen:   -0.2884890938
+    frequency:    6.7645814858
+  - # 2
+    gruneisen:   -0.0878539304
+    frequency:    7.1760419356
+  - # 3
+    gruneisen:    0.9827650321
+    frequency:   16.6384655817
+  - # 4
+    gruneisen:    1.5987553137
+    frequency:   19.2262232284
+  - # 5
+    gruneisen:    1.5563116946
+    frequency:   19.4194798206
+  - # 6
+    gruneisen:    1.1771364376
+    frequency:   21.7140892267
+
+- q-position: [ -0.3750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.2751332444
+    frequency:    6.5969671702
+  - # 2
+    gruneisen:   -0.0284432917
+    frequency:    7.1285665486
+  - # 3
+    gruneisen:    1.0114255027
+    frequency:   15.6055574357
+  - # 4
+    gruneisen:    1.5743756483
+    frequency:   19.3806192312
+  - # 5
+    gruneisen:    1.5509212435
+    frequency:   19.5458528736
+  - # 6
+    gruneisen:    1.1483587739
+    frequency:   22.1980932688
+
+- q-position: [ -0.3250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.2309229263
+    frequency:    6.3597274044
+  - # 2
+    gruneisen:    0.0468053879
+    frequency:    6.9760287610
+  - # 3
+    gruneisen:    1.0425895268
+    frequency:   14.1709432073
+  - # 4
+    gruneisen:    1.5383900567
+    frequency:   19.6098160920
+  - # 5
+    gruneisen:    1.5293542687
+    frequency:   19.7130330202
+  - # 6
+    gruneisen:    1.1367970238
+    frequency:   22.6466849063
+
+- q-position: [ -0.2750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.1624075566
+    frequency:    6.0437265599
+  - # 2
+    gruneisen:    0.1288933570
+    frequency:    6.6881439214
+  - # 3
+    gruneisen:    1.0687825743
+    frequency:   12.5208650570
+  - # 4
+    gruneisen:    1.5060892298
+    frequency:   19.8075383441
+  - # 5
+    gruneisen:    1.4972995310
+    frequency:   19.8880044168
+  - # 6
+    gruneisen:    1.1446850888
+    frequency:   22.8639559180
+
+- q-position: [ -0.2250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.0819673331
+    frequency:    5.6158707301
+  - # 2
+    gruneisen:    0.2129180430
+    frequency:    6.2288999240
+  - # 3
+    gruneisen:    1.0866913699
+    frequency:   10.7473335424
+  - # 4
+    gruneisen:    1.4854616087
+    frequency:   19.8640913887
+  - # 5
+    gruneisen:    1.4638992143
+    frequency:   20.0528602821
+  - # 6
+    gruneisen:    1.1698999701
+    frequency:   22.7681377212
+
+- q-position: [ -0.1750000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.0012270661
+    frequency:    5.0328924645
+  - # 2
+    gruneisen:    0.2978831833
+    frequency:    5.5633273108
+  - # 3
+    gruneisen:    1.0938680863
+    frequency:    8.9065929329
+  - # 4
+    gruneisen:    1.4727826875
+    frequency:   19.8097694266
+  - # 5
+    gruneisen:    1.4417537905
+    frequency:   20.1074885003
+  - # 6
+    gruneisen:    1.2107337418
+    frequency:   22.3563010987
+
+- q-position: [ -0.1250000,  0.0750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:    0.0754516245
+    frequency:    4.2671399857
+  - # 2
+    gruneisen:    0.3858939078
+    frequency:    4.6738586251
+  - # 3
+    gruneisen:    1.0901593741
+    frequency:    7.0486507877
+  - # 4
+    gruneisen:    1.4669494403
+    frequency:   19.6845397367
+  - # 5
+    gruneisen:    1.4327063474
+    frequency:   20.0298328189
+  - # 6
+    gruneisen:    1.2644720055
+    frequency:   21.7004643514
+
+- q-position: [ -0.0750000,  0.0750000,  0.0250000 ]
+  multiplicity: 20
+  band:
+  - # 1
+    gruneisen:    0.1606220946
+    frequency:    3.3404270909
+  - # 2
+    gruneisen:    0.4757351486
+    frequency:    3.5883799751
+  - # 3
+    gruneisen:    1.0850334756
+    frequency:    5.2463070410
+  - # 4
+    gruneisen:    1.4633189504
+    frequency:   19.5621277655
+  - # 5
+    gruneisen:    1.4348991829
+    frequency:   19.8550361412
+  - # 6
+    gruneisen:    1.3250313470
+    frequency:   20.9417428897
+
+- q-position: [  0.1250000,  0.1250000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.3891142053
+    frequency:    3.6921295087
+  - # 2
+    gruneisen:    0.3869786237
+    frequency:    3.6985381257
+  - # 3
+    gruneisen:    1.0123449895
+    frequency:    5.4456291112
+  - # 4
+    gruneisen:    1.4665214181
+    frequency:   19.5499392958
+  - # 5
+    gruneisen:    1.4653956156
+    frequency:   19.5605062205
+  - # 6
+    gruneisen:    1.2877437928
+    frequency:   21.4719222035
+
+- q-position: [  0.1750000,  0.1250000,  0.0250000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:    0.2871347798
+    frequency:    4.4667791853
+  - # 2
+    gruneisen:    0.3849205519
+    frequency:    4.6042646143
+  - # 3
+    gruneisen:    1.0225189696
+    frequency:    6.6882172340
+  - # 4
+    gruneisen:    1.4758381293
+    frequency:   19.5814610883
+  - # 5
+    gruneisen:    1.4664333310
+    frequency:   19.6671277527
+  - # 6
+    gruneisen:    1.2365013212
+    frequency:   22.1979031209
+
+- q-position: [  0.2250000,  0.1250000,  0.0250000 ]
+  multiplicity: 40
+  band:
+  - # 1
+    gruneisen:    0.2104591444
+    frequency:    5.2516677408
+  - # 2
+    gruneisen:    0.3453647856
+    frequency:    5.5186526026
+  - # 3
+    gruneisen:    1.0433616772
+    frequency:    8.1573727965
+  - # 4
+    gruneisen:    1.4829139344
+    frequency:   19.6747602173
+  - # 5
+    gruneisen:    1.4673642583
+    frequency:   19.8169623914
+  - # 6
+    gruneisen:    1.1910716951
+    frequency:   22.8264590317
+
+- q-position: [  0.2750000,  0.1250000,  0.0250000 ]
+  multiplicity: 34
+  band:
+  - # 1
+    gruneisen:    0.1425387234
+    frequency:    5.9200483097
+  - # 2
+    gruneisen:    0.2933506839
+    frequency:    6.2756795929
+  - # 3
+    gruneisen:    1.0526339351
+    frequency:    9.7547918642
+  - # 4
+    gruneisen:    1.4930938775
+    frequency:   19.7480970039
+  - # 5
+    gruneisen:    1.4756362628
+    frequency:   19.9244518590
+  - # 6
+    gruneisen:    1.1551933464
+    frequency:   23.2335157932
+
+- q-position: [  0.3250000,  0.1250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.0761663636
+    frequency:    6.4378993403
+  - # 2
+    gruneisen:    0.2355818254
+    frequency:    6.8418065612
+  - # 3
+    gruneisen:    1.0481957644
+    frequency:   11.4004016466
+  - # 4
+    gruneisen:    1.5102800947
+    frequency:   19.7409450213
+  - # 5
+    gruneisen:    1.4939933463
+    frequency:   19.9425419574
+  - # 6
+    gruneisen:    1.1307922096
+    frequency:   23.3481577083
+
+- q-position: [  0.3750000,  0.1250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.0095693153
+    frequency:    6.8205928589
+  - # 2
+    gruneisen:    0.1801338585
+    frequency:    7.2445939884
+  - # 3
+    gruneisen:    1.0338916337
+    frequency:   13.0154433506
+  - # 4
+    gruneisen:    1.5360504438
+    frequency:   19.6347703286
+  - # 5
+    gruneisen:    1.5181637667
+    frequency:   19.8750474906
+  - # 6
+    gruneisen:    1.1197521132
+    frequency:   23.1585083768
+
+- q-position: [  0.4250000,  0.1250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:   -0.0572143397
+    frequency:    7.0842549300
+  - # 2
+    gruneisen:    0.1382406364
+    frequency:    7.5335663856
+  - # 3
+    gruneisen:    1.0148162999
+    frequency:   14.5138129794
+  - # 4
+    gruneisen:    1.5674158968
+    frequency:   19.4589911834
+  - # 5
+    gruneisen:    1.5378020652
+    frequency:   19.7616142492
+  - # 6
+    gruneisen:    1.1253550849
+    frequency:   22.7130642695
+
+- q-position: [  0.4750000,  0.1250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:   -0.1229284273
+    frequency:    7.2183941504
+  - # 2
+    gruneisen:    0.1197756474
+    frequency:    7.7619271642
+  - # 3
+    gruneisen:    0.9978041078
+    frequency:   15.7711909763
+  - # 4
+    gruneisen:    1.5970915078
+    frequency:   19.2726094714
+  - # 5
+    gruneisen:    1.5363858207
+    frequency:   19.6587218191
+  - # 6
+    gruneisen:    1.1527573772
+    frequency:   22.1335418388
+
+- q-position: [  0.5250000,  0.1250000,  0.0250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:   -0.1843130142
+    frequency:    7.2149231148
+  - # 2
+    gruneisen:    0.1293545840
+    frequency:    7.9482492368
+  - # 3
+    gruneisen:    0.9907557072
+    frequency:   16.5641714841
+  - # 4
+    gruneisen:    1.6169263930
+    frequency:   19.1389295783
+  - # 5
+    gruneisen:    1.5049542423
+    frequency:   19.6094709592
+  - # 6
+    gruneisen:    1.1966822474
+    frequency:   21.6641459635
+
+- q-position: [ -0.4250000,  0.1250000,  0.0250000 ]
+  multiplicity: 40
+  band:
+  - # 1
+    gruneisen:   -0.2345292730
+    frequency:    7.0920138514
+  - # 2
+    gruneisen:    0.1648343846
+    frequency:    8.0693320223
+  - # 3
+    gruneisen:    0.9921789308
+    frequency:   16.5859287030
+  - # 4
+    gruneisen:    1.6197465775
+    frequency:   19.1102985902
+  - # 5
+    gruneisen:    1.4946194887
+    frequency:   19.6200021884
+  - # 6
+    gruneisen:    1.2042352682
+    frequency:   21.6354778571
+
+- q-position: [ -0.3750000,  0.1250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2626741289
+    frequency:    6.8786313251
+  - # 2
+    gruneisen:    0.2179113197
+    frequency:    8.0952596496
+  - # 3
+    gruneisen:    1.0033861843
+    frequency:   15.8092271658
+  - # 4
+    gruneisen:    1.6023391291
+    frequency:   19.2112403578
+  - # 5
+    gruneisen:    1.5159132739
+    frequency:   19.7000764703
+  - # 6
+    gruneisen:    1.1661743736
+    frequency:   22.0421948157
+
+- q-position: [ -0.3250000,  0.1250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2596134734
+    frequency:    6.6025610315
+  - # 2
+    gruneisen:    0.2796732775
+    frequency:    8.0023851593
+  - # 3
+    gruneisen:    1.0234859877
+    frequency:   14.5397043758
+  - # 4
+    gruneisen:    1.5679192495
+    frequency:   19.4257094334
+  - # 5
+    gruneisen:    1.5206181349
+    frequency:   19.8126632320
+  - # 6
+    gruneisen:    1.1379697033
+    frequency:   22.5523102179
+
+- q-position: [ -0.2750000,  0.1250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2236325318
+    frequency:    6.2784593131
+  - # 2
+    gruneisen:    0.3440640738
+    frequency:    7.7664089393
+  - # 3
+    gruneisen:    1.0431663513
+    frequency:   13.0204684836
+  - # 4
+    gruneisen:    1.5253993518
+    frequency:   19.6963249441
+  - # 5
+    gruneisen:    1.5109253745
+    frequency:   19.8919698315
+  - # 6
+    gruneisen:    1.1320960449
+    frequency:   22.9208335859
+
+- q-position: [ -0.2250000,  0.1250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.1622889169
+    frequency:    5.8969516244
+  - # 2
+    gruneisen:    0.4077557055
+    frequency:    7.3539052056
+  - # 3
+    gruneisen:    1.0561483990
+    frequency:   11.3857011210
+  - # 4
+    gruneisen:    1.4992456829
+    frequency:   19.8712847206
+  - # 5
+    gruneisen:    1.4842791414
+    frequency:   19.9684152531
+  - # 6
+    gruneisen:    1.1449880681
+    frequency:   23.0259579696
+
+- q-position: [ -0.1750000,  0.1250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.0884847933
+    frequency:    5.4284336835
+  - # 2
+    gruneisen:    0.4668630449
+    frequency:    6.7211332842
+  - # 3
+    gruneisen:    1.0590032066
+    frequency:    9.7326194106
+  - # 4
+    gruneisen:    1.4907320484
+    frequency:   19.7986247226
+  - # 5
+    gruneisen:    1.4523402569
+    frequency:   20.1190219156
+  - # 6
+    gruneisen:    1.1735085193
+    frequency:   22.8249368877
+
+- q-position: [ -0.1250000,  0.1250000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:   -0.0124008645
+    frequency:    4.8468887258
+  - # 2
+    gruneisen:    0.5072065401
+    frequency:    5.8302473621
+  - # 3
+    gruneisen:    1.0553864624
+    frequency:    8.1598234972
+  - # 4
+    gruneisen:    1.4834371572
+    frequency:   19.6824291412
+  - # 5
+    gruneisen:    1.4345384241
+    frequency:   20.1424446210
+  - # 6
+    gruneisen:    1.2153708631
+    frequency:   22.3438508849
+
+- q-position: [ -0.0750000,  0.1250000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:    0.0674311294
+    frequency:    4.1677706170
+  - # 2
+    gruneisen:    0.4850017802
+    frequency:    4.7210193593
+  - # 3
+    gruneisen:    1.0669739626
+    frequency:    6.7563780688
+  - # 4
+    gruneisen:    1.4730996536
+    frequency:   19.6104601995
+  - # 5
+    gruneisen:    1.4304735681
+    frequency:   20.0367233019
+  - # 6
+    gruneisen:    1.2670790525
+    frequency:   21.6777217828
+
+- q-position: [  0.1750000,  0.1750000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.3265360576
+    frequency:    5.1356858974
+  - # 2
+    gruneisen:    0.3305241077
+    frequency:    5.1462603724
+  - # 3
+    gruneisen:    1.0084761502
+    frequency:    7.4599602922
+  - # 4
+    gruneisen:    1.4856648745
+    frequency:   19.5837679332
+  - # 5
+    gruneisen:    1.4848051321
+    frequency:   19.5920086686
+  - # 6
+    gruneisen:    1.1906593747
+    frequency:   22.9300823133
+
+- q-position: [  0.2250000,  0.1750000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.2681252517
+    frequency:    5.7870498281
+  - # 2
+    gruneisen:    0.3335017640
+    frequency:    5.9438949810
+  - # 3
+    gruneisen:    1.0188791195
+    frequency:    8.5060352984
+  - # 4
+    gruneisen:    1.4975357528
+    frequency:   19.6190984724
+  - # 5
+    gruneisen:    1.4921805178
+    frequency:   19.6622595668
+  - # 6
+    gruneisen:    1.1513736194
+    frequency:   23.5428124241
+
+- q-position: [  0.2750000,  0.1750000,  0.0250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:    0.2168519285
+    frequency:    6.4119635922
+  - # 2
+    gruneisen:    0.3282699244
+    frequency:    6.7245104164
+  - # 3
+    gruneisen:    1.0270718241
+    frequency:    9.7214133152
+  - # 4
+    gruneisen:    1.5088300176
+    frequency:   19.6737606817
+  - # 5
+    gruneisen:    1.5005207636
+    frequency:   19.7651603930
+  - # 6
+    gruneisen:    1.1220598888
+    frequency:   23.9037060785
+
+- q-position: [  0.3250000,  0.1750000,  0.0250000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.1655123532
+    frequency:    6.9358120136
+  - # 2
+    gruneisen:    0.3196826622
+    frequency:    7.3731312944
+  - # 3
+    gruneisen:    1.0242395650
+    frequency:   11.0702612116
+  - # 4
+    gruneisen:    1.5247941237
+    frequency:   19.6785622637
+  - # 5
+    gruneisen:    1.5130382730
+    frequency:   19.8498518389
+  - # 6
+    gruneisen:    1.1035328624
+    frequency:   23.9475855036
+
+- q-position: [  0.3750000,  0.1750000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1101715861
+    frequency:    7.3352460498
+  - # 2
+    gruneisen:    0.3104427786
+    frequency:    7.8790608139
+  - # 3
+    gruneisen:    1.0136060521
+    frequency:   12.4861871918
+  - # 4
+    gruneisen:    1.5476848670
+    frequency:   19.6045909560
+  - # 5
+    gruneisen:    1.5286631324
+    frequency:   19.8860213406
+  - # 6
+    gruneisen:    1.0966044117
+    frequency:   23.6738896158
+
+- q-position: [  0.4250000,  0.1750000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:    0.0503253829
+    frequency:    7.6036558577
+  - # 2
+    gruneisen:    0.3063313687
+    frequency:    8.2899493366
+  - # 3
+    gruneisen:    1.0012140180
+    frequency:   13.8725888315
+  - # 4
+    gruneisen:    1.5758966618
+    frequency:   19.4589085137
+  - # 5
+    gruneisen:    1.5394903772
+    frequency:   19.8797894847
+  - # 6
+    gruneisen:    1.1042191787
+    frequency:   23.1409284188
+
+- q-position: [  0.4750000,  0.1750000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:   -0.0126657175
+    frequency:    7.7328920634
+  - # 2
+    gruneisen:    0.3129782311
+    frequency:    8.6473372691
+  - # 3
+    gruneisen:    0.9930280120
+    frequency:   15.1099203062
+  - # 4
+    gruneisen:    1.6052698664
+    frequency:   19.2755828203
+  - # 5
+    gruneisen:    1.5277091912
+    frequency:   19.8605435026
+  - # 6
+    gruneisen:    1.1339260686
+    frequency:   22.4673781018
+
+- q-position: [  0.5250000,  0.1750000,  0.0250000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:   -0.0784325364
+    frequency:    7.7216563703
+  - # 2
+    gruneisen:    0.3345769831
+    frequency:    8.9510816008
+  - # 3
+    gruneisen:    0.9934502825
+    frequency:   16.0204973141
+  - # 4
+    gruneisen:    1.6297051445
+    frequency:   19.1067280837
+  - # 5
+    gruneisen:    1.4743590155
+    frequency:   19.8463577088
+  - # 6
+    gruneisen:    1.1936074334
+    frequency:   21.8623474526
+
+- q-position: [ -0.4250000,  0.1750000,  0.0250000 ]
+  multiplicity: 38
+  band:
+  - # 1
+    gruneisen:   -0.1439187582
+    frequency:    7.5801017452
+  - # 2
+    gruneisen:    0.3705768847
+    frequency:    9.1703753575
+  - # 3
+    gruneisen:    0.9975720074
+    frequency:   16.3261746974
+  - # 4
+    gruneisen:    1.6415151654
+    frequency:   19.0114475859
+  - # 5
+    gruneisen:    1.4228682585
+    frequency:   19.8389482801
+  - # 6
+    gruneisen:    1.2409206063
+    frequency:   21.6283654981
+
+- q-position: [ -0.3750000,  0.1750000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:   -0.2004808190
+    frequency:    7.3296655174
+  - # 2
+    gruneisen:    0.4151377117
+    frequency:    9.2720857629
+  - # 3
+    gruneisen:    1.0012679686
+    frequency:   15.8477298944
+  - # 4
+    gruneisen:    1.6341581639
+    frequency:   19.0360925603
+  - # 5
+    gruneisen:    1.4466015019
+    frequency:   19.8924509121
+  - # 6
+    gruneisen:    1.2085630888
+    frequency:   21.8724945604
+
+- q-position: [ -0.3250000,  0.1750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2363569639
+    frequency:    7.0030055907
+  - # 2
+    gruneisen:    0.4608556341
+    frequency:    9.2321471171
+  - # 3
+    gruneisen:    1.0119853722
+    frequency:   14.7901354206
+  - # 4
+    gruneisen:    1.6063811522
+    frequency:   19.1937687653
+  - # 5
+    gruneisen:    1.4832816341
+    frequency:   19.9860244341
+  - # 6
+    gruneisen:    1.1574042730
+    frequency:   22.3571493027
+
+- q-position: [ -0.2750000,  0.1750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2417770122
+    frequency:    6.6354737633
+  - # 2
+    gruneisen:    0.5020396710
+    frequency:    9.0263004080
+  - # 3
+    gruneisen:    1.0261251044
+    frequency:   13.4451570371
+  - # 4
+    gruneisen:    1.5641667562
+    frequency:   19.4537847030
+  - # 5
+    gruneisen:    1.4982547648
+    frequency:   20.0348822711
+  - # 6
+    gruneisen:    1.1312168928
+    frequency:   22.8206418550
+
+- q-position: [ -0.2250000,  0.1750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2141335075
+    frequency:    6.2483343188
+  - # 2
+    gruneisen:    0.5346589744
+    frequency:    8.6111863498
+  - # 3
+    gruneisen:    1.0372218460
+    frequency:   12.0078863938
+  - # 4
+    gruneisen:    1.5180082415
+    frequency:   19.7473982887
+  - # 5
+    gruneisen:    1.5006137971
+    frequency:   20.0018669544
+  - # 6
+    gruneisen:    1.1289950779
+    frequency:   23.0998281334
+
+- q-position: [ -0.1750000,  0.1750000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:   -0.1598284756
+    frequency:    5.8386481505
+  - # 2
+    gruneisen:    0.5519507920
+    frequency:    7.9146016530
+  - # 3
+    gruneisen:    1.0417071038
+    frequency:   10.6370372512
+  - # 4
+    gruneisen:    1.4983227679
+    frequency:   19.8928652095
+  - # 5
+    gruneisen:    1.4780256625
+    frequency:   20.0002442297
+  - # 6
+    gruneisen:    1.1445197740
+    frequency:   23.1116898867
+
+- q-position: [ -0.1250000,  0.1750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.0894797554
+    frequency:    5.3909035922
+  - # 2
+    gruneisen:    0.5305090511
+    frequency:    6.8988690282
+  - # 3
+    gruneisen:    1.0472813878
+    frequency:    9.4521003221
+  - # 4
+    gruneisen:    1.4926495650
+    frequency:   19.7785824132
+  - # 5
+    gruneisen:    1.4499704217
+    frequency:   20.1327242976
+  - # 6
+    gruneisen:    1.1739559587
+    frequency:   22.8414254774
+
+- q-position: [  0.2250000,  0.2250000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.2776921126
+    frequency:    6.4241778417
+  - # 2
+    gruneisen:    0.2839638765
+    frequency:    6.4391200382
+  - # 3
+    gruneisen:    1.0230603744
+    frequency:    9.2095542663
+  - # 4
+    gruneisen:    1.5110701015
+    frequency:   19.6167705364
+  - # 5
+    gruneisen:    1.5104850182
+    frequency:   19.6235518166
+  - # 6
+    gruneisen:    1.1166463109
+    frequency:   24.1501912370
+
+- q-position: [  0.2750000,  0.2250000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.2400045325
+    frequency:    6.9685900063
+  - # 2
+    gruneisen:    0.2836633631
+    frequency:    7.1244102615
+  - # 3
+    gruneisen:    1.0303393630
+    frequency:   10.0966097893
+  - # 4
+    gruneisen:    1.5248904791
+    frequency:   19.6437124606
+  - # 5
+    gruneisen:    1.5234705918
+    frequency:   19.6667667116
+  - # 6
+    gruneisen:    1.0914134983
+    frequency:   24.4955624315
+
+- q-position: [  0.3250000,  0.2250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.2027643697
+    frequency:    7.4659711286
+  - # 2
+    gruneisen:    0.3029494520
+    frequency:    7.8104559158
+  - # 3
+    gruneisen:    1.0271017754
+    frequency:   11.1099206527
+  - # 4
+    gruneisen:    1.5413368880
+    frequency:   19.6470251822
+  - # 5
+    gruneisen:    1.5349247003
+    frequency:   19.7518707121
+  - # 6
+    gruneisen:    1.0767189778
+    frequency:   24.5036336486
+
+- q-position: [  0.3750000,  0.2250000,  0.0250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:    0.1610467474
+    frequency:    7.8635373332
+  - # 2
+    gruneisen:    0.3367393118
+    frequency:    8.4396178110
+  - # 3
+    gruneisen:    1.0136993420
+    frequency:   12.2295947612
+  - # 4
+    gruneisen:    1.5618603041
+    frequency:   19.5969736916
+  - # 5
+    gruneisen:    1.5457953674
+    frequency:   19.8394121059
+  - # 6
+    gruneisen:    1.0730021383
+    frequency:   24.1715837606
+
+- q-position: [  0.4250000,  0.2250000,  0.0250000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.1159713034
+    frequency:    8.1378108593
+  - # 2
+    gruneisen:    0.3740620646
+    frequency:    9.0054231971
+  - # 3
+    gruneisen:    0.9988441509
+    frequency:   13.3976073889
+  - # 4
+    gruneisen:    1.5863418650
+    frequency:   19.4815427317
+  - # 5
+    gruneisen:    1.5503198317
+    frequency:   19.9175145761
+  - # 6
+    gruneisen:    1.0824891047
+    frequency:   23.5615182614
+
+- q-position: [  0.4750000,  0.2250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.0674983547
+    frequency:    8.2781949314
+  - # 2
+    gruneisen:    0.4114111384
+    frequency:    9.5193727010
+  - # 3
+    gruneisen:    0.9901455774
+    frequency:   14.5126704489
+  - # 4
+    gruneisen:    1.6133404795
+    frequency:   19.3122093854
+  - # 5
+    gruneisen:    1.5325852917
+    frequency:   19.9852826838
+  - # 6
+    gruneisen:    1.1130435861
+    frequency:   22.7964851504
+
+- q-position: [  0.5250000,  0.2250000,  0.0250000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:    0.0128375121
+    frequency:    8.2797408228
+  - # 2
+    gruneisen:    0.4509362957
+    frequency:    9.9673223719
+  - # 3
+    gruneisen:    0.9900226643
+    frequency:   15.4290726523
+  - # 4
+    gruneisen:    1.6393649962
+    frequency:   19.1241392003
+  - # 5
+    gruneisen:    1.4676956218
+    frequency:   20.0209408964
+  - # 6
+    gruneisen:    1.1817363721
+    frequency:   22.0774394261
+
+- q-position: [  0.5750000,  0.2250000,  0.0250000 ]
+  multiplicity: 34
+  band:
+  - # 1
+    gruneisen:   -0.0494819076
+    frequency:    8.1429392854
+  - # 2
+    gruneisen:    0.4932934145
+    frequency:   10.3084434315
+  - # 3
+    gruneisen:    0.9944045606
+    frequency:   15.9169198004
+  - # 4
+    gruneisen:    1.6581620638
+    frequency:   18.9712458809
+  - # 5
+    gruneisen:    1.3725839119
+    frequency:   19.9926840767
+  - # 6
+    gruneisen:    1.2715435957
+    frequency:   21.6846522774
+
+- q-position: [ -0.3750000,  0.2250000,  0.0250000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:   -0.1157014797
+    frequency:    7.8784266903
+  - # 2
+    gruneisen:    0.5345347001
+    frequency:   10.4985423546
+  - # 3
+    gruneisen:    0.9989494217
+    frequency:   15.7293630822
+  - # 4
+    gruneisen:    1.6619664234
+    frequency:   18.9109547217
+  - # 5
+    gruneisen:    1.3593089334
+    frequency:   20.0080071101
+  - # 6
+    gruneisen:    1.2759056992
+    frequency:   21.7433139690
+
+- q-position: [ -0.3250000,  0.2250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.1762876361
+    frequency:    7.5133559494
+  - # 2
+    gruneisen:    0.5677322978
+    frequency:   10.5029545505
+  - # 3
+    gruneisen:    1.0085172004
+    frequency:   14.9295094947
+  - # 4
+    gruneisen:    1.6452388098
+    frequency:   18.9809279187
+  - # 5
+    gruneisen:    1.4150921767
+    frequency:   20.1172540348
+  - # 6
+    gruneisen:    1.2086728059
+    frequency:   22.1013455634
+
+- q-position: [ -0.2750000,  0.2250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.2187422833
+    frequency:    7.0910202243
+  - # 2
+    gruneisen:    0.5866771720
+    frequency:   10.2822299573
+  - # 3
+    gruneisen:    1.0230682629
+    frequency:   13.8250765060
+  - # 4
+    gruneisen:    1.6093106726
+    frequency:   19.1809458549
+  - # 5
+    gruneisen:    1.4630839555
+    frequency:   20.1827096403
+  - # 6
+    gruneisen:    1.1522712090
+    frequency:   22.5607246317
+
+- q-position: [ -0.2250000,  0.2250000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:   -0.2321141622
+    frequency:    6.6577106350
+  - # 2
+    gruneisen:    0.5893566629
+    frequency:    9.7625307503
+  - # 3
+    gruneisen:    1.0350178965
+    frequency:   12.6901635550
+  - # 4
+    gruneisen:    1.5626772834
+    frequency:   19.4655042760
+  - # 5
+    gruneisen:    1.4879497273
+    frequency:   20.1429871901
+  - # 6
+    gruneisen:    1.1281947817
+    frequency:   22.9468276064
+
+- q-position: [ -0.1750000,  0.2250000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.2117059129
+    frequency:    6.2438216589
+  - # 2
+    gruneisen:    0.5715153438
+    frequency:    8.8702321713
+  - # 3
+    gruneisen:    1.0379002467
+    frequency:   11.7179069229
+  - # 4
+    gruneisen:    1.5165182714
+    frequency:   19.7578698139
+  - # 5
+    gruneisen:    1.4985714488
+    frequency:   20.0244095525
+  - # 6
+    gruneisen:    1.1283079511
+    frequency:   23.1383808789
+
+- q-position: [  0.2750000,  0.2750000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.2297946500
+    frequency:    7.5258871430
+  - # 2
+    gruneisen:    0.2370201560
+    frequency:    7.5463601779
+  - # 3
+    gruneisen:    1.0420453790
+    frequency:   10.7457233323
+  - # 4
+    gruneisen:    1.5414544226
+    frequency:   19.6419416043
+  - # 5
+    gruneisen:    1.5410191302
+    frequency:   19.6491061825
+  - # 6
+    gruneisen:    1.0688994505
+    frequency:   24.8377327887
+
+- q-position: [  0.3250000,  0.2750000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.2042262259
+    frequency:    7.9776428127
+  - # 2
+    gruneisen:    0.2339334052
+    frequency:    8.1178557555
+  - # 3
+    gruneisen:    1.0449135704
+    frequency:   11.5325855285
+  - # 4
+    gruneisen:    1.5582899965
+    frequency:   19.6462162914
+  - # 5
+    gruneisen:    1.5553477964
+    frequency:   19.6861324471
+  - # 6
+    gruneisen:    1.0563426090
+    frequency:   24.8390030522
+
+- q-position: [  0.3750000,  0.2750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.1745991289
+    frequency:    8.3602883591
+  - # 2
+    gruneisen:    0.2719864814
+    frequency:    8.7568612889
+  - # 3
+    gruneisen:    1.0356385836
+    frequency:   12.4006568654
+  - # 4
+    gruneisen:    1.5769209718
+    frequency:   19.6159019281
+  - # 5
+    gruneisen:    1.5658835487
+    frequency:   19.7677182130
+  - # 6
+    gruneisen:    1.0544355273
+    frequency:   24.4854307586
+
+- q-position: [  0.4250000,  0.2750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.1434040605
+    frequency:    8.6352038007
+  - # 2
+    gruneisen:    0.3342046537
+    frequency:    9.4411712774
+  - # 3
+    gruneisen:    1.0196700917
+    frequency:   13.3157222250
+  - # 4
+    gruneisen:    1.5976786023
+    frequency:   19.5307818379
+  - # 5
+    gruneisen:    1.5678317420
+    frequency:   19.8815462864
+  - # 6
+    gruneisen:    1.0651001778
+    frequency:   23.8339546708
+
+- q-position: [  0.4750000,  0.2750000,  0.0250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:    0.1113983617
+    frequency:    8.7888759528
+  - # 2
+    gruneisen:    0.4029341983
+    frequency:   10.1297597859
+  - # 3
+    gruneisen:    1.0052994953
+    frequency:   14.2191495607
+  - # 4
+    gruneisen:    1.6207325330
+    frequency:   19.3862191016
+  - # 5
+    gruneisen:    1.5477138478
+    frequency:   20.0098727555
+  - # 6
+    gruneisen:    1.0957522103
+    frequency:   23.0080999773
+
+- q-position: [  0.5250000,  0.2750000,  0.0250000 ]
+  multiplicity: 42
+  band:
+  - # 1
+    gruneisen:    0.0743542236
+    frequency:    8.8117317534
+  - # 2
+    gruneisen:    0.4692851156
+    frequency:   10.7684865341
+  - # 3
+    gruneisen:    0.9970156389
+    frequency:   15.0096584375
+  - # 4
+    gruneisen:    1.6448427359
+    frequency:   19.1998069618
+  - # 5
+    gruneisen:    1.4790177689
+    frequency:   20.0949834230
+  - # 6
+    gruneisen:    1.1680683146
+    frequency:   22.2119812578
+
+- q-position: [  0.5750000,  0.2750000,  0.0250000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:    0.0270268238
+    frequency:    8.6958063077
+  - # 2
+    gruneisen:    0.5287103992
+    frequency:   11.2862376170
+  - # 3
+    gruneisen:    0.9943663567
+    frequency:   15.5161626348
+  - # 4
+    gruneisen:    1.6662969527
+    frequency:   19.0117519086
+  - # 5
+    gruneisen:    1.3555766964
+    frequency:   20.0492477851
+  - # 6
+    gruneisen:    1.2878141781
+    frequency:   21.7308758071
+
+- q-position: [ -0.3750000,  0.2750000,  0.0250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:   -0.0325368766
+    frequency:    8.4408493332
+  - # 2
+    gruneisen:    0.5759398682
+    frequency:   11.6061365716
+  - # 3
+    gruneisen:    0.9986864749
+    frequency:   15.5159812891
+  - # 4
+    gruneisen:    1.6788376578
+    frequency:   18.8778657891
+  - # 5
+    gruneisen:    1.2923937276
+    frequency:   19.9902705493
+  - # 6
+    gruneisen:    1.3407754828
+    frequency:   21.6732460331
+
+- q-position: [ -0.3250000,  0.2750000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:   -0.1000961165
+    frequency:    8.0630062908
+  - # 2
+    gruneisen:    0.6041481534
+    frequency:   11.6533106360
+  - # 3
+    gruneisen:    1.0133010715
+    frequency:   14.9893940654
+  - # 4
+    gruneisen:    1.6748537580
+    frequency:   18.8500450542
+  - # 5
+    gruneisen:    1.3276533096
+    frequency:   20.1013045944
+  - # 6
+    gruneisen:    1.2911774454
+    frequency:   21.8728174552
+
+- q-position: [ -0.2750000,  0.2750000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:   -0.1654247617
+    frequency:    7.6006893139
+  - # 2
+    gruneisen:    0.6117016191
+    frequency:   11.3395015370
+  - # 3
+    gruneisen:    1.0298208386
+    frequency:   14.2302461115
+  - # 4
+    gruneisen:    1.6505214562
+    frequency:   18.9551250103
+  - # 5
+    gruneisen:    1.4009930116
+    frequency:   20.2288642779
+  - # 6
+    gruneisen:    1.2081923210
+    frequency:   22.2165783763
+
+- q-position: [ -0.2250000,  0.2750000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.2149740098
+    frequency:    7.1103829532
+  - # 2
+    gruneisen:    0.6040636324
+    frequency:   10.5888087564
+  - # 3
+    gruneisen:    1.0323982636
+    frequency:   13.5370311349
+  - # 4
+    gruneisen:    1.6099630804
+    frequency:   19.1780805581
+  - # 5
+    gruneisen:    1.4588425442
+    frequency:   20.2255995688
+  - # 6
+    gruneisen:    1.1512211349
+    frequency:   22.6037931595
+
+- q-position: [  0.3250000,  0.3250000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.1820365750
+    frequency:    8.4229746257
+  - # 2
+    gruneisen:    0.1895164499
+    frequency:    8.4503006292
+  - # 3
+    gruneisen:    1.0545039797
+    frequency:   12.1892452643
+  - # 4
+    gruneisen:    1.5744722103
+    frequency:   19.6555711452
+  - # 5
+    gruneisen:    1.5739073939
+    frequency:   19.6652688859
+  - # 6
+    gruneisen:    1.0450053953
+    frequency:   24.8478941037
+
+- q-position: [  0.3750000,  0.3250000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.1645615430
+    frequency:    8.7883613908
+  - # 2
+    gruneisen:    0.1872546844
+    frequency:    8.9131051727
+  - # 3
+    gruneisen:    1.0508263115
+    frequency:   12.9461661760
+  - # 4
+    gruneisen:    1.5920192548
+    frequency:   19.6461664795
+  - # 5
+    gruneisen:    1.5868005595
+    frequency:   19.6991657979
+  - # 6
+    gruneisen:    1.0439085885
+    frequency:   24.5019531808
+
+- q-position: [  0.4250000,  0.3250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.1428204108
+    frequency:    9.0565510858
+  - # 2
+    gruneisen:    0.2400539583
+    frequency:    9.5335996228
+  - # 3
+    gruneisen:    1.0377973964
+    frequency:   13.7266443429
+  - # 4
+    gruneisen:    1.6094963253
+    frequency:   19.5930383458
+  - # 5
+    gruneisen:    1.5901661721
+    frequency:   19.7959486512
+  - # 6
+    gruneisen:    1.0550685458
+    frequency:   23.8473768466
+
+- q-position: [  0.4750000,  0.3250000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.1237095490
+    frequency:    9.2175203263
+  - # 2
+    gruneisen:    0.3220076235
+    frequency:   10.2752835556
+  - # 3
+    gruneisen:    1.0216003900
+    frequency:   14.4676584532
+  - # 4
+    gruneisen:    1.6279542346
+    frequency:   19.4823525491
+  - # 5
+    gruneisen:    1.5711971789
+    frequency:   19.9411558030
+  - # 6
+    gruneisen:    1.0856129806
+    frequency:   23.0032113948
+
+- q-position: [  0.5250000,  0.3250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1038217888
+    frequency:    9.2607688850
+  - # 2
+    gruneisen:    0.4111633854
+    frequency:   11.0617539785
+  - # 3
+    gruneisen:    1.0068986951
+    frequency:   15.0866312018
+  - # 4
+    gruneisen:    1.6474544786
+    frequency:   19.3181065032
+  - # 5
+    gruneisen:    1.5031137934
+    frequency:   20.0574322018
+  - # 6
+    gruneisen:    1.1594340713
+    frequency:   22.1789850458
+
+- q-position: [  0.5750000,  0.3250000,  0.0250000 ]
+  multiplicity: 38
+  band:
+  - # 1
+    gruneisen:    0.0760048490
+    frequency:    9.1722109695
+  - # 2
+    gruneisen:    0.4909249958
+    frequency:   11.7867132120
+  - # 3
+    gruneisen:    0.9976597515
+    frequency:   15.4562998213
+  - # 4
+    gruneisen:    1.6665659443
+    frequency:   19.1244833313
+  - # 5
+    gruneisen:    1.3660127865
+    frequency:   20.0061722307
+  - # 6
+    gruneisen:    1.2961974472
+    frequency:   21.6807903918
+
+- q-position: [ -0.3750000,  0.3250000,  0.0250000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.0335429389
+    frequency:    8.9424303046
+  - # 2
+    gruneisen:    0.5491236261
+    frequency:   12.3091594485
+  - # 3
+    gruneisen:    1.0032235863
+    frequency:   15.4363489129
+  - # 4
+    gruneisen:    1.6822743272
+    frequency:   18.9460145260
+  - # 5
+    gruneisen:    1.2716852118
+    frequency:   19.8809741928
+  - # 6
+    gruneisen:    1.3798277538
+    frequency:   21.6024159506
+
+- q-position: [ -0.3250000,  0.3250000,  0.0250000 ]
+  multiplicity: 40
+  band:
+  - # 1
+    gruneisen:   -0.0257176027
+    frequency:    8.5764054870
+  - # 2
+    gruneisen:    0.5827524883
+    frequency:   12.4371460518
+  - # 3
+    gruneisen:    1.0232752304
+    frequency:   15.0921898678
+  - # 4
+    gruneisen:    1.6884206847
+    frequency:   18.8360049270
+  - # 5
+    gruneisen:    1.2654085058
+    frequency:   19.9475140931
+  - # 6
+    gruneisen:    1.3655221093
+    frequency:   21.7131798259
+
+- q-position: [ -0.2750000,  0.3250000,  0.0250000 ]
+  multiplicity: 18
+  band:
+  - # 1
+    gruneisen:   -0.0970018084
+    frequency:    8.1016520390
+  - # 2
+    gruneisen:    0.6061090768
+    frequency:   11.9828205281
+  - # 3
+    gruneisen:    1.0273615751
+    frequency:   14.7430409876
+  - # 4
+    gruneisen:    1.6775794674
+    frequency:   18.8373851316
+  - # 5
+    gruneisen:    1.3218321230
+    frequency:   20.1204148198
+  - # 6
+    gruneisen:    1.2936092421
+    frequency:   21.9045231052
+
+- q-position: [  0.3750000,  0.3750000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.1376522260
+    frequency:    9.1077824318
+  - # 2
+    gruneisen:    0.1452833974
+    frequency:    9.1418396475
+  - # 3
+    gruneisen:    1.0496582982
+    frequency:   13.6796944904
+  - # 4
+    gruneisen:    1.6065503718
+    frequency:   19.6582998870
+  - # 5
+    gruneisen:    1.6054568139
+    frequency:   19.6719854784
+  - # 6
+    gruneisen:    1.0430892338
+    frequency:   24.1797344034
+
+- q-position: [  0.4250000,  0.3750000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.1277706850
+    frequency:    9.3821773290
+  - # 2
+    gruneisen:    0.1486442366
+    frequency:    9.5037110785
+  - # 3
+    gruneisen:    1.0361418302
+    frequency:   14.4561549468
+  - # 4
+    gruneisen:    1.6213614739
+    frequency:   19.6456092420
+  - # 5
+    gruneisen:    1.6138741968
+    frequency:   19.7034939660
+  - # 6
+    gruneisen:    1.0542650713
+    frequency:   23.5526875064
+
+- q-position: [  0.4750000,  0.3750000,  0.0250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.1156219464
+    frequency:    9.5403791545
+  - # 2
+    gruneisen:    0.2179516283
+    frequency:   10.0893716241
+  - # 3
+    gruneisen:    1.0152989843
+    frequency:   15.1716794957
+  - # 4
+    gruneisen:    1.6351918782
+    frequency:   19.5759394628
+  - # 5
+    gruneisen:    1.6006200995
+    frequency:   19.8157135021
+  - # 6
+    gruneisen:    1.0845992715
+    frequency:   22.7335639038
+
+- q-position: [  0.5250000,  0.3750000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1079553727
+    frequency:    9.5954015664
+  - # 2
+    gruneisen:    0.3194427375
+    frequency:   10.8255728640
+  - # 3
+    gruneisen:    0.9914166199
+    frequency:   15.7183514477
+  - # 4
+    gruneisen:    1.6487490785
+    frequency:   19.4491216459
+  - # 5
+    gruneisen:    1.5376185789
+    frequency:   19.9296144510
+  - # 6
+    gruneisen:    1.1592217913
+    frequency:   21.9402234403
+
+- q-position: [  0.5750000,  0.3750000,  0.0250000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:    0.0978602793
+    frequency:    9.5314637610
+  - # 2
+    gruneisen:    0.4218964624
+    frequency:   11.6105972564
+  - # 3
+    gruneisen:    0.9730535802
+    frequency:   15.9519866032
+  - # 4
+    gruneisen:    1.6615905610
+    frequency:   19.2767372772
+  - # 5
+    gruneisen:    1.4004365638
+    frequency:   19.8847981595
+  - # 6
+    gruneisen:    1.3010341426
+    frequency:   21.5019875944
+
+- q-position: [  0.6250000,  0.3750000,  0.0250000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:    0.0759933762
+    frequency:    9.3322482101
+  - # 2
+    gruneisen:    0.4995083725
+    frequency:   12.2847791269
+  - # 3
+    gruneisen:    0.9806201212
+    frequency:   15.7677639103
+  - # 4
+    gruneisen:    1.6746555419
+    frequency:   19.0898053424
+  - # 5
+    gruneisen:    1.2961090047
+    frequency:   19.7694551177
+  - # 6
+    gruneisen:    1.3907037006
+    frequency:   21.4806682602
+
+- q-position: [ -0.3250000,  0.3750000,  0.0250000 ]
+  multiplicity: 31
+  band:
+  - # 1
+    gruneisen:    0.0347152021
+    frequency:    8.9931767051
+  - # 2
+    gruneisen:    0.5467230104
+    frequency:   12.5626489893
+  - # 3
+    gruneisen:    1.0086718556
+    frequency:   15.3914674870
+  - # 4
+    gruneisen:    1.6854546758
+    frequency:   18.9325309257
+  - # 5
+    gruneisen:    1.2588022095
+    frequency:   19.8167135683
+  - # 6
+    gruneisen:    1.3967631712
+    frequency:   21.5911369227
+
+- q-position: [  0.4250000,  0.4250000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.1017286419
+    frequency:    9.5793402679
+  - # 2
+    gruneisen:    0.1098551015
+    frequency:    9.6180810739
+  - # 3
+    gruneisen:    1.0196033873
+    frequency:   15.2835493083
+  - # 4
+    gruneisen:    1.6331818757
+    frequency:   19.6544284183
+  - # 5
+    gruneisen:    1.6310370777
+    frequency:   19.6716292528
+  - # 6
+    gruneisen:    1.0651388477
+    frequency:   22.9743839858
+
+- q-position: [  0.4750000,  0.4250000,  0.0250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.1004836191
+    frequency:    9.7562051647
+  - # 2
+    gruneisen:    0.1227727411
+    frequency:    9.8811675417
+  - # 3
+    gruneisen:    0.9925605329
+    frequency:   16.0417043100
+  - # 4
+    gruneisen:    1.6417677772
+    frequency:   19.6428538813
+  - # 5
+    gruneisen:    1.6304535776
+    frequency:   19.6973006876
+  - # 6
+    gruneisen:    1.0947630958
+    frequency:   22.2232908615
+
+- q-position: [  0.5250000,  0.4250000,  0.0250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.0984436237
+    frequency:    9.8095173142
+  - # 2
+    gruneisen:    0.2084374111
+    frequency:   10.3962029939
+  - # 3
+    gruneisen:    0.9594304975
+    frequency:   16.5627765828
+  - # 4
+    gruneisen:    1.6483475401
+    frequency:   19.5619313766
+  - # 5
+    gruneisen:    1.5819119960
+    frequency:   19.7727464776
+  - # 6
+    gruneisen:    1.1667320598
+    frequency:   21.5382810138
+
+- q-position: [  0.5750000,  0.4250000,  0.0250000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:    0.1003423078
+    frequency:    9.7593030918
+  - # 2
+    gruneisen:    0.3226746048
+    frequency:   11.0566105753
+  - # 3
+    gruneisen:    0.9373087730
+    frequency:   16.6409915825
+  - # 4
+    gruneisen:    1.6524418788
+    frequency:   19.4287608740
+  - # 5
+    gruneisen:    1.4674114791
+    frequency:   19.7608049255
+  - # 6
+    gruneisen:    1.2883315856
+    frequency:   21.2607376545
+
+- q-position: [ -0.3750000, -0.5750000,  0.0250000 ]
+  multiplicity: 19
+  band:
+  - # 1
+    gruneisen:    0.0965043210
+    frequency:    9.5863948959
+  - # 2
+    gruneisen:    0.4258647372
+    frequency:   11.7195152944
+  - # 3
+    gruneisen:    0.9542178407
+    frequency:   16.2109188293
+  - # 4
+    gruneisen:    1.6623480950
+    frequency:   19.2665398416
+  - # 5
+    gruneisen:    1.3691226947
+    frequency:   19.7682999098
+  - # 6
+    gruneisen:    1.3523175022
+    frequency:   21.3651335845
+
+- q-position: [  0.4750000,  0.4750000,  0.0250000 ]
+  multiplicity: 2
+  band:
+  - # 1
+    gruneisen:    0.0795663742
+    frequency:    9.8398895869
+  - # 2
+    gruneisen:    0.0882774227
+    frequency:    9.8808053455
+  - # 3
+    gruneisen:    0.9580363174
+    frequency:   16.8197105904
+  - # 4
+    gruneisen:    1.6498462846
+    frequency:   19.6496935017
+  - # 5
+    gruneisen:    1.6453997107
+    frequency:   19.6658251917
+  - # 6
+    gruneisen:    1.1207222622
+    frequency:   21.5994206401
+
+- q-position: [  0.5250000,  0.4750000,  0.0250000 ]
+  multiplicity: 38
+  band:
+  - # 1
+    gruneisen:    0.0877369591
+    frequency:    9.9153506066
+  - # 2
+    gruneisen:    0.1115549802
+    frequency:   10.0423424914
+  - # 3
+    gruneisen:    0.9249670875
+    frequency:   17.2218861490
+  - # 4
+    gruneisen:    1.6421421731
+    frequency:   19.6325714654
+  - # 5
+    gruneisen:    1.6353893545
+    frequency:   19.6737704352
+  - # 6
+    gruneisen:    1.1710750290
+    frequency:   21.1560843320
+
+- q-position: [ -0.4250000, -0.5250000,  0.0250000 ]
+  multiplicity: 22
+  band:
+  - # 1
+    gruneisen:    0.0948122428
+    frequency:    9.8633905492
+  - # 2
+    gruneisen:    0.2069130189
+    frequency:   10.4568089598
+  - # 3
+    gruneisen:    0.9286600409
+    frequency:   16.9924472092
+  - # 4
+    gruneisen:    1.6460272545
+    frequency:   19.5545708696
+  - # 5
+    gruneisen:    1.5659932410
+    frequency:   19.7231694809
+  - # 6
+    gruneisen:    1.2193974254
+    frequency:   21.1898171388
+
+- q-position: [  0.1750000,  0.1250000,  0.0750000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:    0.1676809867
+    frequency:    3.9296718511
+  - # 2
+    gruneisen:    0.4534319673
+    frequency:    4.2495445530
+  - # 3
+    gruneisen:    1.0589319014
+    frequency:    6.1566663534
+  - # 4
+    gruneisen:    1.4696455370
+    frequency:   19.5827572415
+  - # 5
+    gruneisen:    1.4420867678
+    frequency:   19.8534403715
+  - # 6
+    gruneisen:    1.2802494536
+    frequency:   21.5380965637
+
+- q-position: [  0.2250000,  0.1250000,  0.0750000 ]
+  multiplicity: 22
+  band:
+  - # 1
+    gruneisen:    0.0742425130
+    frequency:    4.6652938379
+  - # 2
+    gruneisen:    0.4745692980
+    frequency:    5.3387540542
+  - # 3
+    gruneisen:    1.0523227647
+    frequency:    7.5693144129
+  - # 4
+    gruneisen:    1.4800553735
+    frequency:   19.6402531346
+  - # 5
+    gruneisen:    1.4408284135
+    frequency:   20.0087599372
+  - # 6
+    gruneisen:    1.2279048582
+    frequency:   22.2306983172
+
+- q-position: [  0.2750000,  0.1250000,  0.0750000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:   -0.0028345649
+    frequency:    5.3172940430
+  - # 2
+    gruneisen:    0.4331739281
+    frequency:    6.2642763407
+  - # 3
+    gruneisen:    1.0594232609
+    frequency:    9.1530352825
+  - # 4
+    gruneisen:    1.4873914726
+    frequency:   19.7525728353
+  - # 5
+    gruneisen:    1.4511357268
+    frequency:   20.0693864756
+  - # 6
+    gruneisen:    1.1833878470
+    frequency:   22.7759494985
+
+- q-position: [  0.3250000,  0.1250000,  0.0750000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:   -0.0774383151
+    frequency:    5.8414482399
+  - # 2
+    gruneisen:    0.3724282125
+    frequency:    6.9518672375
+  - # 3
+    gruneisen:    1.0594101886
+    frequency:   10.8221436849
+  - # 4
+    gruneisen:    1.4968233115
+    frequency:   19.8287594184
+  - # 5
+    gruneisen:    1.4751371505
+    frequency:   20.0084856167
+  - # 6
+    gruneisen:    1.1507051716
+    frequency:   23.0635852930
+
+- q-position: [  0.3750000,  0.1250000,  0.0750000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:   -0.1459513812
+    frequency:    6.2531368987
+  - # 2
+    gruneisen:    0.3070563950
+    frequency:    7.4216784298
+  - # 3
+    gruneisen:    1.0483903934
+    frequency:   12.4874718635
+  - # 4
+    gruneisen:    1.5152297277
+    frequency:   19.7547152738
+  - # 5
+    gruneisen:    1.5058957684
+    frequency:   19.9061002547
+  - # 6
+    gruneisen:    1.1322125185
+    frequency:   23.0462883467
+
+- q-position: [  0.4250000,  0.1250000,  0.0750000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:   -0.1979803141
+    frequency:    6.5846840067
+  - # 2
+    gruneisen:    0.2418975050
+    frequency:    7.7141781462
+  - # 3
+    gruneisen:    1.0294517527
+    frequency:   14.0633170393
+  - # 4
+    gruneisen:    1.5528770493
+    frequency:   19.5283336861
+  - # 5
+    gruneisen:    1.5235880945
+    frequency:   19.8170801668
+  - # 6
+    gruneisen:    1.1305468179
+    frequency:   22.7430680342
+
+- q-position: [  0.4750000,  0.1250000,  0.0750000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:   -0.2249244875
+    frequency:    6.8538632493
+  - # 2
+    gruneisen:    0.1814182547
+    frequency:    7.8671729827
+  - # 3
+    gruneisen:    1.0080743721
+    frequency:   15.4402825736
+  - # 4
+    gruneisen:    1.5892101022
+    frequency:   19.3034679236
+  - # 5
+    gruneisen:    1.5290769529
+    frequency:   19.6998190495
+  - # 6
+    gruneisen:    1.1496614560
+    frequency:   22.2446641584
+
+- q-position: [  0.5250000,  0.1250000,  0.0750000 ]
+  multiplicity: 27
+  band:
+  - # 1
+    gruneisen:   -0.2263011580
+    frequency:    7.0501730474
+  - # 2
+    gruneisen:    0.1333112452
+    frequency:    7.9130056098
+  - # 3
+    gruneisen:    0.9929360799
+    frequency:   16.4256664392
+  - # 4
+    gruneisen:    1.6128570892
+    frequency:   19.1578354806
+  - # 5
+    gruneisen:    1.5122617392
+    frequency:   19.6039581029
+  - # 6
+    gruneisen:    1.1879579508
+    frequency:   21.7476676856
+
+- q-position: [ -0.4250000,  0.1250000,  0.0750000 ]
+  multiplicity: 17
+  band:
+  - # 1
+    gruneisen:   -0.2100013533
+    frequency:    7.1412051798
+  - # 2
+    gruneisen:    0.1086505173
+    frequency:    7.8836500813
+  - # 3
+    gruneisen:    0.9895913571
+    frequency:   16.7068111086
+  - # 4
+    gruneisen:    1.6182586396
+    frequency:   19.1278848512
+  - # 5
+    gruneisen:    1.5011727994
+    frequency:   19.5757593937
+  - # 6
+    gruneisen:    1.2051086791
+    frequency:   21.5848687268
+
+- q-position: [  0.2250000,  0.1750000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1939083361
+    frequency:    5.1540654196
+  - # 2
+    gruneisen:    0.4063216211
+    frequency:    5.5709626057
+  - # 3
+    gruneisen:    1.0304190574
+    frequency:    7.9406295795
+  - # 4
+    gruneisen:    1.4868857433
+    frequency:   19.6298745397
+  - # 5
+    gruneisen:    1.4675566960
+    frequency:   19.7951012366
+  - # 6
+    gruneisen:    1.1910778844
+    frequency:   22.8508274119
+
+- q-position: [  0.2750000,  0.1750000,  0.0750000 ]
+  multiplicity: 43
+  band:
+  - # 1
+    gruneisen:    0.1141163438
+    frequency:    5.7287645536
+  - # 2
+    gruneisen:    0.4345195295
+    frequency:    6.5477806152
+  - # 3
+    gruneisen:    1.0322577063
+    frequency:    9.1442925333
+  - # 4
+    gruneisen:    1.4977967051
+    frequency:   19.7003904967
+  - # 5
+    gruneisen:    1.4751854257
+    frequency:   19.8740991075
+  - # 6
+    gruneisen:    1.1541515773
+    frequency:   23.3415589882
+
+- q-position: [  0.3250000,  0.1750000,  0.0750000 ]
+  multiplicity: 28
+  band:
+  - # 1
+    gruneisen:    0.0504990193
+    frequency:    6.2414164003
+  - # 2
+    gruneisen:    0.4220888427
+    frequency:    7.3489061117
+  - # 3
+    gruneisen:    1.0342172459
+    frequency:   10.5099124543
+  - # 4
+    gruneisen:    1.5061243484
+    frequency:   19.7670393184
+  - # 5
+    gruneisen:    1.4938753466
+    frequency:   19.8977014236
+  - # 6
+    gruneisen:    1.1276971554
+    frequency:   23.5626213210
+
+- q-position: [  0.3750000,  0.1750000,  0.0750000 ]
+  multiplicity: 25
+  band:
+  - # 1
+    gruneisen:   -0.0047142457
+    frequency:    6.6716482147
+  - # 2
+    gruneisen:    0.3928709169
+    frequency:    7.9226601825
+  - # 3
+    gruneisen:    1.0281907359
+    frequency:   11.9795491542
+  - # 4
+    gruneisen:    1.5269142233
+    frequency:   19.6918783041
+  - # 5
+    gruneisen:    1.5119805196
+    frequency:   19.9265539345
+  - # 6
+    gruneisen:    1.1131944138
+    frequency:   23.4778342899
+
+- q-position: [  0.4250000,  0.1750000,  0.0750000 ]
+  multiplicity: 25
+  band:
+  - # 1
+    gruneisen:   -0.0496519755
+    frequency:    7.0303171453
+  - # 2
+    gruneisen:    0.3583789640
+    frequency:    8.3068598928
+  - # 3
+    gruneisen:    1.0160839005
+    frequency:   13.4501927836
+  - # 4
+    gruneisen:    1.5612766150
+    frequency:   19.5135270433
+  - # 5
+    gruneisen:    1.5222081754
+    frequency:   19.9229649325
+  - # 6
+    gruneisen:    1.1132228234
+    frequency:   23.1124552616
+
+- q-position: [  0.4750000,  0.1750000,  0.0750000 ]
+  multiplicity: 25
+  band:
+  - # 1
+    gruneisen:   -0.0817564859
+    frequency:    7.3188506992
+  - # 2
+    gruneisen:    0.3263123433
+    frequency:    8.5539309520
+  - # 3
+    gruneisen:    1.0033378022
+    frequency:   14.8031425603
+  - # 4
+    gruneisen:    1.5959698762
+    frequency:   19.3138541134
+  - # 5
+    gruneisen:    1.5197082584
+    frequency:   19.8713916498
+  - # 6
+    gruneisen:    1.1334047197
+    frequency:   22.5524784956
+
+- q-position: [  0.5250000,  0.1750000,  0.0750000 ]
+  multiplicity: 25
+  band:
+  - # 1
+    gruneisen:   -0.1036366593
+    frequency:    7.5098040676
+  - # 2
+    gruneisen:    0.3047763170
+    frequency:    8.7080139024
+  - # 3
+    gruneisen:    0.9968088785
+    frequency:   15.8758270762
+  - # 4
+    gruneisen:    1.6223975234
+    frequency:   19.1519851195
+  - # 5
+    gruneisen:    1.4875266732
+    frequency:   19.8078787363
+  - # 6
+    gruneisen:    1.1802168625
+    frequency:   21.9636931302
+
+- q-position: [  0.5750000,  0.1750000,  0.0750000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:   -0.1218538275
+    frequency:    7.5631151432
+  - # 2
+    gruneisen:    0.3018850206
+    frequency:    8.7974386095
+  - # 3
+    gruneisen:    0.9980438410
+    frequency:   16.4038973035
+  - # 4
+    gruneisen:    1.6349991145
+    frequency:   19.0696496178
+  - # 5
+    gruneisen:    1.4425503620
+    frequency:   19.7736882088
+  - # 6
+    gruneisen:    1.2282385504
+    frequency:   21.6269666205
+
+- q-position: [ -0.3750000,  0.1750000,  0.0750000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:   -0.1385461648
+    frequency:    7.4652449412
+  - # 2
+    gruneisen:    0.3202622459
+    frequency:    8.8236154800
+  - # 3
+    gruneisen:    0.9982031800
+    frequency:   16.1443182913
+  - # 4
+    gruneisen:    1.6305224554
+    frequency:   19.0920423563
+  - # 5
+    gruneisen:    1.4610122995
+    frequency:   19.7978957208
+  - # 6
+    gruneisen:    1.2066874002
+    frequency:   21.7805580442
+
+- q-position: [ -0.3250000,  0.1750000,  0.0750000 ]
+  multiplicity: 23
+  band:
+  - # 1
+    gruneisen:   -0.1466136911
+    frequency:    7.2432466877
+  - # 2
+    gruneisen:    0.3539849602
+    frequency:    8.7648213604
+  - # 3
+    gruneisen:    1.0036217840
+    frequency:   15.2206639219
+  - # 4
+    gruneisen:    1.6087468684
+    frequency:   19.2196771767
+  - # 5
+    gruneisen:    1.5009680117
+    frequency:   19.8729086010
+  - # 6
+    gruneisen:    1.1543433567
+    frequency:   22.2841280203
+
+- q-position: [ -0.2750000,  0.1750000,  0.0750000 ]
+  multiplicity: 23
+  band:
+  - # 1
+    gruneisen:   -0.1361949011
+    frequency:    6.9404819834
+  - # 2
+    gruneisen:    0.3941545620
+    frequency:    8.5916339823
+  - # 3
+    gruneisen:    1.0163253354
+    frequency:   13.9303084479
+  - # 4
+    gruneisen:    1.5735621084
+    frequency:   19.4267551170
+  - # 5
+    gruneisen:    1.5140372832
+    frequency:   19.9425493661
+  - # 6
+    gruneisen:    1.1245279058
+    frequency:   22.8368448662
+
+- q-position: [ -0.2250000,  0.1750000,  0.0750000 ]
+  multiplicity: 23
+  band:
+  - # 1
+    gruneisen:   -0.1030175479
+    frequency:    6.5870390339
+  - # 2
+    gruneisen:    0.4339252908
+    frequency:    8.2682531062
+  - # 3
+    gruneisen:    1.0293871848
+    frequency:   12.4746687718
+  - # 4
+    gruneisen:    1.5335202334
+    frequency:   19.6570848341
+  - # 5
+    gruneisen:    1.5104601203
+    frequency:   19.9587191766
+  - # 6
+    gruneisen:    1.1183494562
+    frequency:   23.2387572787
+
+- q-position: [ -0.1750000,  0.1750000,  0.0750000 ]
+  multiplicity: 24
+  band:
+  - # 1
+    gruneisen:   -0.0505673789
+    frequency:    6.1853626853
+  - # 2
+    gruneisen:    0.4675234896
+    frequency:    7.7449651490
+  - # 3
+    gruneisen:    1.0370399815
+    frequency:   10.9898670367
+  - # 4
+    gruneisen:    1.5040138824
+    frequency:   19.8148734991
+  - # 5
+    gruneisen:    1.4964914387
+    frequency:   19.9320097718
+  - # 6
+    gruneisen:    1.1293085928
+    frequency:   23.3835421088
+
+- q-position: [ -0.1250000,  0.1750000,  0.0750000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:    0.0146587849
+    frequency:    5.7199931000
+  - # 2
+    gruneisen:    0.4843768183
+    frequency:    6.9678104065
+  - # 3
+    gruneisen:    1.0375025240
+    frequency:    9.5960255690
+  - # 4
+    gruneisen:    1.4979920053
+    frequency:   19.7587909529
+  - # 5
+    gruneisen:    1.4694065560
+    frequency:   19.9736575737
+  - # 6
+    gruneisen:    1.1536666525
+    frequency:   23.2312271014
+
+- q-position: [  0.2750000,  0.2250000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.2068148168
+    frequency:    6.3412917420
+  - # 2
+    gruneisen:    0.3540176034
+    frequency:    6.7883347466
+  - # 3
+    gruneisen:    1.0249260454
+    frequency:    9.5546848772
+  - # 4
+    gruneisen:    1.5094787743
+    frequency:   19.6706602046
+  - # 5
+    gruneisen:    1.5021166054
+    frequency:   19.7283147523
+  - # 6
+    gruneisen:    1.1208112142
+    frequency:   23.9628984336
+
+- q-position: [  0.3250000,  0.2250000,  0.0750000 ]
+  multiplicity: 46
+  band:
+  - # 1
+    gruneisen:    0.1544044077
+    frequency:    6.8085577652
+  - # 2
+    gruneisen:    0.3800408279
+    frequency:    7.6392078734
+  - # 3
+    gruneisen:    1.0256666388
+    frequency:   10.5700760391
+  - # 4
+    gruneisen:    1.5205828255
+    frequency:   19.7023789836
+  - # 5
+    gruneisen:    1.5178977197
+    frequency:   19.7826637310
+  - # 6
+    gruneisen:    1.0993901079
+    frequency:   24.1411047419
+
+- q-position: [  0.3750000,  0.2250000,  0.0750000 ]
+  multiplicity: 70
+  band:
+  - # 1
+    gruneisen:    0.1152237245
+    frequency:    7.2411458198
+  - # 2
+    gruneisen:    0.3922805569
+    frequency:    8.3407651148
+  - # 3
+    gruneisen:    1.0192274092
+    frequency:   11.7231075969
+  - # 4
+    gruneisen:    1.5440343081
+    frequency:   19.6374192177
+  - # 5
+    gruneisen:    1.5264902747
+    frequency:   19.8808841108
+  - # 6
+    gruneisen:    1.0889812926
+    frequency:   23.9941393240
+
+- q-position: [  0.4250000,  0.2250000,  0.0750000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:    0.0817221845
+    frequency:    7.6172705890
+  - # 2
+    gruneisen:    0.3997992332
+    frequency:    8.8652228396
+  - # 3
+    gruneisen:    1.0071347870
+    frequency:   12.9670081952
+  - # 4
+    gruneisen:    1.5737169408
+    frequency:   19.5093864410
+  - # 5
+    gruneisen:    1.5311594338
+    frequency:   19.9522622176
+  - # 6
+    gruneisen:    1.0914126292
+    frequency:   23.5525588396
+
+- q-position: [  0.4750000,  0.2250000,  0.0750000 ]
+  multiplicity: 51
+  band:
+  - # 1
+    gruneisen:    0.0511661368
+    frequency:    7.9147448748
+  - # 2
+    gruneisen:    0.4065603244
+    frequency:    9.2574539221
+  - # 3
+    gruneisen:    0.9966620438
+    frequency:   14.1933112275
+  - # 4
+    gruneisen:    1.6041031985
+    frequency:   19.3474953442
+  - # 5
+    gruneisen:    1.5233132801
+    frequency:   19.9818218535
+  - # 6
+    gruneisen:    1.1123903733
+    frequency:   22.9076430680
+
+- q-position: [  0.5250000,  0.2250000,  0.0750000 ]
+  multiplicity: 51
+  band:
+  - # 1
+    gruneisen:    0.0206085319
+    frequency:    8.0939108247
+  - # 2
+    gruneisen:    0.4169018642
+    frequency:    9.5658414684
+  - # 3
+    gruneisen:    0.9932466132
+    frequency:   15.2562909811
+  - # 4
+    gruneisen:    1.6303434463
+    frequency:   19.1848862429
+  - # 5
+    gruneisen:    1.4819989651
+    frequency:   19.9766914160
+  - # 6
+    gruneisen:    1.1641288453
+    frequency:   22.2186712191
+
+- q-position: [  0.5750000,  0.2250000,  0.0750000 ]
+  multiplicity: 55
+  band:
+  - # 1
+    gruneisen:   -0.0144000187
+    frequency:    8.1189752361
+  - # 2
+    gruneisen:    0.4351554880
+    frequency:    9.8026848135
+  - # 3
+    gruneisen:    0.9968618891
+    frequency:   15.9405093494
+  - # 4
+    gruneisen:    1.6483498737
+    frequency:   19.0584433141
+  - # 5
+    gruneisen:    1.4037568302
+    frequency:   19.9441501165
+  - # 6
+    gruneisen:    1.2430441828
+    frequency:   21.7342086193
+
+- q-position: [ -0.3750000,  0.2250000,  0.0750000 ]
+  multiplicity: 59
+  band:
+  - # 1
+    gruneisen:   -0.0548288129
+    frequency:    7.9848160575
+  - # 2
+    gruneisen:    0.4618122112
+    frequency:    9.9442518791
+  - # 3
+    gruneisen:    0.9994872280
+    frequency:   15.9710455854
+  - # 4
+    gruneisen:    1.6535949898
+    frequency:   19.0093776805
+  - # 5
+    gruneisen:    1.3785361319
+    frequency:   19.9407039482
+  - # 6
+    gruneisen:    1.2635095307
+    frequency:   21.6872068352
+
+- q-position: [ -0.3250000,  0.2250000,  0.0750000 ]
+  multiplicity: 48
+  band:
+  - # 1
+    gruneisen:   -0.0937967729
+    frequency:    7.7175085138
+  - # 2
+    gruneisen:    0.4913592345
+    frequency:    9.9580413627
+  - # 3
+    gruneisen:    1.0019330775
+    frequency:   15.3096996262
+  - # 4
+    gruneisen:    1.6418208952
+    frequency:   19.0619920757
+  - # 5
+    gruneisen:    1.4323534982
+    frequency:   20.0212845035
+  - # 6
+    gruneisen:    1.2018104887
+    frequency:   22.0422172240
+
+- q-position: [ -0.2750000,  0.2250000,  0.0750000 ]
+  multiplicity: 47
+  band:
+  - # 1
+    gruneisen:   -0.1198860933
+    frequency:    7.3622562128
+  - # 2
+    gruneisen:    0.5161822764
+    frequency:    9.8149691254
+  - # 3
+    gruneisen:    1.0108048333
+    frequency:   14.2269475335
+  - # 4
+    gruneisen:    1.6126712432
+    frequency:   19.2174841392
+  - # 5
+    gruneisen:    1.4792018156
+    frequency:   20.0946132006
+  - # 6
+    gruneisen:    1.1442322691
+    frequency:   22.5756118143
+
+- q-position: [ -0.2250000,  0.2250000,  0.0750000 ]
+  multiplicity: 48
+  band:
+  - # 1
+    gruneisen:   -0.1233105386
+    frequency:    6.9670300307
+  - # 2
+    gruneisen:    0.5307249253
+    frequency:    9.4738655921
+  - # 3
+    gruneisen:    1.0230836084
+    frequency:   12.9829708070
+  - # 4
+    gruneisen:    1.5719559736
+    frequency:   19.4460776476
+  - # 5
+    gruneisen:    1.4993544954
+    frequency:   20.0904759372
+  - # 6
+    gruneisen:    1.1180788545
+    frequency:   23.0705343688
+
+- q-position: [ -0.1750000,  0.2250000,  0.0750000 ]
+  multiplicity: 56
+  band:
+  - # 1
+    gruneisen:   -0.1000865888
+    frequency:    6.5637449896
+  - # 2
+    gruneisen:    0.5319270456
+    frequency:    8.8649039008
+  - # 3
+    gruneisen:    1.0315572387
+    frequency:   11.7728184305
+  - # 4
+    gruneisen:    1.5294930793
+    frequency:   19.6857591096
+  - # 5
+    gruneisen:    1.5055443286
+    frequency:   20.0071879345
+  - # 6
+    gruneisen:    1.1153945598
+    frequency:   23.3801616694
+
+- q-position: [ -0.1250000,  0.2250000,  0.0750000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:   -0.0519525284
+    frequency:    6.1615766417
+  - # 2
+    gruneisen:    0.5093134959
+    frequency:    7.9421032383
+  - # 3
+    gruneisen:    1.0341789364
+    frequency:   10.7305907129
+  - # 4
+    gruneisen:    1.5016569985
+    frequency:   19.8355512117
+  - # 5
+    gruneisen:    1.4971644557
+    frequency:   19.9195026170
+  - # 6
+    gruneisen:    1.1286463773
+    frequency:   23.4265451805
+
+- q-position: [  0.3250000,  0.2750000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.2044859550
+    frequency:    7.4303577401
+  - # 2
+    gruneisen:    0.2988339877
+    frequency:    7.8437758568
+  - # 3
+    gruneisen:    1.0317922668
+    frequency:   10.9876128982
+  - # 4
+    gruneisen:    1.5407793930
+    frequency:   19.6525873091
+  - # 5
+    gruneisen:    1.5363512502
+    frequency:   19.7268827110
+  - # 6
+    gruneisen:    1.0748468178
+    frequency:   24.5843238532
+
+- q-position: [  0.3750000,  0.2750000,  0.0750000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:    0.1805353005
+    frequency:    7.8429992535
+  - # 2
+    gruneisen:    0.3211731747
+    frequency:    8.5671014889
+  - # 3
+    gruneisen:    1.0293087920
+    frequency:   11.8560162753
+  - # 4
+    gruneisen:    1.5622375281
+    frequency:   19.6169423294
+  - # 5
+    gruneisen:    1.5449031905
+    frequency:   19.8110128359
+  - # 6
+    gruneisen:    1.0670772117
+    frequency:   24.4083266763
+
+- q-position: [  0.4250000,  0.2750000,  0.0750000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:    0.1610094059
+    frequency:    8.2253329618
+  - # 2
+    gruneisen:    0.3566282705
+    frequency:    9.2182492426
+  - # 3
+    gruneisen:    1.0182343566
+    frequency:   12.8135593401
+  - # 4
+    gruneisen:    1.5869059970
+    frequency:   19.5360807662
+  - # 5
+    gruneisen:    1.5475946627
+    frequency:   19.9114254537
+  - # 6
+    gruneisen:    1.0713122193
+    frequency:   23.9179231546
+
+- q-position: [  0.4750000,  0.2750000,  0.0750000 ]
+  multiplicity: 68
+  band:
+  - # 1
+    gruneisen:    0.1387520836
+    frequency:    8.5246098863
+  - # 2
+    gruneisen:    0.4018704910
+    frequency:    9.7950401696
+  - # 3
+    gruneisen:    1.0047716717
+    frequency:   13.8110725640
+  - # 4
+    gruneisen:    1.6116136171
+    frequency:   19.4166070108
+  - # 5
+    gruneisen:    1.5373615578
+    frequency:   20.0017560229
+  - # 6
+    gruneisen:    1.0926073804
+    frequency:   23.2052235599
+
+- q-position: [  0.5250000,  0.2750000,  0.0750000 ]
+  multiplicity: 56
+  band:
+  - # 1
+    gruneisen:    0.1121748591
+    frequency:    8.6940064096
+  - # 2
+    gruneisen:    0.4482618416
+    frequency:   10.3087900781
+  - # 3
+    gruneisen:    0.9964982777
+    frequency:   14.7441842985
+  - # 4
+    gruneisen:    1.6346260371
+    frequency:   19.2674750640
+  - # 5
+    gruneisen:    1.4932854487
+    frequency:   20.0606382592
+  - # 6
+    gruneisen:    1.1454472160
+    frequency:   22.4315122397
+
+- q-position: [  0.5750000,  0.2750000,  0.0750000 ]
+  multiplicity: 54
+  band:
+  - # 1
+    gruneisen:    0.0778708904
+    frequency:    8.7067910540
+  - # 2
+    gruneisen:    0.4919844658
+    frequency:   10.7364342897
+  - # 3
+    gruneisen:    0.9949994700
+    frequency:   15.4463945424
+  - # 4
+    gruneisen:    1.6541029795
+    frequency:   19.1127413175
+  - # 5
+    gruneisen:    1.3954209173
+    frequency:   20.0435158976
+  - # 6
+    gruneisen:    1.2447371838
+    frequency:   21.8417060590
+
+- q-position: [ -0.3750000,  0.2750000,  0.0750000 ]
+  multiplicity: 53
+  band:
+  - # 1
+    gruneisen:    0.0329419996
+    frequency:    8.5595859784
+  - # 2
+    gruneisen:    0.5310946453
+    frequency:   11.0252084777
+  - # 3
+    gruneisen:    0.9974195439
+    frequency:   15.6725888604
+  - # 4
+    gruneisen:    1.6669589042
+    frequency:   18.9991440584
+  - # 5
+    gruneisen:    1.3165648007
+    frequency:   19.9848034846
+  - # 6
+    gruneisen:    1.3174399750
+    frequency:   21.6532264733
+
+- q-position: [ -0.3250000,  0.2750000,  0.0750000 ]
+  multiplicity: 56
+  band:
+  - # 1
+    gruneisen:   -0.0195307525
+    frequency:    8.2688928453
+  - # 2
+    gruneisen:    0.5604804751
+    frequency:   11.1224783802
+  - # 3
+    gruneisen:    1.0040580951
+    frequency:   15.2804789121
+  - # 4
+    gruneisen:    1.6674662998
+    frequency:   18.9693259388
+  - # 5
+    gruneisen:    1.3420576716
+    frequency:   20.0533351245
+  - # 6
+    gruneisen:    1.2807582176
+    frequency:   21.8273993129
+
+- q-position: [ -0.2750000,  0.2750000,  0.0750000 ]
+  multiplicity: 48
+  band:
+  - # 1
+    gruneisen:   -0.0702916888
+    frequency:    7.8715883686
+  - # 2
+    gruneisen:    0.5737342562
+    frequency:   10.9810359864
+  - # 3
+    gruneisen:    1.0166520979
+    frequency:   14.4656438930
+  - # 4
+    gruneisen:    1.6493821004
+    frequency:   19.0418101634
+  - # 5
+    gruneisen:    1.4147944747
+    frequency:   20.1776348612
+  - # 6
+    gruneisen:    1.1977046663
+    frequency:   22.2294857913
+
+- q-position: [ -0.2250000,  0.2750000,  0.0750000 ]
+  multiplicity: 56
+  band:
+  - # 1
+    gruneisen:   -0.1074504008
+    frequency:    7.4214410987
+  - # 2
+    gruneisen:    0.5701326331
+    frequency:   10.5365601362
+  - # 3
+    gruneisen:    1.0289267195
+    frequency:   13.5369921526
+  - # 4
+    gruneisen:    1.6147251797
+    frequency:   19.2151638187
+  - # 5
+    gruneisen:    1.4684985415
+    frequency:   20.2055421361
+  - # 6
+    gruneisen:    1.1398975150
+    frequency:   22.7139624361
+
+- q-position: [ -0.1750000,  0.2750000,  0.0750000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:   -0.1202077369
+    frequency:    6.9743079532
+  - # 2
+    gruneisen:    0.5525868866
+    frequency:    9.7308975241
+  - # 3
+    gruneisen:    1.0298387268
+    frequency:   12.7145818358
+  - # 4
+    gruneisen:    1.5716718325
+    frequency:   19.4498491557
+  - # 5
+    gruneisen:    1.4962163520
+    frequency:   20.1221787703
+  - # 6
+    gruneisen:    1.1167773485
+    frequency:   23.1200951900
+
+- q-position: [  0.3750000,  0.3250000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1885776953
+    frequency:    8.3780265199
+  - # 2
+    gruneisen:    0.2453613033
+    frequency:    8.7151745241
+  - # 3
+    gruneisen:    1.0417200269
+    frequency:   12.3262205577
+  - # 4
+    gruneisen:    1.5778411089
+    frequency:   19.6263869140
+  - # 5
+    gruneisen:    1.5657885854
+    frequency:   19.7479600708
+  - # 6
+    gruneisen:    1.0521384499
+    frequency:   24.5730810292
+
+- q-position: [  0.4250000,  0.3250000,  0.0750000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1891842176
+    frequency:    8.7644872533
+  - # 2
+    gruneisen:    0.2664596946
+    frequency:    9.3189515523
+  - # 3
+    gruneisen:    1.0355374689
+    frequency:   13.0980225704
+  - # 4
+    gruneisen:    1.5991796226
+    frequency:   19.5867848408
+  - # 5
+    gruneisen:    1.5689869326
+    frequency:   19.8286948556
+  - # 6
+    gruneisen:    1.0573382277
+    frequency:   24.0704500724
+
+- q-position: [  0.4750000,  0.3250000,  0.0750000 ]
+  multiplicity: 49
+  band:
+  - # 1
+    gruneisen:    0.1795882120
+    frequency:    9.0651686706
+  - # 2
+    gruneisen:    0.3261452349
+    frequency:    9.9875149883
+  - # 3
+    gruneisen:    1.0235398225
+    frequency:   13.8838670552
+  - # 4
+    gruneisen:    1.6183640984
+    frequency:   19.5122095515
+  - # 5
+    gruneisen:    1.5591321880
+    frequency:   19.9365361658
+  - # 6
+    gruneisen:    1.0787156189
+    frequency:   23.3275296799
+
+- q-position: [  0.5250000,  0.3250000,  0.0750000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:    0.1630799975
+    frequency:    9.2287456743
+  - # 2
+    gruneisen:    0.4007641321
+    frequency:   10.6941325745
+  - # 3
+    gruneisen:    1.0112501942
+    frequency:   14.6172745265
+  - # 4
+    gruneisen:    1.6358101481
+    frequency:   19.3898634096
+  - # 5
+    gruneisen:    1.5164018153
+    frequency:   20.0400341760
+  - # 6
+    gruneisen:    1.1311353930
+    frequency:   22.5061987504
+
+- q-position: [  0.5750000,  0.3250000,  0.0750000 ]
+  multiplicity: 74
+  band:
+  - # 1
+    gruneisen:    0.1394541871
+    frequency:    9.2418886745
+  - # 2
+    gruneisen:    0.4713648175
+    frequency:   11.3532650039
+  - # 3
+    gruneisen:    1.0024952094
+    frequency:   15.1868786320
+  - # 4
+    gruneisen:    1.6515222564
+    frequency:   19.2282858386
+  - # 5
+    gruneisen:    1.4117070452
+    frequency:   20.0491403266
+  - # 6
+    gruneisen:    1.2408807130
+    frequency:   21.8615559616
+
+- q-position: [  0.6250000,  0.3250000,  0.0750000 ]
+  multiplicity: 55
+  band:
+  - # 1
+    gruneisen:    0.1036773073
+    frequency:    9.1005245306
+  - # 2
+    gruneisen:    0.5279364069
+    frequency:   11.8545238391
+  - # 3
+    gruneisen:    1.0011776151
+    frequency:   15.4219264292
+  - # 4
+    gruneisen:    1.6653383178
+    frequency:   19.0689250399
+  - # 5
+    gruneisen:    1.2991264927
+    frequency:   19.9393823096
+  - # 6
+    gruneisen:    1.3504079680
+    frequency:   21.6176883861
+
+- q-position: [ -0.3250000,  0.3250000,  0.0750000 ]
+  multiplicity: 61
+  band:
+  - # 1
+    gruneisen:    0.0537280196
+    frequency:    8.8103377164
+  - # 2
+    gruneisen:    0.5635489452
+    frequency:   12.0797827610
+  - # 3
+    gruneisen:    1.0129635126
+    frequency:   15.2064409556
+  - # 4
+    gruneisen:    1.6774409306
+    frequency:   18.9674419140
+  - # 5
+    gruneisen:    1.2744878518
+    frequency:   19.9435600740
+  - # 6
+    gruneisen:    1.3571295434
+    frequency:   21.6833024762
+
+- q-position: [ -0.2750000,  0.3250000,  0.0750000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:   -0.0060688102
+    frequency:    8.3954927594
+  - # 2
+    gruneisen:    0.5784231888
+    frequency:   11.9095831415
+  - # 3
+    gruneisen:    1.0288557652
+    frequency:   14.7074485270
+  - # 4
+    gruneisen:    1.6740748193
+    frequency:   18.9512285591
+  - # 5
+    gruneisen:    1.3283665922
+    frequency:   20.1049918783
+  - # 6
+    gruneisen:    1.2856316761
+    frequency:   21.9140635716
+
+- q-position: [ -0.2250000,  0.3250000,  0.0750000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:   -0.0656904256
+    frequency:    7.9038047041
+  - # 2
+    gruneisen:    0.5807974059
+    frequency:   11.2726999434
+  - # 3
+    gruneisen:    1.0287124500
+    frequency:   14.2107056904
+  - # 4
+    gruneisen:    1.6510138738
+    frequency:   19.0374189792
+  - # 5
+    gruneisen:    1.4110618532
+    frequency:   20.2121771024
+  - # 6
+    gruneisen:    1.1968049357
+    frequency:   22.2702498091
+
+- q-position: [  0.4250000,  0.3750000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1649612922
+    frequency:    9.1340054510
+  - # 2
+    gruneisen:    0.1998302686
+    frequency:    9.3979902241
+  - # 3
+    gruneisen:    1.0412582237
+    frequency:   13.7026445405
+  - # 4
+    gruneisen:    1.6098656068
+    frequency:   19.6246027033
+  - # 5
+    gruneisen:    1.5923510987
+    frequency:   19.7564087621
+  - # 6
+    gruneisen:    1.0520885304
+    frequency:   23.9274666283
+
+- q-position: [  0.4750000,  0.3750000,  0.0750000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1868839481
+    frequency:    9.4817705789
+  - # 2
+    gruneisen:    0.2249069813
+    frequency:    9.8959529878
+  - # 3
+    gruneisen:    1.0278270488
+    frequency:   14.4179060524
+  - # 4
+    gruneisen:    1.6252718453
+    frequency:   19.6065192170
+  - # 5
+    gruneisen:    1.5852219093
+    frequency:   19.8215692048
+  - # 6
+    gruneisen:    1.0735096290
+    frequency:   23.1944683504
+
+- q-position: [  0.5250000,  0.3750000,  0.0750000 ]
+  multiplicity: 47
+  band:
+  - # 1
+    gruneisen:    0.1807002479
+    frequency:    9.6491953390
+  - # 2
+    gruneisen:    0.3120877442
+    frequency:   10.6046714659
+  - # 3
+    gruneisen:    1.0105380748
+    frequency:   15.0425389860
+  - # 4
+    gruneisen:    1.6353640637
+    frequency:   19.5247527357
+  - # 5
+    gruneisen:    1.5479699432
+    frequency:   19.9271004661
+  - # 6
+    gruneisen:    1.1256666477
+    frequency:   22.3741318725
+
+- q-position: [  0.5750000,  0.3750000,  0.0750000 ]
+  multiplicity: 54
+  band:
+  - # 1
+    gruneisen:    0.1695824342
+    frequency:    9.6689570480
+  - # 2
+    gruneisen:    0.4059876141
+    frequency:   11.3875030360
+  - # 3
+    gruneisen:    0.9949546422
+    frequency:   15.4664095372
+  - # 4
+    gruneisen:    1.6411106627
+    frequency:   19.3759522774
+  - # 5
+    gruneisen:    1.4475379722
+    frequency:   19.9584259141
+  - # 6
+    gruneisen:    1.2399366887
+    frequency:   21.7355115602
+
+- q-position: [  0.6250000,  0.3750000,  0.0750000 ]
+  multiplicity: 64
+  band:
+  - # 1
+    gruneisen:    0.1489926945
+    frequency:    9.5436400728
+  - # 2
+    gruneisen:    0.4809574539
+    frequency:   12.0936364118
+  - # 3
+    gruneisen:    0.9927412558
+    frequency:   15.5561060431
+  - # 4
+    gruneisen:    1.6451378646
+    frequency:   19.1960425189
+  - # 5
+    gruneisen:    1.3281365884
+    frequency:   19.8417481725
+  - # 6
+    gruneisen:    1.3652804819
+    frequency:   21.5133720631
+
+- q-position: [ -0.3250000,  0.3750000,  0.0750000 ]
+  multiplicity: 104
+  band:
+  - # 1
+    gruneisen:    0.1122498893
+    frequency:    9.2702979875
+  - # 2
+    gruneisen:    0.5255003718
+    frequency:   12.5146575933
+  - # 3
+    gruneisen:    1.0141033879
+    frequency:   15.3110669508
+  - # 4
+    gruneisen:    1.6647938598
+    frequency:   19.0481563318
+  - # 5
+    gruneisen:    1.2674622604
+    frequency:   19.7966341560
+  - # 6
+    gruneisen:    1.3986931001
+    frequency:   21.5664682000
+
+- q-position: [ -0.2750000,  0.3750000,  0.0750000 ]
+  multiplicity: 48
+  band:
+  - # 1
+    gruneisen:    0.0574353452
+    frequency:    8.8611601959
+  - # 2
+    gruneisen:    0.5582141850
+    frequency:   12.3698273941
+  - # 3
+    gruneisen:    1.0270986494
+    frequency:   15.0385288228
+  - # 4
+    gruneisen:    1.6795437205
+    frequency:   18.9613104381
+  - # 5
+    gruneisen:    1.2681498735
+    frequency:   19.9283573257
+  - # 6
+    gruneisen:    1.3635409249
+    frequency:   21.6977919765
+
+- q-position: [  0.4750000,  0.4250000,  0.0750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1417604642
+    frequency:    9.6556401651
+  - # 2
+    gruneisen:    0.1692900168
+    frequency:    9.8865843600
+  - # 3
+    gruneisen:    1.0161652089
+    frequency:   15.1932909052
+  - # 4
+    gruneisen:    1.6327858516
+    frequency:   19.6355013476
+  - # 5
+    gruneisen:    1.6096134672
+    frequency:   19.7482335707
+  - # 6
+    gruneisen:    1.0795115293
+    frequency:   22.7903999973
+
+- q-position: [  0.5250000,  0.4250000,  0.0750000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.1795788787
+    frequency:    9.9312616800
+  - # 2
+    gruneisen:    0.2048768807
+    frequency:   10.2854953387
+  - # 3
+    gruneisen:    0.9904446024
+    frequency:   15.8154763343
+  - # 4
+    gruneisen:    1.6342304120
+    frequency:   19.6377761386
+  - # 5
+    gruneisen:    1.5836251882
+    frequency:   19.7703608556
+  - # 6
+    gruneisen:    1.1320486635
+    frequency:   22.0266356653
+
+- q-position: [  0.5750000,  0.4250000,  0.0750000 ]
+  multiplicity: 58
+  band:
+  - # 1
+    gruneisen:    0.1765476475
+    frequency:    9.9628155225
+  - # 2
+    gruneisen:    0.3142144832
+    frequency:   10.9712708772
+  - # 3
+    gruneisen:    0.9638215236
+    frequency:   16.1633005811
+  - # 4
+    gruneisen:    1.6148837768
+    frequency:   19.5108185430
+  - # 5
+    gruneisen:    1.5113629515
+    frequency:   19.8103158443
+  - # 6
+    gruneisen:    1.2438138058
+    frequency:   21.4732757545
+
+- q-position: [  0.6250000,  0.4250000,  0.0750000 ]
+  multiplicity: 70
+  band:
+  - # 1
+    gruneisen:    0.1701970659
+    frequency:    9.8544827546
+  - # 2
+    gruneisen:    0.4154029735
+    frequency:   11.7023461874
+  - # 3
+    gruneisen:    0.9575459674
+    frequency:   16.0822058636
+  - # 4
+    gruneisen:    1.6009204762
+    frequency:   19.3352956961
+  - # 5
+    gruneisen:    1.4122165148
+    frequency:   19.7561104140
+  - # 6
+    gruneisen:    1.3585764327
+    frequency:   21.3466296651
+
+- q-position: [ -0.3250000, -0.5750000,  0.0750000 ]
+  multiplicity: 38
+  band:
+  - # 1
+    gruneisen:    0.1504333838
+    frequency:    9.6038448554
+  - # 2
+    gruneisen:    0.4834577697
+    frequency:   12.2567554966
+  - # 3
+    gruneisen:    0.9854770967
+    frequency:   15.6592213807
+  - # 4
+    gruneisen:    1.6343590155
+    frequency:   19.1830118629
+  - # 5
+    gruneisen:    1.3211374341
+    frequency:   19.7540832753
+  - # 6
+    gruneisen:    1.3946629307
+    frequency:   21.4558023075
+
+- q-position: [  0.5250000,  0.4750000,  0.0750000 ]
+  multiplicity: 15
+  band:
+  - # 1
+    gruneisen:    0.1255323445
+    frequency:    9.9388090030
+  - # 2
+    gruneisen:    0.1551132214
+    frequency:   10.1634355070
+  - # 3
+    gruneisen:    0.9588352977
+    frequency:   16.6228675492
+  - # 4
+    gruneisen:    1.6323397608
+    frequency:   19.6335962598
+  - # 5
+    gruneisen:    1.6145216960
+    frequency:   19.7083097819
+  - # 6
+    gruneisen:    1.1537793788
+    frequency:   21.5482066140
+
+- q-position: [  0.5750000,  0.4750000,  0.0750000 ]
+  multiplicity: 60
+  band:
+  - # 1
+    gruneisen:    0.1736105820
+    frequency:   10.1174530973
+  - # 2
+    gruneisen:    0.2006031538
+    frequency:   10.4577701917
+  - # 3
+    gruneisen:    0.9307906231
+    frequency:   16.8419338981
+  - # 4
+    gruneisen:    1.5530066571
+    frequency:   19.5810229374
+  - # 5
+    gruneisen:    1.6254286875
+    frequency:   19.7055354679
+  - # 6
+    gruneisen:    1.2405855661
+    frequency:   21.1967137882
+
+- q-position: [ -0.3750000, -0.5250000,  0.0750000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.1752776950
+    frequency:   10.0245040211
+  - # 2
+    gruneisen:    0.3160094267
+    frequency:   11.0450446257
+  - # 3
+    gruneisen:    0.9397323235
+    frequency:   16.4991439068
+  - # 4
+    gruneisen:    1.5732562707
+    frequency:   19.4760453520
+  - # 5
+    gruneisen:    1.5225188202
+    frequency:   19.7457833720
+  - # 6
+    gruneisen:    1.3000168199
+    frequency:   21.2540413815
+
+- q-position: [  0.3250000,  0.2250000,  0.1250000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:    0.0459147514
+    frequency:    6.2036427860
+  - # 2
+    gruneisen:    0.4623005267
+    frequency:    7.5044923112
+  - # 3
+    gruneisen:    1.0307783762
+    frequency:   10.2768260477
+  - # 4
+    gruneisen:    1.5054967504
+    frequency:   19.7803436258
+  - # 5
+    gruneisen:    1.4941329959
+    frequency:   19.8758139710
+  - # 6
+    gruneisen:    1.1268792421
+    frequency:   23.6109132872
+
+- q-position: [  0.3750000,  0.2250000,  0.1250000 ]
+  multiplicity: 21
+  band:
+  - # 1
+    gruneisen:   -0.0077133098
+    frequency:    6.6172530106
+  - # 2
+    gruneisen:    0.4878632737
+    frequency:    8.4226725463
+  - # 3
+    gruneisen:    1.0285492171
+    frequency:   11.3298408989
+  - # 4
+    gruneisen:    1.5216541628
+    frequency:   19.7270082344
+  - # 5
+    gruneisen:    1.5110869179
+    frequency:   19.9315309424
+  - # 6
+    gruneisen:    1.1100045862
+    frequency:   23.6349142004
+
+- q-position: [  0.4250000,  0.2250000,  0.1250000 ]
+  multiplicity: 31
+  band:
+  - # 1
+    gruneisen:   -0.0418311806
+    frequency:    7.0177862525
+  - # 2
+    gruneisen:    0.4895842367
+    frequency:    9.0716098053
+  - # 3
+    gruneisen:    1.0212049751
+    frequency:   12.5435346829
+  - # 4
+    gruneisen:    1.5583973150
+    frequency:   19.5431368995
+  - # 5
+    gruneisen:    1.5112381282
+    frequency:   20.0251276181
+  - # 6
+    gruneisen:    1.1065036219
+    frequency:   23.3709793114
+
+- q-position: [  0.4750000,  0.2250000,  0.1250000 ]
+  multiplicity: 27
+  band:
+  - # 1
+    gruneisen:   -0.0557178626
+    frequency:    7.3994106059
+  - # 2
+    gruneisen:    0.4797068451
+    frequency:    9.4747156218
+  - # 3
+    gruneisen:    1.0096591737
+    frequency:   13.8142490487
+  - # 4
+    gruneisen:    1.5972800820
+    frequency:   19.3352041293
+  - # 5
+    gruneisen:    1.5019005985
+    frequency:   20.0573862165
+  - # 6
+    gruneisen:    1.1216668436
+    frequency:   22.8794618117
+
+- q-position: [  0.5250000,  0.2250000,  0.1250000 ]
+  multiplicity: 27
+  band:
+  - # 1
+    gruneisen:   -0.0510294664
+    frequency:    7.7371837798
+  - # 2
+    gruneisen:    0.4622824047
+    frequency:    9.6969546585
+  - # 3
+    gruneisen:    1.0008828380
+    frequency:   14.9792689639
+  - # 4
+    gruneisen:    1.6292381429
+    frequency:   19.1621424877
+  - # 5
+    gruneisen:    1.4693215213
+    frequency:   20.0186350442
+  - # 6
+    gruneisen:    1.1652665437
+    frequency:   22.2860932134
+
+- q-position: [  0.5750000,  0.2250000,  0.1250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:   -0.0351915639
+    frequency:    7.9834703677
+  - # 2
+    gruneisen:    0.4430621580
+    frequency:    9.7837590577
+  - # 3
+    gruneisen:    0.9991846735
+    frequency:   15.8237152492
+  - # 4
+    gruneisen:    1.6478484270
+    frequency:   19.0617310482
+  - # 5
+    gruneisen:    1.4071778610
+    frequency:   19.9440460541
+  - # 6
+    gruneisen:    1.2351254465
+    frequency:   21.7948672935
+
+- q-position: [ -0.3750000,  0.2250000,  0.1250000 ]
+  multiplicity: 17
+  band:
+  - # 1
+    gruneisen:   -0.0187554269
+    frequency:    8.0876220180
+  - # 2
+    gruneisen:    0.4297414054
+    frequency:    9.7633590630
+  - # 3
+    gruneisen:    0.9996430953
+    frequency:   16.0609213004
+  - # 4
+    gruneisen:    1.6510184437
+    frequency:   19.0486856599
+  - # 5
+    gruneisen:    1.3831819137
+    frequency:   19.9160689857
+  - # 6
+    gruneisen:    1.2615321625
+    frequency:   21.6558664168
+
+- q-position: [  0.3750000,  0.2750000,  0.1250000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1154256576
+    frequency:    7.2215879752
+  - # 2
+    gruneisen:    0.4069603457
+    frequency:    8.4721183375
+  - # 3
+    gruneisen:    1.0239869229
+    frequency:   11.5334126359
+  - # 4
+    gruneisen:    1.5433039037
+    frequency:   19.6453082542
+  - # 5
+    gruneisen:    1.5261273073
+    frequency:   19.8765838284
+  - # 6
+    gruneisen:    1.0873927498
+    frequency:   24.0629149681
+
+- q-position: [  0.4250000,  0.2750000,  0.1250000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.0946111424
+    frequency:    7.6223297891
+  - # 2
+    gruneisen:    0.4335968284
+    frequency:    9.2729987507
+  - # 3
+    gruneisen:    1.0224903878
+    frequency:   12.4295842922
+  - # 4
+    gruneisen:    1.5740633544
+    frequency:   19.5285507260
+  - # 5
+    gruneisen:    1.5254217556
+    frequency:   19.9870374838
+  - # 6
+    gruneisen:    1.0860543556
+    frequency:   23.7483831848
+
+- q-position: [  0.4750000,  0.2750000,  0.1250000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:    0.0884136126
+    frequency:    8.0211372516
+  - # 2
+    gruneisen:    0.4550165599
+    frequency:    9.8665343083
+  - # 3
+    gruneisen:    1.0131673597
+    frequency:   13.4350653322
+  - # 4
+    gruneisen:    1.6064661341
+    frequency:   19.3874523702
+  - # 5
+    gruneisen:    1.5139726918
+    frequency:   20.0689684766
+  - # 6
+    gruneisen:    1.1014766018
+    frequency:   23.1919651457
+
+- q-position: [  0.5250000,  0.2750000,  0.1250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.0907972335
+    frequency:    8.3712208143
+  - # 2
+    gruneisen:    0.4720140898
+    frequency:   10.2733132051
+  - # 3
+    gruneisen:    1.0029668579
+    frequency:   14.4471970516
+  - # 4
+    gruneisen:    1.6340368539
+    frequency:   19.2556491946
+  - # 5
+    gruneisen:    1.4784602199
+    frequency:   20.0872385710
+  - # 6
+    gruneisen:    1.1451246561
+    frequency:   22.5211220183
+
+- q-position: [  0.5750000,  0.2750000,  0.1250000 ]
+  multiplicity: 25
+  band:
+  - # 1
+    gruneisen:    0.0943342182
+    frequency:    8.6098837541
+  - # 2
+    gruneisen:    0.4835251529
+    frequency:   10.5379222568
+  - # 3
+    gruneisen:    0.9986802904
+    frequency:   15.2897198777
+  - # 4
+    gruneisen:    1.6529263887
+    frequency:   19.1512196957
+  - # 5
+    gruneisen:    1.4013695591
+    frequency:   20.0333030390
+  - # 6
+    gruneisen:    1.2286753853
+    frequency:   21.9348615014
+
+- q-position: [  0.6250000,  0.2750000,  0.1250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.0901387789
+    frequency:    8.6830732766
+  - # 2
+    gruneisen:    0.4929665198
+    frequency:   10.6791968867
+  - # 3
+    gruneisen:    0.9990620173
+    frequency:   15.7107984961
+  - # 4
+    gruneisen:    1.6617171102
+    frequency:   19.0892680752
+  - # 5
+    gruneisen:    1.3290607983
+    frequency:   19.9639783933
+  - # 6
+    gruneisen:    1.3023240134
+    frequency:   21.6555974168
+
+- q-position: [ -0.3250000,  0.2750000,  0.1250000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.0741307292
+    frequency:    8.5728997019
+  - # 2
+    gruneisen:    0.5021213601
+    frequency:   10.6898053153
+  - # 3
+    gruneisen:    1.0000745326
+    frequency:   15.4994014687
+  - # 4
+    gruneisen:    1.6605807813
+    frequency:   19.0929372149
+  - # 5
+    gruneisen:    1.3549855627
+    frequency:   20.0017403422
+  - # 6
+    gruneisen:    1.2727579265
+    frequency:   21.7745009939
+
+- q-position: [ -0.2750000,  0.2750000,  0.1250000 ]
+  multiplicity: 26
+  band:
+  - # 1
+    gruneisen:    0.0516824759
+    frequency:    8.3039995790
+  - # 2
+    gruneisen:    0.5067969679
+    frequency:   10.5511069089
+  - # 3
+    gruneisen:    1.0043886756
+    frequency:   14.7649754912
+  - # 4
+    gruneisen:    1.6465081476
+    frequency:   19.1598535276
+  - # 5
+    gruneisen:    1.4355099718
+    frequency:   20.0986434014
+  - # 6
+    gruneisen:    1.1854275531
+    frequency:   22.2251177967
+
+- q-position: [ -0.2250000,  0.2750000,  0.1250000 ]
+  multiplicity: 28
+  band:
+  - # 1
+    gruneisen:    0.0333295352
+    frequency:    7.9310563886
+  - # 2
+    gruneisen:    0.5015800288
+    frequency:   10.2325502071
+  - # 3
+    gruneisen:    1.0143994985
+    frequency:   13.7856468205
+  - # 4
+    gruneisen:    1.6197264910
+    frequency:   19.2841468926
+  - # 5
+    gruneisen:    1.4885990548
+    frequency:   20.1309798449
+  - # 6
+    gruneisen:    1.1249012090
+    frequency:   22.8298102634
+
+- q-position: [ -0.1750000,  0.2750000,  0.1250000 ]
+  multiplicity: 33
+  band:
+  - # 1
+    gruneisen:    0.0283844250
+    frequency:    7.5163185296
+  - # 2
+    gruneisen:    0.4866554525
+    frequency:    9.6826343861
+  - # 3
+    gruneisen:    1.0237725876
+    frequency:   12.7832287257
+  - # 4
+    gruneisen:    1.5845243001
+    frequency:   19.4491084282
+  - # 5
+    gruneisen:    1.5111763971
+    frequency:   20.0744199942
+  - # 6
+    gruneisen:    1.0994005865
+    frequency:   23.3859642625
+
+- q-position: [  0.4250000,  0.3250000,  0.1250000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.1726195586
+    frequency:    8.2435498348
+  - # 2
+    gruneisen:    0.3473684798
+    frequency:    9.2777862224
+  - # 3
+    gruneisen:    1.0260564025
+    frequency:   12.6799967917
+  - # 4
+    gruneisen:    1.5878648069
+    frequency:   19.5467267022
+  - # 5
+    gruneisen:    1.5460311091
+    frequency:   19.9100040679
+  - # 6
+    gruneisen:    1.0691378939
+    frequency:   23.9934905435
+
+- q-position: [  0.4750000,  0.3250000,  0.1250000 ]
+  multiplicity: 47
+  band:
+  - # 1
+    gruneisen:    0.1837358123
+    frequency:    8.6594436619
+  - # 2
+    gruneisen:    0.3754470746
+    frequency:    9.9670073873
+  - # 3
+    gruneisen:    1.0239890776
+    frequency:   13.4342014911
+  - # 4
+    gruneisen:    1.6139907318
+    frequency:   19.4706720709
+  - # 5
+    gruneisen:    1.5344167591
+    frequency:   20.0046786461
+  - # 6
+    gruneisen:    1.0846708399
+    frequency:   23.3994111526
+
+- q-position: [  0.5250000,  0.3250000,  0.1250000 ]
+  multiplicity: 66
+  band:
+  - # 1
+    gruneisen:    0.1942872593
+    frequency:    9.0211270168
+  - # 2
+    gruneisen:    0.4153848655
+    frequency:   10.5663083369
+  - # 3
+    gruneisen:    1.0157950416
+    frequency:   14.2110128686
+  - # 4
+    gruneisen:    1.6352988534
+    frequency:   19.3914534370
+  - # 5
+    gruneisen:    1.4994605130
+    frequency:   20.0627211337
+  - # 6
+    gruneisen:    1.1269529967
+    frequency:   22.6718391168
+
+- q-position: [  0.5750000,  0.3250000,  0.1250000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:    0.1966195851
+    frequency:    9.2483621016
+  - # 2
+    gruneisen:    0.4585318868
+    frequency:   11.0721359166
+  - # 3
+    gruneisen:    1.0072157073
+    frequency:   14.9078952966
+  - # 4
+    gruneisen:    1.6498309267
+    frequency:   19.2995528577
+  - # 5
+    gruneisen:    1.4184133711
+    frequency:   20.0450024633
+  - # 6
+    gruneisen:    1.2159730159
+    frequency:   22.0148216966
+
+- q-position: [  0.6250000,  0.3250000,  0.1250000 ]
+  multiplicity: 62
+  band:
+  - # 1
+    gruneisen:    0.1853747612
+    frequency:    9.2946375682
+  - # 2
+    gruneisen:    0.4958331186
+    frequency:   11.4465068934
+  - # 3
+    gruneisen:    1.0027819563
+    frequency:   15.3474675668
+  - # 4
+    gruneisen:    1.6567833003
+    frequency:   19.1990347827
+  - # 5
+    gruneisen:    1.3169562428
+    frequency:   19.9481823378
+  - # 6
+    gruneisen:    1.3237108096
+    frequency:   21.6554375987
+
+- q-position: [ -0.3250000,  0.3250000,  0.1250000 ]
+  multiplicity: 57
+  band:
+  - # 1
+    gruneisen:    0.1579706292
+    frequency:    9.1536318176
+  - # 2
+    gruneisen:    0.5214285093
+    frequency:   11.6236630697
+  - # 3
+    gruneisen:    1.0062034956
+    frequency:   15.3279220472
+  - # 4
+    gruneisen:    1.6652618524
+    frequency:   19.1375115612
+  - # 5
+    gruneisen:    1.2861662221
+    frequency:   19.9233930329
+  - # 6
+    gruneisen:    1.3461580712
+    frequency:   21.6417949160
+
+- q-position: [ -0.2750000,  0.3250000,  0.1250000 ]
+  multiplicity: 58
+  band:
+  - # 1
+    gruneisen:    0.1181438117
+    frequency:    8.8485235916
+  - # 2
+    gruneisen:    0.5305909233
+    frequency:   11.5430382460
+  - # 3
+    gruneisen:    1.0172545388
+    frequency:   14.8627903298
+  - # 4
+    gruneisen:    1.6667535144
+    frequency:   19.1306872029
+  - # 5
+    gruneisen:    1.3437960218
+    frequency:   20.0547783486
+  - # 6
+    gruneisen:    1.2730701776
+    frequency:   21.8927314407
+
+- q-position: [ -0.2250000,  0.3250000,  0.1250000 ]
+  multiplicity: 61
+  band:
+  - # 1
+    gruneisen:    0.0750473161
+    frequency:    8.4272662628
+  - # 2
+    gruneisen:    0.5243433197
+    frequency:   11.1574452890
+  - # 3
+    gruneisen:    1.0270362942
+    frequency:   14.2023014363
+  - # 4
+    gruneisen:    1.6502974722
+    frequency:   19.1774387700
+  - # 5
+    gruneisen:    1.4296615988
+    frequency:   20.1709649722
+  - # 6
+    gruneisen:    1.1793159409
+    frequency:   22.3491314016
+
+- q-position: [ -0.1750000,  0.3250000,  0.1250000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.0398007214
+    frequency:    7.9567514386
+  - # 2
+    gruneisen:    0.5087007755
+    frequency:   10.4488970173
+  - # 3
+    gruneisen:    1.0246433646
+    frequency:   13.5627785341
+  - # 4
+    gruneisen:    1.6205914643
+    frequency:   19.2887718413
+  - # 5
+    gruneisen:    1.4858290548
+    frequency:   20.1589760343
+  - # 6
+    gruneisen:    1.1228796668
+    frequency:   22.8826122317
+
+- q-position: [  0.4750000,  0.3750000,  0.1250000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.2090969394
+    frequency:    9.1597477065
+  - # 2
+    gruneisen:    0.2941889411
+    frequency:    9.9198546146
+  - # 3
+    gruneisen:    1.0284973759
+    frequency:   13.8167689740
+  - # 4
+    gruneisen:    1.6193621016
+    frequency:   19.5482494805
+  - # 5
+    gruneisen:    1.5595721806
+    frequency:   19.9111151932
+  - # 6
+    gruneisen:    1.0755577361
+    frequency:   23.3955009473
+
+- q-position: [  0.5250000,  0.3750000,  0.1250000 ]
+  multiplicity: 36
+  band:
+  - # 1
+    gruneisen:    0.2482959822
+    frequency:    9.5666626203
+  - # 2
+    gruneisen:    0.3248064353
+    frequency:   10.5115448481
+  - # 3
+    gruneisen:    1.0210387201
+    frequency:   14.4413609135
+  - # 4
+    gruneisen:    1.6352468616
+    frequency:   19.5349007003
+  - # 5
+    gruneisen:    1.5265071898
+    frequency:   19.9598293832
+  - # 6
+    gruneisen:    1.1168559926
+    frequency:   22.6520308278
+
+- q-position: [  0.5750000,  0.3750000,  0.1250000 ]
+  multiplicity: 58
+  band:
+  - # 1
+    gruneisen:    0.2596371081
+    frequency:    9.7970347257
+  - # 2
+    gruneisen:    0.3873235163
+    frequency:   11.1781705167
+  - # 3
+    gruneisen:    1.0114191064
+    frequency:   14.9613395129
+  - # 4
+    gruneisen:    1.6401751068
+    frequency:   19.4759304273
+  - # 5
+    gruneisen:    1.4506468682
+    frequency:   19.9635277402
+  - # 6
+    gruneisen:    1.2069659525
+    frequency:   21.9681518193
+
+- q-position: [  0.6250000,  0.3750000,  0.1250000 ]
+  multiplicity: 71
+  band:
+  - # 1
+    gruneisen:    0.2508931994
+    frequency:    9.8274519494
+  - # 2
+    gruneisen:    0.4484435139
+    frequency:   11.8103810023
+  - # 3
+    gruneisen:    1.0070400711
+    frequency:   15.2582822753
+  - # 4
+    gruneisen:    1.6263904984
+    frequency:   19.3488088352
+  - # 5
+    gruneisen:    1.3525565400
+    frequency:   19.8787501960
+  - # 6
+    gruneisen:    1.3318809831
+    frequency:   21.5873012038
+
+- q-position: [ -0.3250000,  0.3750000,  0.1250000 ]
+  multiplicity: 67
+  band:
+  - # 1
+    gruneisen:    0.2248935186
+    frequency:    9.6728985683
+  - # 2
+    gruneisen:    0.4888495577
+    frequency:   12.2305674256
+  - # 3
+    gruneisen:    1.0168431642
+    frequency:   15.2311511283
+  - # 4
+    gruneisen:    1.6309892788
+    frequency:   19.2294788678
+  - # 5
+    gruneisen:    1.2914522339
+    frequency:   19.8003689851
+  - # 6
+    gruneisen:    1.3899737687
+    frequency:   21.5362264987
+
+- q-position: [ -0.2750000,  0.3750000,  0.1250000 ]
+  multiplicity: 80
+  band:
+  - # 1
+    gruneisen:    0.1817705664
+    frequency:    9.3529021866
+  - # 2
+    gruneisen:    0.5109416069
+    frequency:   12.2526594471
+  - # 3
+    gruneisen:    1.0329012754
+    frequency:   14.9620210168
+  - # 4
+    gruneisen:    1.6645279631
+    frequency:   19.1675011966
+  - # 5
+    gruneisen:    1.2760292084
+    frequency:   19.8847582327
+  - # 6
+    gruneisen:    1.3602538145
+    frequency:   21.6639898944
+
+- q-position: [ -0.2250000,  0.3750000,  0.1250000 ]
+  multiplicity: 31
+  band:
+  - # 1
+    gruneisen:    0.1260651362
+    frequency:    8.9035582664
+  - # 2
+    gruneisen:    0.5270590991
+    frequency:   11.7819788852
+  - # 3
+    gruneisen:    1.0303740370
+    frequency:   14.6688981174
+  - # 4
+    gruneisen:    1.6681341750
+    frequency:   19.1393179195
+  - # 5
+    gruneisen:    1.3417651396
+    frequency:   20.0663654314
+  - # 6
+    gruneisen:    1.2726649571
+    frequency:   21.9208393436
+
+- q-position: [  0.5250000,  0.4250000,  0.1250000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.2298299305
+    frequency:    9.8334719612
+  - # 2
+    gruneisen:    0.2590796506
+    frequency:   10.4001896382
+  - # 3
+    gruneisen:    1.0110642298
+    frequency:   15.0390266319
+  - # 4
+    gruneisen:    1.6349288950
+    frequency:   19.6089296202
+  - # 5
+    gruneisen:    1.5543865352
+    frequency:   19.8583475532
+  - # 6
+    gruneisen:    1.1193734364
+    frequency:   22.4173740627
+
+- q-position: [  0.5750000,  0.4250000,  0.1250000 ]
+  multiplicity: 35
+  band:
+  - # 1
+    gruneisen:    0.2887241669
+    frequency:   10.1747620408
+  - # 2
+    gruneisen:    0.2960513863
+    frequency:   10.8996379532
+  - # 3
+    gruneisen:    0.9920299825
+    frequency:   15.4894223808
+  - # 4
+    gruneisen:    1.6274728495
+    frequency:   19.6344860717
+  - # 5
+    gruneisen:    1.4902041462
+    frequency:   19.8061004644
+  - # 6
+    gruneisen:    1.2095560583
+    frequency:   21.7687897566
+
+- q-position: [  0.6250000,  0.4250000,  0.1250000 ]
+  multiplicity: 66
+  band:
+  - # 1
+    gruneisen:    0.2870271429
+    frequency:   10.2201139555
+  - # 2
+    gruneisen:    0.3839976829
+    frequency:   11.5997306746
+  - # 3
+    gruneisen:    0.9812867493
+    frequency:   15.6489069529
+  - # 4
+    gruneisen:    1.5367118650
+    frequency:   19.4763045720
+  - # 5
+    gruneisen:    1.4669179465
+    frequency:   19.7835666420
+  - # 6
+    gruneisen:    1.3339651192
+    frequency:   21.4316762011
+
+- q-position: [  0.6750000,  0.4250000,  0.1250000 ]
+  multiplicity: 78
+  band:
+  - # 1
+    gruneisen:    0.2684267707
+    frequency:   10.0669456957
+  - # 2
+    gruneisen:    0.4458615569
+    frequency:   12.2170222007
+  - # 3
+    gruneisen:    0.9975521059
+    frequency:   15.4639394270
+  - # 4
+    gruneisen:    1.5299404281
+    frequency:   19.3178728690
+  - # 5
+    gruneisen:    1.4007659011
+    frequency:   19.7355711153
+  - # 6
+    gruneisen:    1.4020422657
+    frequency:   21.4132092274
+
+- q-position: [ -0.2750000,  0.4250000,  0.1250000 ]
+  multiplicity: 56
+  band:
+  - # 1
+    gruneisen:    0.2315305683
+    frequency:    9.7469294044
+  - # 2
+    gruneisen:    0.4811996310
+    frequency:   12.4341008963
+  - # 3
+    gruneisen:    1.0252279386
+    frequency:   15.1767428860
+  - # 4
+    gruneisen:    1.6165057591
+    frequency:   19.2330892543
+  - # 5
+    gruneisen:    1.2980129291
+    frequency:   19.7581442687
+  - # 6
+    gruneisen:    1.4021260638
+    frequency:   21.5197746713
+
+- q-position: [  0.5750000,  0.4750000,  0.1250000 ]
+  multiplicity: 16
+  band:
+  - # 1
+    gruneisen:    0.2361522655
+    frequency:   10.1970678602
+  - # 2
+    gruneisen:    0.2490281539
+    frequency:   10.6899812273
+  - # 3
+    gruneisen:    0.9620026655
+    frequency:   16.2090434223
+  - # 4
+    gruneisen:    1.5619973188
+    frequency:   19.6233196230
+  - # 5
+    gruneisen:    1.5800168611
+    frequency:   19.7345957328
+  - # 6
+    gruneisen:    1.2292746776
+    frequency:   21.4670041007
+
+- q-position: [  0.6250000,  0.4750000,  0.1250000 ]
+  multiplicity: 54
+  band:
+  - # 1
+    gruneisen:    0.3026715954
+    frequency:   10.4275769273
+  - # 2
+    gruneisen:    0.2910969703
+    frequency:   11.0823398842
+  - # 3
+    gruneisen:    0.9468291793
+    frequency:   16.2343782490
+  - # 4
+    gruneisen:    1.4223671374
+    frequency:   19.5082554843
+  - # 5
+    gruneisen:    1.6275612233
+    frequency:   19.7420184011
+  - # 6
+    gruneisen:    1.3252025153
+    frequency:   21.2550388620
+
+- q-position: [ -0.3250000, -0.5250000,  0.1250000 ]
+  multiplicity: 38
+  band:
+  - # 1
+    gruneisen:    0.2911910656
+    frequency:   10.3016957651
+  - # 2
+    gruneisen:    0.3859874318
+    frequency:   11.6915294492
+  - # 3
+    gruneisen:    0.9668340463
+    frequency:   15.8442435895
+  - # 4
+    gruneisen:    1.4567377381
+    frequency:   19.4171557145
+  - # 5
+    gruneisen:    1.5238536298
+    frequency:   19.7504794231
+  - # 6
+    gruneisen:    1.3715489408
+    frequency:   21.3210155926
+
+- q-position: [  0.4750000,  0.3250000,  0.1750000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:    0.0961424134
+    frequency:    8.0437521076
+  - # 2
+    gruneisen:    0.4592258561
+    frequency:   10.0347099973
+  - # 3
+    gruneisen:    1.0225678808
+    frequency:   13.2383348597
+  - # 4
+    gruneisen:    1.6072303786
+    frequency:   19.3952289230
+  - # 5
+    gruneisen:    1.5115008444
+    frequency:   20.0884006994
+  - # 6
+    gruneisen:    1.0993717970
+    frequency:   23.2522343943
+
+- q-position: [  0.5250000,  0.3250000,  0.1750000 ]
+  multiplicity: 20
+  band:
+  - # 1
+    gruneisen:    0.1206762866
+    frequency:    8.4961007324
+  - # 2
+    gruneisen:    0.4812914982
+    frequency:   10.7515544332
+  - # 3
+    gruneisen:    1.0245599082
+    frequency:   13.9301546960
+  - # 4
+    gruneisen:    1.6370397493
+    frequency:   19.2894873736
+  - # 5
+    gruneisen:    1.4738208361
+    frequency:   20.1444888109
+  - # 6
+    gruneisen:    1.1373527209
+    frequency:   22.6673778848
+
+- q-position: [  0.5750000,  0.3250000,  0.1750000 ]
+  multiplicity: 29
+  band:
+  - # 1
+    gruneisen:    0.1527523112
+    frequency:    8.9052179617
+  - # 2
+    gruneisen:    0.4983672203
+    frequency:   11.2203578101
+  - # 3
+    gruneisen:    1.0167551051
+    frequency:   14.6478956342
+  - # 4
+    gruneisen:    1.6573510100
+    frequency:   19.2256839050
+  - # 5
+    gruneisen:    1.3995536521
+    frequency:   20.0908659542
+  - # 6
+    gruneisen:    1.2171033010
+    frequency:   22.0916234152
+
+- q-position: [  0.6250000,  0.3250000,  0.1750000 ]
+  multiplicity: 32
+  band:
+  - # 1
+    gruneisen:    0.1817783306
+    frequency:    9.1964081553
+  - # 2
+    gruneisen:    0.5048686466
+    frequency:   11.4482028297
+  - # 3
+    gruneisen:    1.0074370967
+    frequency:   15.2185409806
+  - # 4
+    gruneisen:    1.6638026065
+    frequency:   19.1946242281
+  - # 5
+    gruneisen:    1.3116964882
+    frequency:   19.9576803812
+  - # 6
+    gruneisen:    1.3153951817
+    frequency:   21.7101335225
+
+- q-position: [ -0.3250000,  0.3250000,  0.1750000 ]
+  multiplicity: 17
+  band:
+  - # 1
+    gruneisen:    0.1977417376
+    frequency:    9.3130793308
+  - # 2
+    gruneisen:    0.4989894643
+    frequency:   11.4544005164
+  - # 3
+    gruneisen:    1.0036429442
+    frequency:   15.3947029239
+  - # 4
+    gruneisen:    1.6597898061
+    frequency:   19.1981443234
+  - # 5
+    gruneisen:    1.2913553250
+    frequency:   19.9103687477
+  - # 6
+    gruneisen:    1.3443438785
+    frequency:   21.6140778869
+
+- q-position: [  0.5250000,  0.3750000,  0.1750000 ]
+  multiplicity: 14
+  band:
+  - # 1
+    gruneisen:    0.2143363786
+    frequency:    9.0972532948
+  - # 2
+    gruneisen:    0.4021561612
+    frequency:   10.6287271062
+  - # 3
+    gruneisen:    1.0235253832
+    frequency:   14.0843003119
+  - # 4
+    gruneisen:    1.6364172192
+    frequency:   19.4217803264
+  - # 5
+    gruneisen:    1.4992454677
+    frequency:   20.0599167321
+  - # 6
+    gruneisen:    1.1234585872
+    frequency:   22.7234556569
+
+- q-position: [  0.5750000,  0.3750000,  0.1750000 ]
+  multiplicity: 39
+  band:
+  - # 1
+    gruneisen:    0.2610210202
+    frequency:    9.5421862003
+  - # 2
+    gruneisen:    0.4212774132
+    frequency:   11.2508459768
+  - # 3
+    gruneisen:    1.0244915696
+    frequency:   14.5851841900
+  - # 4
+    gruneisen:    1.6524661924
+    frequency:   19.4215282593
+  - # 5
+    gruneisen:    1.4237171569
+    frequency:   20.0203612707
+  - # 6
+    gruneisen:    1.2023612970
+    frequency:   22.1063548652
+
+- q-position: [  0.6250000,  0.3750000,  0.1750000 ]
+  multiplicity: 30
+  band:
+  - # 1
+    gruneisen:    0.2923740940
+    frequency:    9.8420022421
+  - # 2
+    gruneisen:    0.4415465672
+    frequency:   11.7323467178
+  - # 3
+    gruneisen:    1.0206937694
+    frequency:   14.9878433086
+  - # 4
+    gruneisen:    1.6489708245
+    frequency:   19.4034556535
+  - # 5
+    gruneisen:    1.3294568029
+    frequency:   19.8858202113
+  - # 6
+    gruneisen:    1.3147324308
+    frequency:   21.6814693586
+
+- q-position: [  0.6750000,  0.3750000,  0.1750000 ]
+  multiplicity: 31
+  band:
+  - # 1
+    gruneisen:    0.3002795407
+    frequency:    9.9349763481
+  - # 2
+    gruneisen:    0.4563258121
+    frequency:   11.9972443507
+  - # 3
+    gruneisen:    1.0191654340
+    frequency:   15.1662356892
+  - # 4
+    gruneisen:    1.6178140420
+    frequency:   19.3505219852
+  - # 5
+    gruneisen:    1.3012978785
+    frequency:   19.7919640832
+  - # 6
+    gruneisen:    1.3810743584
+    frequency:   21.5291680683
+
+- q-position: [ -0.2750000,  0.3750000,  0.1750000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:    0.2829208556
+    frequency:    9.8089150834
+  - # 2
+    gruneisen:    0.4624009496
+    frequency:   11.9667484771
+  - # 3
+    gruneisen:    1.0243188871
+    frequency:   15.0411837555
+  - # 4
+    gruneisen:    1.6453698047
+    frequency:   19.3480796922
+  - # 5
+    gruneisen:    1.2937133077
+    frequency:   19.8356043132
+  - # 6
+    gruneisen:    1.3565975595
+    frequency:   21.6042895833
+
+- q-position: [ -0.2250000,  0.3750000,  0.1750000 ]
+  multiplicity: 31
+  band:
+  - # 1
+    gruneisen:    0.2447840020
+    frequency:    9.4887948737
+  - # 2
+    gruneisen:    0.4603074620
+    frequency:   11.6237509868
+  - # 3
+    gruneisen:    1.0291174374
+    frequency:   14.6956533609
+  - # 4
+    gruneisen:    1.6608538730
+    frequency:   19.3455579743
+  - # 5
+    gruneisen:    1.3610633613
+    frequency:   19.9973830198
+  - # 6
+    gruneisen:    1.2604615068
+    frequency:   21.8992439026
+
+- q-position: [  0.5750000,  0.4250000,  0.1750000 ]
+  multiplicity: 15
+  band:
+  - # 1
+    gruneisen:    0.3028811042
+    frequency:    9.9698994939
+  - # 2
+    gruneisen:    0.3518540838
+    frequency:   11.0830635797
+  - # 3
+    gruneisen:    1.0134340733
+    frequency:   14.9147229448
+  - # 4
+    gruneisen:    1.6451224177
+    frequency:   19.5600934114
+  - # 5
+    gruneisen:    1.4512823198
+    frequency:   19.9152380995
+  - # 6
+    gruneisen:    1.1998155776
+    frequency:   21.9926051406
+
+- q-position: [  0.6250000,  0.4250000,  0.1750000 ]
+  multiplicity: 55
+  band:
+  - # 1
+    gruneisen:    0.3657558867
+    frequency:   10.3433025211
+  - # 2
+    gruneisen:    0.3647984058
+    frequency:   11.6083538608
+  - # 3
+    gruneisen:    1.0099387913
+    frequency:   15.1683124697
+  - # 4
+    gruneisen:    1.6099374560
+    frequency:   19.6022606104
+  - # 5
+    gruneisen:    1.3830799251
+    frequency:   19.7573102585
+  - # 6
+    gruneisen:    1.3143198334
+    frequency:   21.5716935175
+
+- q-position: [  0.6750000,  0.4250000,  0.1750000 ]
+  multiplicity: 82
+  band:
+  - # 1
+    gruneisen:    0.3760448494
+    frequency:   10.4366436459
+  - # 2
+    gruneisen:    0.3924557016
+    frequency:   12.1125405152
+  - # 3
+    gruneisen:    1.0203010023
+    frequency:   15.1892587266
+  - # 4
+    gruneisen:    1.4341467984
+    frequency:   19.4497379404
+  - # 5
+    gruneisen:    1.4820924800
+    frequency:   19.7385518726
+  - # 6
+    gruneisen:    1.3950465366
+    frequency:   21.4203266782
+
+- q-position: [ -0.2750000,  0.4250000,  0.1750000 ]
+  multiplicity: 70
+  band:
+  - # 1
+    gruneisen:    0.3508939757
+    frequency:   10.2772320124
+  - # 2
+    gruneisen:    0.4155521147
+    frequency:   12.3426887537
+  - # 3
+    gruneisen:    1.0391521737
+    frequency:   15.0520105490
+  - # 4
+    gruneisen:    1.4945652287
+    frequency:   19.4032612175
+  - # 5
+    gruneisen:    1.4048657878
+    frequency:   19.7206551836
+  - # 6
+    gruneisen:    1.4066534680
+    frequency:   21.4564715077
+
+- q-position: [ -0.2250000,  0.4250000,  0.1750000 ]
+  multiplicity: 37
+  band:
+  - # 1
+    gruneisen:    0.2996067113
+    frequency:    9.9122149355
+  - # 2
+    gruneisen:    0.4475819904
+    frequency:   12.1063918238
+  - # 3
+    gruneisen:    1.0357896496
+    frequency:   14.9315787668
+  - # 4
+    gruneisen:    1.6421145370
+    frequency:   19.3882666665
+  - # 5
+    gruneisen:    1.2957517109
+    frequency:   19.8130835030
+  - # 6
+    gruneisen:    1.3577806671
+    frequency:   21.6051754316
+
+- q-position: [  0.6250000,  0.4750000,  0.1750000 ]
+  multiplicity: 21
+  band:
+  - # 1
+    gruneisen:    0.3553238448
+    frequency:   10.4798581620
+  - # 2
+    gruneisen:    0.3252477746
+    frequency:   11.3731285710
+  - # 3
+    gruneisen:    0.9784129578
+    frequency:   15.6706784842
+  - # 4
+    gruneisen:    1.4201332650
+    frequency:   19.5806420574
+  - # 5
+    gruneisen:    1.5932694555
+    frequency:   19.7352161529
+  - # 6
+    gruneisen:    1.3236258658
+    frequency:   21.4103647433
+
+- q-position: [  0.6750000,  0.4750000,  0.1750000 ]
+  multiplicity: 47
+  band:
+  - # 1
+    gruneisen:    0.4180927662
+    frequency:   10.7106485944
+  - # 2
+    gruneisen:    0.3353315960
+    frequency:   11.7835345854
+  - # 3
+    gruneisen:    0.9863585224
+    frequency:   15.5393103161
+  - # 4
+    gruneisen:    1.3101042499
+    frequency:   19.4391271121
+  - # 5
+    gruneisen:    1.6307472722
+    frequency:   19.7729122822
+  - # 6
+    gruneisen:    1.3909804323
+    frequency:   21.3081588099
+
+- q-position: [ -0.2750000, -0.5250000,  0.1750000 ]
+  multiplicity: 52
+  band:
+  - # 1
+    gruneisen:    0.3928498104
+    frequency:   10.5587598798
+  - # 2
+    gruneisen:    0.3809478846
+    frequency:   12.2053236451
+  - # 3
+    gruneisen:    1.0192426671
+    frequency:   15.2335222944
+  - # 4
+    gruneisen:    1.3519119124
+    frequency:   19.4030551648
+  - # 5
+    gruneisen:    1.5529612640
+    frequency:   19.7481904760
+  - # 6
+    gruneisen:    1.4118735400
+    frequency:   21.3668957844
+
+- q-position: [  0.6250000,  0.4250000,  0.2250000 ]
+  multiplicity: 6
+  band:
+  - # 1
+    gruneisen:    0.3168839841
+    frequency:    9.9671402307
+  - # 2
+    gruneisen:    0.4232528426
+    frequency:   11.8001460491
+  - # 3
+    gruneisen:    1.0285750067
+    frequency:   14.8906221047
+  - # 4
+    gruneisen:    1.6534409463
+    frequency:   19.4634959684
+  - # 5
+    gruneisen:    1.3268702137
+    frequency:   19.8591220666
+  - # 6
+    gruneisen:    1.3117207638
+    frequency:   21.6888354124
+
+- q-position: [  0.6750000,  0.4250000,  0.2250000 ]
+  multiplicity: 20
+  band:
+  - # 1
+    gruneisen:    0.3736465961
+    frequency:   10.3427625190
+  - # 2
+    gruneisen:    0.3996794856
+    frequency:   12.1971637188
+  - # 3
+    gruneisen:    1.0388585818
+    frequency:   15.0038400659
+  - # 4
+    gruneisen:    1.5119873000
+    frequency:   19.4763897790
+  - # 5
+    gruneisen:    1.3988738755
+    frequency:   19.7206113451
+  - # 6
+    gruneisen:    1.3901584028
+    frequency:   21.4796422345
+
+- q-position: [ -0.2750000,  0.4250000,  0.2250000 ]
+  multiplicity: 22
+  band:
+  - # 1
+    gruneisen:    0.3968336189
+    frequency:   10.4876253853
+  - # 2
+    gruneisen:    0.3847900245
+    frequency:   12.2423641015
+  - # 3
+    gruneisen:    1.0369565481
+    frequency:   15.0685397317
+  - # 4
+    gruneisen:    1.4038089057
+    frequency:   19.4425673160
+  - # 5
+    gruneisen:    1.4934590157
+    frequency:   19.7270185616
+  - # 6
+    gruneisen:    1.4077461089
+    frequency:   21.4196721532
+
+- q-position: [  0.6750000,  0.4750000,  0.2250000 ]
+  multiplicity: 15
+  band:
+  - # 1
+    gruneisen:    0.4279982443
+    frequency:   10.6541802014
+  - # 2
+    gruneisen:    0.3514936764
+    frequency:   12.0314358873
+  - # 3
+    gruneisen:    1.0209102638
+    frequency:   15.1758669562
+  - # 4
+    gruneisen:    1.3205866664
+    frequency:   19.4931382326
+  - # 5
+    gruneisen:    1.5966259083
+    frequency:   19.7388901028
+  - # 6
+    gruneisen:    1.3935182763
+    frequency:   21.3907812725
+
+- q-position: [  0.7250000,  0.4750000,  0.2250000 ]
+  multiplicity: 62
+  band:
+  - # 1
+    gruneisen:    0.4759322636
+    frequency:   10.8547429290
+  - # 2
+    gruneisen:    0.3178999202
+    frequency:   12.2594466253
+  - # 3
+    gruneisen:    1.0434578021
+    frequency:   15.0643745513
+  - # 4
+    gruneisen:    1.2548868447
+    frequency:   19.4027579533
+  - # 5
+    gruneisen:    1.6320493989
+    frequency:   19.7884082599
+  - # 6
+    gruneisen:    1.4212623936
+    frequency:   21.3351792293
+
