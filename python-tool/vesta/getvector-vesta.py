@@ -13,7 +13,8 @@ __creation_date__ = "July 4, 2018"
 Present implementation:
 VECTR can be extracted from magnetization part in OUTCAR.
 VECTR should be manually added to the vesta file to visulize
-the spin configuration
+the spin configuration.
+For time being, I only consider the collinear magnetism
 
 The final goal:
 This script aims to read the structure from POSCAR or CONTCAR,
