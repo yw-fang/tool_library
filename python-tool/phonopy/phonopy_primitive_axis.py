@@ -36,14 +36,14 @@ uc_file = Poscar.from_file('BPOSCAR')
 # Lattice constants for PPOSCAR and BPOSCAR in numpy array format
 lattice_vector_pc = pc_file.structure.lattice.matrix
 lattice_vector_uc = uc_file.structure.lattice.matrix
-print(type(lattice_vector_pc))  # array
-print(type(lattice_vector_uc))  # array
+# print(type(lattice_vector_pc))  # array
+# print(type(lattice_vector_uc))  # array
 # Lattice constants for PPOSCAR and BPOSCAR in numpy matrix format
 lattice_vector_pc = np.matrix(lattice_vector_pc)
 lattice_vector_uc = np.matrix(lattice_vector_uc)
-print(type(lattice_vector_pc))  # matrix
-print(type(lattice_vector_uc))  # matrix
-print('lattice_vector_uc in nunpy matrix is', lattice_vector_uc)  # matrix
+# print(type(lattice_vector_pc))  # matrix
+# print(type(lattice_vector_uc))  # matrix
+# print('lattice_vector_uc in nunpy matrix is', lattice_vector_uc)  # matrix
 
 primitive_axis = np.linalg.solve(lattice_vector_uc.T, lattice_vector_pc.T)
 print(primitive_axis)
