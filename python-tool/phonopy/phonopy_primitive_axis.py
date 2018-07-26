@@ -1,7 +1,7 @@
 # import pymatgen as mg
 from pymatgen.io.vasp import Poscar
-import os
-import re
+# import os
+# import re
 import numpy as np
 
 __author__ = "Yue-Wen FANG"
@@ -11,8 +11,8 @@ __status__ = "Development"
 __creation_date__ = "July 26, 2018"
 
 """
-This script read a structure file (e.g. POSCAR),
-and DIM, the output is the primitive axis that can be
+This script read two files, i.e. PPOSCAR and BPOSCAR,
+the output is the primitive axis that can be
 used for phonopy or phono3py calculations.
 
 https://atztogo.github.io/phonopy/setting-tags.html
@@ -21,19 +21,29 @@ are the column vectors of au, bu, and cu, those of supercell, ap, bp, cp,
 are determined by,
 (ap, bp, cp)=(au, bu, cu)Mp
 
-In this script, I plan to read
-au, bu, cu  from the POSCAR, as for ap, bp, cp,
-I want to use phonopy module to get them.
-In that case, we can get Mp according to above euqation.
-2018 July 26th, now it hasn't been finished.
+In this script,
+au, bu, cu are read from the BPOSCAR, ap, bp, cp are read from PPOSCAR
+2018 July 26th
 """
+
+print("Before using this script, please run 'phonopy --symmetry --tol=0.01' ")
+print("BPOSCAR and PPOSCAR should exisit in current directory")
 
 # uc_filename = input('input the structure: ')
 # p = Poscar.from_file(uc_filename)
-p = Poscar.from_file('POSCAR-EDIFFG-6')
-c = p
-# Lattice constants
-lattice_vector_R = p.structure.lattice.matrix
-print(lattice_vector_R)
+pc_file = Poscar.from_file('PPOSCAR')
+uc_file = Poscar.from_file('BPOSCAR')
+# Lattice constants for PPOSCAR and BPOSCAR in numpy array format
+lattice_vector_pc = pc_file.structure.lattice.matrix
+lattice_vector_uc = uc_file.structure.lattice.matrix
+print(type(lattice_vector_pc))  # array
+print(type(lattice_vector_uc))  # array
+# Lattice constants for PPOSCAR and BPOSCAR in numpy matrix format
+lattice_vector_pc = np.matrix(lattice_vector_pc)
+lattice_vector_uc = np.matrix(lattice_vector_uc)
+print(type(lattice_vector_pc))  # matrix
+print(type(lattice_vector_uc))  # matrix
+print('lattice_vector_uc in nunpy matrix is', lattice_vector_uc)  # matrix
 
-c.structure.make_supercell([2
+primitive_axis = np.linalg.solve(lattice_vector_uc.T, lattice_vector_pc.T)
+print(primitive_axis)
