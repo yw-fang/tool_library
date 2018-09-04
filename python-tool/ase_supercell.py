@@ -12,3 +12,6 @@ aiv.write_vasp("POSCAR.222.ase", cell*(1, 2, 1), label='222supercell',
                direct=True,
                sort=True
                )
+
+# Later modifications can be concentrated on:
+# Define the supercell method as a python function
