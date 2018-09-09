@@ -28,7 +28,9 @@ path = "./"
 filelist = []
 for filename in os.listdir(path):
     boolean_value = filename == 'OUTCAR'
-    if boolean_value:
+    if not boolean_value:
+        print('OUTCAR not found')
+    else:
         print('OUTCAR is found now')
 # print(filelist)
 
