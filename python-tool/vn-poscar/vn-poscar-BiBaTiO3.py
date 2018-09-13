@@ -37,4 +37,4 @@ number = df2.number
 # hence I group them by every 5 atoms
 for i,j,k,l,m in zip(*[iter(number)]*5): 
 #     print(i,j,k,l,m)
-    print("{}+{}+{}+{}+{}".format(str(i),str(j), str(k), str(l), str(m)))
+    print("{},{},{},{},{}".format(str(i),str(j), str(k), str(l), str(m)))
