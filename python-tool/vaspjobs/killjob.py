@@ -11,6 +11,8 @@ __creation_date__ = "October 1, 2018"
 This script is used for killing jobs.
 You can kill all the jobs of a user ('ywfang' is the username by default), 
 or you can just kill some jobs with their job IDs in a range.
+
+Pop menu when excuting it, delete all or just some jobs?
 """
 
 for line in os.popen("squeue --user=ywfang").readlines():
