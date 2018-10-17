@@ -23,13 +23,12 @@ workingfiles = ['OUTCAR', 'POSCAR']
 
 
 def file_existence(filelist, filepath):
-    for filename in os.listdir(filepath):
-        for f in filelist:
-            boolean_value = filename == f
-            if not boolean_value:
-                pass
-            else:
-                print(f, 'does exist')
+    for f in filelist:
+        if f in os.listdir(filepath):
+            # print(f, 'does exist')
+            pass
+        else:
+            print(f, 'not found')
 
 
 file_existence(workingfiles, workingpath)
