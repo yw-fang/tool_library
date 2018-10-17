@@ -1,5 +1,6 @@
-from pymatgen.io.vasp import Poscar
-import pandas as pd
+# from pymatgen.io.vasp import Poscar
+# import pandas as pd
+import os
 """
 Purpose: This script prints the magnetization for user's quick preview.
 Read: POSCAR and OUTCAR
@@ -17,10 +18,26 @@ __creation_date__ = "October 17th, 2018"
 # yourfile = input('Choose a file: ')
 # p = Poscar.from_file(yourfile)
 
-p = Poscar.from_file('./POSCAR')
+workingpath = './'
+workingfiles = ['OUTCAR', 'POSCAR']
 
-structure_summary = p.structure
-natoms_list = p.natoms
-sum_natoms = sum(natoms_list[0:len(natoms_list)])
-coordinates = p.structure[0:sum_natoms]
 
+def file_existence(filelist, filepath):
+    for filename in os.listdir(filepath):
+        for f in filelist:
+            boolean_value = filename == f
+            if not boolean_value:
+                pass
+            else:
+                print(f, 'does exist')
+
+
+file_existence(workingfiles, workingpath)
+
+
+# p = Poscar.from_file('./POSCAR')
+# f =
+#
+# structure_summary = p.structure
+# natoms_list = p.natoms
+# sum_natoms = sum(natoms_list[0:len(natoms_list)])
