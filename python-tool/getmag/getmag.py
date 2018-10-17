@@ -1,12 +1,13 @@
 from pymatgen.io.vasp import Poscar
 import pandas as pd
-# Purpose: This script prints the magnetization for user's quick preview.
-# Read: POSCAR and OUTCAR
 """
- position of ions in fractional coordinates (direct lattice)
+Purpose: This script prints the magnetization for user's quick preview.
+Read: POSCAR and OUTCAR
+Pattern-1: position of ions in fractional coordinates (direct lattice)
+
+Supported vasp 5.xx, vasp 4.xx is not tested.
+SOC and non-SOC both implemented.
 """
-# Supported vasp 5.xx, vasp 4.xx is not tested.
-# SOC and non-SOC both implemented.
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
