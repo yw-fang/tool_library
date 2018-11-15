@@ -1,6 +1,7 @@
 # from pymatgen.io.vasp import Poscar
 # import pandas as pd
 import os
+import re
 """
 Purpose: This script prints the magnetization for user's quick preview.
 Read: POSCAR and OUTCAR
@@ -33,7 +34,15 @@ def file_existence(filelist, filepath):
 
 file_existence(workingfiles, workingpath)
 
+def match_mag(fname):
+    pattern = r"\smagnetization\s"
+    with open(fname, 'r') as f:
+        contents = f.read()
+        magnetization = re.findall(pattern, contents)
+        return(magnetization)
 
+magnetization = match_mag(workingfiles[0])
+print(magnetization)
 # p = Poscar.from_file('./POSCAR')
 # f =
 #
