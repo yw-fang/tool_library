@@ -47,6 +47,9 @@ if file_existence(workingfiles, workingpath):
     atomic_mag = outcar.magnetization
     # print(atomic_mag)
     for i in range(0,len(atomic_mag)):
-        magx,magy,magz = atomic_mag[i]['tot']
-        print(i+1, magx, magy, magz)
-        # print(atomic_mag[i])
+#        magx,magy,magz = atomic_mag[i]['tot']
+#        if mag_y and mag_z:
+#            print(i+1, magx, magy, magz)
+#        else:
+#            print(i+1, magx)
+        print(atomic_mag[i])
