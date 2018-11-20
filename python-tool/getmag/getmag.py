@@ -12,6 +12,14 @@ Both SOC and non-SOC are implemented.
 
 Currently, this script returns a table: the first column is the number index
 of the atom, the other columns are the magnetic moments.
+
+Usage: revise .bashrc, and add
+alias getmag="python $DIR/getmag.py", then source ~/.bashrc
+
+By using this script and the sed command, we can print
+the magnetic moments of the specified atoms easily, e.g.
+getmag | sed -n '1p'
+this command can print the magnetic moments for the first atom
 """
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
