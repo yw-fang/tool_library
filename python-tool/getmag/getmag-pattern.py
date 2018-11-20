@@ -37,7 +37,8 @@ file_existence(workingfiles, workingpath)
 def match_mag(fname):
     # pattern = r"\smagnetization\s"
     # pattern = r"\smagnetization\s\(x\)\n"
-    pattern = r"\s\d?\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)"
+    # pattern = r"\s\d?\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)"
+    pattern = r"\sLSORBIT\s=\s+T"  # SOC or not
     with open(fname, 'r') as f:
         contents = f.read()
         magnetization = re.findall(pattern, contents)
