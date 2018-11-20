@@ -9,13 +9,13 @@ Read: POSCAR and OUTCAR
 Pattern-1: position of ions in fractional coordinates (direct lattice)
 
 Supported vasp 5.xx, vasp 4.xx is not tested.
-SOC and non-SOC both implemented.
+Both SOC and non-SOC are implemented.
 """
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
-__creation_date__ = "Nov. 20th, 2018"
+__revision_date__ = "Nov. 20th, 2018"
 
 # yourfile = input('Choose a file: ')
 # p = Poscar.from_file(yourfile)
@@ -23,16 +23,27 @@ __creation_date__ = "Nov. 20th, 2018"
 workingpath = './'
 workingfiles = ['OUTCAR', 'POSCAR']
 
-
 def file_existence(filelist, filepath):
     for f in filelist:
         if f in os.listdir(filepath):
             return(True)
-            # print(f, 'does exist')
             pass
         else:
             print(f, 'not found')
             break
+
+
+def match_soc(fname):
+    pattern = r"\sLSORBIT\s=\s+T"  # SOC or not
+    with open(fname, 'r') as f:
+        contents = f.read()
+        soc_flag_list = re.findall(pattern, contents)
+        soc_flag_str = ''.join(map(str, soc_flag_list))
+        if soc_flag_str:
+            return(soc_flag_str[-1])
+        else:
+            return('F')
+
 
 if file_existence(workingfiles, workingpath):
     outcar = Outcar("OUTCAR")
@@ -45,11 +56,9 @@ if file_existence(workingfiles, workingpath):
 #                )
 #    print(atomic_forces)
     atomic_mag = outcar.magnetization
-    # print(atomic_mag)
     for i in range(0,len(atomic_mag)):
-#        magx,magy,magz = atomic_mag[i]['tot']
-#        if mag_y and mag_z:
-#            print(i+1, magx, magy, magz)
-#        else:
-#            print(i+1, magx)
-        print(atomic_mag[i])
+        if(match_soc("OUTCAR")=='T'):  # for SOC
+            magx,magy,magz = atomic_mag[i]['tot']
+            print(i+1, magx, magy, magz)
+        else:  # for non-SOC
+            print(i+1, magx)
