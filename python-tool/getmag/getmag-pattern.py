@@ -35,7 +35,9 @@ def file_existence(filelist, filepath):
 file_existence(workingfiles, workingpath)
 
 def match_mag(fname):
-    pattern = r"\smagnetization\s"
+    # pattern = r"\smagnetization\s"
+    # pattern = r"\smagnetization\s\(x\)\n"
+    pattern = r"\s\d?\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)"
     with open(fname, 'r') as f:
         contents = f.read()
         magnetization = re.findall(pattern, contents)
