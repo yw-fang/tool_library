@@ -1,6 +1,6 @@
 # from pymatgen.io.vasp import Poscar
 # import pandas as pd
-import pymatgen as mg
+from pymatgen.io.vasp.outputs import Outcar
 import os
 import re
 """
@@ -27,10 +27,26 @@ workingfiles = ['OUTCAR', 'POSCAR']
 def file_existence(filelist, filepath):
     for f in filelist:
         if f in os.listdir(filepath):
+            return(True)
             # print(f, 'does exist')
             pass
         else:
             print(f, 'not found')
+            break
 
-
-
+if file_existence(workingfiles, workingpath):
+    outcar = Outcar("OUTCAR")
+#    atomic_forces = outcar.read_table_pattern(
+#                header_pattern=r"\sPOSITION\s+TOTAL-FORCE \(eV/Angst\)\n\s-+",
+#                row_pattern=r"\s+[+-]?\d+\.\d+\s+[+-]?\d+\.\d+\s+[+-]?\d+\.\d+\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)\s+([+-]?\d+\.\d+)",
+#                footer_pattern=r"\s--+",
+#                postprocess=lambda x: float(x),
+#                last_one_only=False
+#                )
+#    print(atomic_forces)
+    atomic_mag = outcar.magnetization
+    # print(atomic_mag)
+    for i in range(0,len(atomic_mag)):
+        magx,magy,magz = atomic_mag[i]['tot']
+        print(i+1, magx, magy, magz)
+        # print(atomic_mag[i])
