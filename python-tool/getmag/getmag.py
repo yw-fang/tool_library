@@ -6,10 +6,12 @@ import re
 """
 Purpose: This script prints the magnetization for user's quick preview.
 Read: POSCAR and OUTCAR
-Pattern-1: position of ions in fractional coordinates (direct lattice)
 
-Supported vasp 5.xx, vasp 4.xx is not tested.
+vasp 5.xx is supported, vasp 4.xx is not tested.
 Both SOC and non-SOC are implemented.
+
+Currently, this script returns a table: the first column is the number index
+of the atom, the other columns are the magnetic moments.
 """
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
@@ -61,4 +63,5 @@ if file_existence(workingfiles, workingpath):
             magx,magy,magz = atomic_mag[i]['tot']
             print(i+1, magx, magy, magz)
         else:  # for non-SOC
+            magx = atomic_mag[i]['tot']
             print(i+1, magx)
