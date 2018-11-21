@@ -20,6 +20,8 @@ The final goal:
 This script aims to read the structure from POSCAR or CONTCAR,
 and reads the magnetic moment for each ion from the OUTCAR
 and output the file with file extension of 'vesta' directly.
+
+Reminder to myself: use getmag.
 """
 
 path = "./"
