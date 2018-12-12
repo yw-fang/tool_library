@@ -6,6 +6,7 @@ __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "October 23, 2018"
+__final_date__ = "December 13, 2018"
 
 """
 This script converts the cif to the tabular used for latex Table environment
@@ -74,10 +75,17 @@ cellparameters_list = get_cell_parameters(file)
 space_group = cellparameters_list[0]
 space_group_sign = space_group[0]
 print('${' + space_group_sign + '}$ &&')
-print(tabular_header + '$a$ =', cellparameters_list[1], '~\\AA\\\\$b$ = ', cellparameters_list[2],
-      '~\\AA\\\\$c$ = ', cellparameters_list[3],'~\\AA\\\\$\\alpha$ = ', cellparameters_list[4],
-      '$^{\\circ}$\\\\$\\beta$ =', cellparameters_list[5], '$^{\\circ}$\\\\$\\gamma$ =',
-      cellparameters_list[6], '$^{\\circ}$' + tabular_end_double)
+# print(tabular_header + '$a$ =', cellparameters_list[1], '~\\AA\\\\$b$ = ', cellparameters_list[2],
+#       '~\\AA\\\\$c$ = ', cellparameters_list[3],'~\\AA\\\\$\\alpha$ = ', cellparameters_list[4],
+#       '$^{\\circ}$\\\\$\\beta$ =', cellparameters_list[5], '$^{\\circ}$\\\\$\\gamma$ =',
+#       cellparameters_list[6], '$^{\\circ}$' + tabular_end_double)
+print(tabular_header + '$a$ = ',
+        cellparameters_list[1]+'~\\AA\\\\$b$ = ', cellparameters_list[2]+
+        '~\\AA\\\\$c$ = ', cellparameters_list[3]+'~\\AA\\\\$\\alpha$ = ',
+        cellparameters_list[4]+
+        '$^{\\circ}$\\\\$\\beta$ = ',
+        cellparameters_list[5]+'$^{\\circ}$\\\\$\\gamma$ = ',
+        cellparameters_list[6]+'$^{\\circ}$' + tabular_end_double)
 
 atom_type_list = data['atom_type'].tolist()
 print(tabular_header + '\\\\'.join(atom_type_list) + tabular_end_double)
