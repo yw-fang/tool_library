@@ -8,6 +8,14 @@ __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "March 18th, 2018"
 
+"""
+current implementation requires POSCAR must
+comtain the SELECTIVE DYNAMICS tags.
+In future, I will further implemente the one
+without this tag.
+"""
+
+
 p = Poscar.from_file('POSCAR')
 sd = p.selective_dynamics
 for x in sd:
