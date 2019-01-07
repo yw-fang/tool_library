@@ -1,18 +1,17 @@
 from pymatgen.io.vasp import Poscar
 # from pymatgen import *
-# import ase
 # Purpose: generate supercell from POSCAR
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "March 18th, 2018"
+__revision_date__ = "Jan 7th, 2019"
 
 """
-current implementation requires POSCAR must
-comtain the SELECTIVE DYNAMICS tags.
-In future, I will further implemente the one
-without this tag.
+This script can be used to generate supercell from POSCAR file
+Available and unavailable SELECTIVE DYNAMICS tags
+have been both implemented, 2019 Jan 7th.
 """
 
 filename = 'POSCAR'
@@ -20,25 +19,23 @@ def readpos(file):
     p = Poscar.from_file(file)
     sd = p.selective_dynamics
     if sd:
-        print(sd)  # start to consider the implementation of no sleective dynamics
+        for x in sd:
+            for y in sd:
+                if y[0] == 'False' or 'F':
+                    y[0] = 'True'
+                    # print(y[0])
+                if y[1] == 'False' or 'F':
+                    y[1] = 'True'
+                if y[2] == 'Flase' or 'F':
+                    y[2] = 'True'
+        return(p)
     else:
         print('No selective dynamics')
         return(p)
 
 c = readpos(filename)
-print(c)
-# for x in sd:
-#     for y in sd:
-#         if y[0] == 'False' or 'F':
-#             y[0] = 'True'
-#             # print(y[0])
-#         if y[1] == 'False' or 'F':
-#             y[1] = 'True'
-#         if y[2] == 'Flase' or 'F':
-#             y[2] = 'True'
-# c = p
-# c.structure.make_supercell([2, 2, 3])
-# c.natoms.append(1)
+c.structure.make_supercell([2, 2, 3])
+c.natoms.append(1)
 # 
-# c.structure.to(filename='S223POSCAR')
-# # print(c.structure.to(fmt="poscar"))
+c.structure.to(filename='S223POSCAR')
+# print(c.structure.to(fmt="poscar"))
