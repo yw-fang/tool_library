@@ -15,13 +15,18 @@ In future, I will further implemente the one
 without this tag.
 """
 
+filename = 'POSCAR'
+def readpos(file):
+    p = Poscar.from_file(file)
+    sd = p.selective_dynamics
+    if sd:
+        print(sd)  # start to consider the implementation of no sleective dynamics
+    else:
+        print('No selective dynamics')
+        return(p)
 
-p = Poscar.from_file('POSCAR')
-sd = p.selective_dynamics
-if sd:
-    print(sd)  # start to consider the implementation of no sleective dynamics
-else:
-    print('No selective dynamics')
+c = readpos(filename)
+print(c)
 # for x in sd:
 #     for y in sd:
 #         if y[0] == 'False' or 'F':
