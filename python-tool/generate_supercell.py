@@ -13,9 +13,11 @@ __revision_date__ = "Jan 7th, 2019"
 This script can be used to generate supercell from POSCAR file
 Available and unavailable SELECTIVE DYNAMICS tags
 have been both implemented, 2019 Jan 7th.
+
+Usage: python generate_supercell.py -i filename -s 2 2 2
+By default, filename is 'POSCAR'; the supercell size is 3*3*3
 """
 
-filename = 'POSCAR'
 def readpos(file):
     p = Poscar.from_file(file)
     sd = p.selective_dynamics
@@ -51,11 +53,17 @@ def command_line_arg():
             default=(3, 3, 3),
             help='supercell size')
 
+
+    par.add_option('-i', '--inputfile',
+            action='store', type="string",
+            dest='inputfile', default='POSCAR',
+            help='location of POSCAR')
+
     return par.parse_args()
     # print(c.structure.to(fmt="poscar"))
 
 
-def make_supercell(supercellsize):
+def make_supercell(supercellsize, filename):
     c = readpos(filename)
     c.structure.make_supercell(supercellsize)
     c.natoms.append(1)
@@ -64,8 +72,10 @@ def make_supercell(supercellsize):
 
 if __name__ == '__main__':
     opts, args = command_line_arg()
+    filename = opts.inputfile
+    print(filename)
     print(list(opts.supercellsize))
     supercellsize = list(opts.supercellsize)
-    supercell_structure = make_supercell(supercellsize)
+    supercell_structure = make_supercell(supercellsize, filename)
 #    print(supercell_structure)
-    supercell_structure.structure.to(filename='supercell.vasp')
+    supercell_structure.structure.to(filename='POSCAR.supercell')
