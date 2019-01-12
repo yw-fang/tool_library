@@ -1,4 +1,5 @@
 from pymatgen.io.vasp import Poscar
+from optparse import OptionParser
 # from pymatgen import *
 # Purpose: generate supercell from POSCAR
 __author__ = "Yue-Wen FANG"
@@ -33,9 +34,38 @@ def readpos(file):
         print('No selective dynamics')
         return(p)
 
-c = readpos(filename)
-c.structure.make_supercell([2, 2, 3])
-c.natoms.append(1)
-# 
-c.structure.to(filename='S223POSCAR')
-# print(c.structure.to(fmt="poscar"))
+
+
+
+############################################################
+def command_line_arg():
+    usage = "usage: %prog [options] arg1 arg2"
+    par = OptionParser(usage=usage)
+
+    # par.add_option('-f', '--file',
+    #         action='store', type="string",
+    #         dest='filename', default='OUTCAR',
+    #         help='location of OUTCAR')
+    par.add_option('-s', '--supercellsize', nargs=3,
+            action='store', type="int", dest='supercellsize',
+            default=(3, 3, 3),
+            help='supercell size')
+
+    return par.parse_args()
+    # print(c.structure.to(fmt="poscar"))
+
+
+def make_supercell(supercellsize):
+    c = readpos(filename)
+    c.structure.make_supercell(supercellsize)
+    c.natoms.append(1)
+    return(c)
+
+
+if __name__ == '__main__':
+    opts, args = command_line_arg()
+    print(list(opts.supercellsize))
+    supercellsize = list(opts.supercellsize)
+    supercell_structure = make_supercell(supercellsize)
+#    print(supercell_structure)
+    supercell_structure.structure.to(filename='supercell.vasp')
