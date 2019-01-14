@@ -1,13 +1,14 @@
+#!/usr/bin/env python
+
 from pymatgen.io.vasp import Poscar
 from optparse import OptionParser
-# from pymatgen import *
-# Purpose: generate supercell from POSCAR
+
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "March 18th, 2018"
-__revision_date__ = "Jan 7th, 2019"
+__revision_date__ = "Jan 14th, 2019"
 
 """
 This script can be used to generate supercell from POSCAR file
@@ -15,9 +16,12 @@ Available and unavailable SELECTIVE DYNAMICS tags
 have been both implemented, 2019 Jan 7th.
 
 Usage: python generate_supercell.py -i filename -s 2 2 2
-By default, filename is 'POSCAR'; the supercell size is 3*3*3
+Here, 2 2 2 is the specified supercell size, filename is the input file.
+By default, input file is 'POSCAR'; the supercell size is 3*3*3
 """
 
+######################READ FILE function####################
+#########SELECTIVE DYNAMICS processed#######################
 def readpos(file):
     p = Poscar.from_file(file)
     sd = p.selective_dynamics
@@ -37,17 +41,11 @@ def readpos(file):
         return(p)
 
 
-
-
-############################################################
+#################COMMAND LINE function######################
 def command_line_arg():
     usage = "usage: %prog [options] arg1 arg2"
     par = OptionParser(usage=usage)
 
-    # par.add_option('-f', '--file',
-    #         action='store', type="string",
-    #         dest='filename', default='OUTCAR',
-    #         help='location of OUTCAR')
     par.add_option('-s', '--supercellsize', nargs=3,
             action='store', type="int", dest='supercellsize',
             default=(3, 3, 3),
@@ -63,6 +61,7 @@ def command_line_arg():
     # print(c.structure.to(fmt="poscar"))
 
 
+##############GENERATE SUPERCELL function#################
 def make_supercell(supercellsize, filename):
     c = readpos(filename)
     c.structure.make_supercell(supercellsize)
