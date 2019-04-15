@@ -77,4 +77,4 @@ if __name__ == '__main__':
     supercellsize = list(opts.supercellsize)
     supercell_structure = make_supercell(supercellsize, filename)
 #    print(supercell_structure)
-    supercell_structure.structure.to(filename='POSCAR.supercell')
+    supercell_structure.structure.to(filename='POSCAR.supercell.vasp')
