@@ -10,8 +10,8 @@ __creation_date__ = "April 17th, 2019"
 __revision_date__ = "April 17th, 2019"
 
 """
-Get forces of atoms from OUTCAR file.
-To do
+Calculating band gap for VASP calculations.
+Usage: python bandgap.py
 """
 """
 In pymatgen, there are several different ways to extracting band gap.
