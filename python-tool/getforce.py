@@ -14,7 +14,7 @@ __revision_date__ = "April 17th, 2019"
 
 """
 Get forces of atoms from OUTCAR file.
-To do
+Usage: python getforce.py
 """
 
 def read_outcar(outcar_file):
