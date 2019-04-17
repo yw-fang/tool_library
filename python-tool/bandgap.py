@@ -49,3 +49,11 @@ gap = bs.get_band_gap()
 print(gap['energy'])
 
 # Method 3 by calculating band gap from DOSCAR
+"""
+This was inspired by Jeffw Doak https://github.com/jeffwdoak/vasp_scripts/blob/master/vasp_scripts/bandgap.py
+I implemented in a clear way for my understanding.
+"""
+
+## to do list ##
+## 1. read DOSCAR
+## 2. calculate band gap
