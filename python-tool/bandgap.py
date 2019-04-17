@@ -13,6 +13,7 @@ __revision_date__ = "April 17th, 2019"
 Calculating band gap for VASP calculations.
 Usage: python bandgap.py
 """
+
 """
 In pymatgen, there are several different ways to extracting band gap.
 Here, I introduce two methods using "eigenvalue_band_properties"
