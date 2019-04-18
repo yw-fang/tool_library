@@ -2,6 +2,8 @@
 
 from pymatgen.io.vasp import Poscar
 from optparse import OptionParser
+import os.path
+import sys
 
 __author__ = "Yue-Wen FANG"
 __maintainer__ = "Yue-Wen FANG"
@@ -22,24 +24,26 @@ By default, input file is 'POSCAR'; the supercell size is 3*3*3
 
 ######################READ FILE function####################
 #########SELECTIVE DYNAMICS processed#######################
-def readpos(file):
-    p = Poscar.from_file(file)
-    sd = p.selective_dynamics
-    if sd:
-        for x in sd:
-            for y in sd:
-                if y[0] == 'False' or 'F':
-                    y[0] = 'True'
-                    # print(y[0])
-                if y[1] == 'False' or 'F':
-                    y[1] = 'True'
-                if y[2] == 'Flase' or 'F':
-                    y[2] = 'True'
-        return(p)
+def readpos(struct_file):
+    if os.path.exists(struct_file):
+        p = Poscar.from_file(struct_file)
+        sd = p.selective_dynamics
+        if sd:
+            for x in sd:
+                for y in sd:
+                    if y[0] == 'False' or 'F':
+                        y[0] = 'True'
+                        # print(y[0])
+                    if y[1] == 'False' or 'F':
+                        y[1] = 'True'
+                    if y[2] == 'Flase' or 'F':
+                        y[2] = 'True'
+            return(p)
+        else:
+            print('No selective dynamics')
+            return(p)
     else:
-        print('No selective dynamics')
-        return(p)
-
+        print("No specified structural file reads in, at least make sure you have '{}' by default".format(struct_file), file=sys.stderr)
 
 #################COMMAND LINE function######################
 def command_line_arg():
