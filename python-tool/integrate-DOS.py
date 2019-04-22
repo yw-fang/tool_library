@@ -12,6 +12,8 @@ __creation_date__ = "Dec 19, 2018"
 """
 This script can integrate the DOS, the obtained value is the number of electrons
 Note that you must choose a proper energy window you are studying.
+An application example can bee seen my article:
+https://arxiv.org/abs/1901.08771
 """
 
 def count_electron(file):
