@@ -15,6 +15,10 @@ __revision_date__ = "April 17th, 2019"
 """
 Get forces of atoms from OUTCAR file.
 Usage: python getforce.py
+
+To do:
+    If NSW = 0, as implemented
+    If NSW > 0, return the forces in the last step
 """
 
 def read_outcar(outcar_file):
