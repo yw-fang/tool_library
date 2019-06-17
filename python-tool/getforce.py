@@ -10,15 +10,16 @@ __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "April 16th, 2019"
-__revision_date__ = "April 17th, 2019"
+__revision_date__ = "June 17th, 2019"
 
 """
 Get forces of atoms from OUTCAR file.
 Usage: python getforce.py
 
-To do:
-    If NSW = 0, as implemented
-    If NSW > 0, return the forces in the last step
+This python script always returns the forces
+in the last step in actual calculation, hence it not only
+handles with the scf calculations, but also can print the
+forces in the final ionic step in the relaxation calculation.
 """
 
 def read_outcar(outcar_file):
@@ -54,10 +55,10 @@ if __name__ == '__main__':
     filename = opts.inputfile
 #    print(filename)
     forces = read_outcar(filename)
+    print(forces[-1])
     atom_index = 0
     print('#################################################')
     print('atom_index', '###', 'TOTAL-FORCE (eV/Angst)')
-    for i in forces:
-        for j in i:
-            atom_index = atom_index + 1
-            print(atom_index,'###', j)
+    for i in forces[-1]:
+        atom_index = atom_index + 1
+        print(atom_index,'###', i)
