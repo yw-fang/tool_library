@@ -14,7 +14,7 @@ __revision_date__ = "June 17th, 2019"
 
 """
 Get forces of atoms from OUTCAR file.
-Usage: python getforce.py
+Usage: python getforce.py -i OUTCAR
 
 This python script always returns the forces
 in the last step in actual calculation, hence it not only
