@@ -10,7 +10,7 @@ __maintainer__ = "Yue-Wen FANG"
 __email__ = "fyuewen@gmail.com"
 __status__ = "Development"
 __creation_date__ = "July 18th, 2019"
-__revision_date__ = "July 14th, 2019"
+__revision_date__ = "July 18th, 2019"
 
 """
 This script can be used to generate K-path for different crystal structures.
