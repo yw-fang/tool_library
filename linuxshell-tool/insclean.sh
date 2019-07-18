@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Cleaning up after an Instanton VASP run
+# This script may be useful in NEB calculations and lambda calculations.
 
   DIRS=$(ls -d [0-9][0-9])
 
