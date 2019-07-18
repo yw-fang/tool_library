@@ -39,7 +39,3 @@ for filename in os.listdir(path):
 
 # #################define functions##################
 
-# for file in filelist:
-#     file_yaml = file + '.yaml'
-#     data = h5py.File(file_yaml)
-#     print(file_yaml)
