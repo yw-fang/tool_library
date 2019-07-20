@@ -5,6 +5,8 @@
 EF=$1
 OS=$2
 
+tar -zcvf vasprun.tar.gz vasprun.xml # make a compressed backup
+
 if [ $OS == 'mac' ]
 then 
 	echo $OS
