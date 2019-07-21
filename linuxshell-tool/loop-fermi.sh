@@ -1,4 +1,5 @@
 #author: Y.-W.Fang
+#date: 2019 July 21th
 declare -a arr=("F-P1-Q1-L" "G-F"  "G-P-Z"  "L-Z"  "Z-Q-G")
 
 for i in "${arr[@]}"
