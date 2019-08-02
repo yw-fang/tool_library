@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import PyPDF2, os
 
 __author__ = "Yue-Wen FANG"
@@ -13,6 +15,7 @@ Usage: python merge-pdf.py
 """
 
 #output file name
+print("The output name will be named 'merged_file.pdf'!")
 output_filename = 'merged_file.pdf'
 
 # Get all pdf file names
