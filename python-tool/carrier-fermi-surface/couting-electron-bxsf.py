@@ -14,6 +14,15 @@ __status__ = "Development"
 __creation_date__ = "March 12th, 2020"
 __revision_date__ = "XX XXth, 2020"
 
+"""
+Usage: python counting-electron-bxsf.py -f XX.bxsf
+This script is used for counting the electron/hole number from the bxsf file obtained from Wannier calculations.
+
+A program named SKEAF can also do similar work, like computing the electron/hole number
+See Computer Physics Communications 183 (2012) 324–332
+and http://susi.theochem.tuwien.ac.at/reg_user/unsupported/
+"""
+
 ############################################################
 __version__ = "1.0"
 ############################################################
