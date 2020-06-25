@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# AA 06-06-2008
+# Split CHGCAR and PARCHG
+# Author: Yuewen FANG
+# Contact: fyuewen@gmail.com
+# adapted from vt code
 
   file=$1
   echo " Input file :: \"$file\" "
