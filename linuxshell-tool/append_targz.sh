@@ -8,15 +8,15 @@ tar_file=`echo $1 | sed 's/.gz//g'`
 echo $tar_file
 #tar uvf $tar_file tarxz.sh
 i=2
-for arg do
+for arg do #using this loop, you can pass as many as arguments to this script
 	if [ $arg != $1 ];then  # exclude the original tar.gz file 
-		tar uvf $tar_file $arg
+		tar uvf $tar_file $arg #add file to the tar file
 		printf "$arg was appended to $1 \n"
 #	      printf '%s\n' "Arg $i: $arg"
         fi
   i=$((i + 1))
 done
-gzip -9 $tar_file
+gzip -9 $tar_file  #compress the tar file to the tar.gz file using gzip -9
 echo "Compressed done"
 
 # uncompress the tar.gz : gzip -d backup.tar.gz
