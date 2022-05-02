@@ -1,1 +1,2 @@
 du -sh * | sort -hr | head -n10
+#ncdu command can also list large files.
