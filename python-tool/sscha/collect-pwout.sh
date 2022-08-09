@@ -15,3 +15,4 @@ for _dir in *"${pattern}"*; do
     cp "${dir}"/scf_*.out pwout/
 done
 tar -zcvf pwout.tar.gz pwout
+rm -rf pwout
