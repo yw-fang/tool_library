@@ -15,11 +15,6 @@ for x in ./*.in; do
   echo "touch done" >> job_tmp.sh
   mv job_tmp.sh "${x%.*}/job.sh"
   cd "${x%.*}"
-  if ! [ -x "$(sbatch)" ]; then
-  echo 'Error: slurm workload is not installed.' >&2
-  exit 1
-  else
   sbatch job.sh
-  fi
   cd ../
 done
