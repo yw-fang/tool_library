@@ -20,6 +20,6 @@ for x in ./*.in; do
   exit 1
   else
   sbatch job.sh
-  cd ../
   fi
+  cd ../
 done
