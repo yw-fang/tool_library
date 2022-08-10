@@ -8,4 +8,5 @@
 #  HISTORY
 #     2022/08/09 : Script creation
 # ------------------------------------------------------------------
+echo "usege: vasp2qe-cartesian.sh <VASP_folder> <QE_folder>"
 ase convert -i vasp -o espresso-in POSCAR pw.in
