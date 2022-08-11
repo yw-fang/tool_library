@@ -76,6 +76,5 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
         df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(entropy, 8)
 print(df_100.head(2))
 
-# save the df_100 to df_100.csv in which Entropy_eV_cell column has 8 decimal places
-df_100.to_csv('df_100.csv', index=False, float_format='%.8f')
-# df_100.to_csv('df_100.csv', index=False, sep=' ')
+# save the df_100 to df_100.csv in which Entropy_eV_cell column has 8 decimal places, columns are separted with spacing
+df_100.to_csv('df_100.csv', index=False, float_format='%.8f', sep = ' ')
