@@ -72,10 +72,10 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
             # E0_per_atom = np.nan
         # grep the EENTRO from OUTCAR and save the value to the floating variable entropy using shell
         entropy = os.popen('grep "EENTRO" ' + dir_name + '/' + "OUTCAR").read().split()[-1]
-        entropy = float(entropy)
+        entropy = float(entropy)  # eV per cell; convert into floating
         print(float(entropy))
         # alternatively, we can use in shell
-        # entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'') # eV per cell
+        # entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'')
         # however, here, python's round will make the very small entropy into 0.00000000, so donot use it here.
         df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(entropy, 8)
 print(df_100.head(2))
