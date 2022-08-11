@@ -39,7 +39,7 @@ echo $TEMP
    fildvscf='loodv',
    alpha_mix(1) = 0.3,
    outdir = './tmp/$q'
-   fildyn=$prefix_name'.dyn',
+   fildyn='$prefix_name.dyn',
  !  trans=.true.,
    ldisp=.true.
    nq1=4, nq2=4, nq3=3
