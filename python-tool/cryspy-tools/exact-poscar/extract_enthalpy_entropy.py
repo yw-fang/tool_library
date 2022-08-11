@@ -70,9 +70,13 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
             # raise error that OSZICAR does not exist in the folder
             raise FileNotFoundError('OSZICAR does not exist in the folder ' + dir_name)
             # E0_per_atom = np.nan
-        # print the final EENTRO from OUTCAR using shell command
-        entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'') # eV per cell
-        # store the entropy in the "Entropy_eV_cell" column of df_100 by preserving 8 decimal places
+        # grep the EENTRO from OUTCAR and save the value to the floating variable entropy using shell
+        entropy = os.popen('grep "EENTRO" ' + dir_name + '/' + "OUTCAR").read().split()[-1]
+        entropy = float(entropy)
+        print(float(entropy))
+        # alternatively, we can use in shell
+        # entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'') # eV per cell
+        # however, here, python's round will make the very small entropy into 0.00000000, so donot use it here.
         df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(entropy, 8)
 print(df_100.head(2))
 
