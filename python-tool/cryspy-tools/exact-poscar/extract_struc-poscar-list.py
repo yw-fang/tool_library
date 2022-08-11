@@ -24,7 +24,7 @@ df = pd.read_csv(crys_rslt_file, skiprows=[0], names=col_names, delim_whitespace
 # print(df.head(10))
 
 # select the first 100 structures with lowest energy
-df_100 = df.sort_values(by=['E_eV_atom'])[:10]
+df_100 = df.sort_values(by=['E_eV_atom'])[:2]
 #size od df_100
 print(df_100.shape)
 # extract the structure from data/pkl_data/opt_struc_data.pkl according to the id in df_100
