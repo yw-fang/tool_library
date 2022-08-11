@@ -44,9 +44,11 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
         if not os.path.exists(os.path.join(str(cid)+'_'+str(spg_number))):
             os.mkdir(str(cid)+'_'+str(spg_number))
         os.rename(str(cid)+'_'+str(spg_number)+'.vasp', str(cid)+'_'+str(spg_number)+'/POSCAR')
-        # copy all the files in ./input/ to the each folder with POSCAR
+        # copy all the files in ./input/ to the each folder with POSCAR and make a copy of POSCAR
         os.system('cp -r ./input/* {}'.format(str(cid)+'_'+str(spg_number)+'/'))
-        # cd each folder with POSCAR and sbatch the job script
+        os.system('cp {} {}'.format(str(cid)+'_'+str(spg_number)+'/POSCAR',
+                                    str(cid)+'_'+str(spg_number)+'/POSCAR_0'))
+        # cd each folder with POSCAR and sbatch the job script, in addition
         os.system('cd {} && sbatch job-calypso-greene.sh'.format(str(cid)+'_'+str(spg_number)))
         # cd ../ to go back to the parent folder
         os.system('cd ../')
