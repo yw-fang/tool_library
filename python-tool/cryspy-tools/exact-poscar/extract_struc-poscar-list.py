@@ -47,6 +47,6 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
         # copy all the files in ./input/ to the each folder with POSCAR
         os.system('cp -r ./input/* {}'.format(str(cid)+'_'+str(spg_number)+'/'))
         # cd each folder with POSCAR and sbatch the job script
-        os.system('cd {} && sbatch job_script.sh'.format(str(cid)+'_'+str(spg_number)))
+        os.system('cd {} && sbatch job-calypso-greene.sh'.format(str(cid)+'_'+str(spg_number)))
         # cd ../ to go back to the parent folder
         os.system('cd ../')
