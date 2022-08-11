@@ -63,7 +63,8 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
                     if 'E0=' in line:
                         E0 = float(line.split()[4])
                         # print(E0)
-                        E0_per_atom = E0/n_atoms # enthalpy eV normalized to per atom
+                        # preserve E0_per_atom having 8 decimal places
+                        E0_per_atom = round(E0/n_atoms, 8) # enthalpy eV normalized to per atom
                         break
         else:
             # raise error that OSZICAR does not exist in the folder
@@ -71,9 +72,10 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
             # E0_per_atom = np.nan
         # print the final EENTRO from OUTCAR using shell command
         entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'') # eV per cell
-        # store the entropy in the "Entropy_eV_cell" column of df_100
-        df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = entropy
+        # store the entropy in the "Entropy_eV_cell" column of df_100 by preserving 8 decimal places
+        df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(entropy, 8)
 print(df_100.head(2))
 
-# save the df_100 to df_100.csv
-df_100.to_csv('df_100.csv', index=False, sep=' ')
+# save the df_100 to df_100.csv in which Entropy_eV_cell column has 8 decimal places
+df_100.to_csv('df_100.csv', index=False, float_format='%.8f')
+# df_100.to_csv('df_100.csv', index=False, sep=' ')
