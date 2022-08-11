@@ -65,7 +65,8 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
                         # print(E0)
                         # preserve E0_per_atom having 8 decimal places
                         E0_per_atom = round(E0/n_atoms, 8) # enthalpy eV normalized to per atom
-                        print("Warnning, implement save the enthalpy per atom into dataframe")
+                        # save E0_per_atom in the column E_eV_atom of df_100
+                        df_100.loc[df_100['id'] == cid, 'E_eV_atom'] = round(E0_per_atom, 8)
                         break
         else:
             # raise error that OSZICAR does not exist in the folder
