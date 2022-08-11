@@ -66,7 +66,8 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
                         E0_per_atom = E0/n_atoms # enthalpy eV normalized to per atom
                         break
         else:
-            raise FileNotFoundError('OSZICAR does not exist')
+            # raise error that OSZICAR does not exist in the folder
+            raise FileNotFoundError('OSZICAR does not exist in the folder ' + dir_name)
             # E0_per_atom = np.nan
         # print the final EENTRO from OUTCAR using shell command
         entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'') # eV per cell
