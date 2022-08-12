@@ -15,7 +15,7 @@ import pickle
 import numpy as np
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 from pymatgen.io.vasp.outputs import Oszicar, Outcar
-# use pandas to read the data/cryspy_rslt_energy_asc_after1250struct
+# use pandas to read the data/cryspy_rslt_energy_asc
 import pandas as pd
 import os
 
@@ -24,7 +24,7 @@ import os
 print("Please prepare the data/cryspy_rslt_energy_asc* file, data/pkl_data/opt_struc_data.pkl, or")
 print("data/pkl_data/init_struc_data.pkl, and the OUTCAR/POSCAR/OSZICAR files in the corresponding folder")
 
-crys_rslt_file = 'data/cryspy_rslt_energy_asc_after1250struct'
+crys_rslt_file = 'data/cryspy_rslt_energy_asc'
 # read crys_rslt_file with pandas, columns are separated with spacing
 col_names = ['id', 'Gen', 'Spg_num', 'Spg_sym', 'Spg_num_opt', 'Spg_sym_opt',  'E_eV_atom', 'Magmom', 'Opt']
 df = pd.read_csv(crys_rslt_file, skiprows=[0], names=col_names, delim_whitespace=True, usecols=[0,1,4,5,6])
