@@ -29,7 +29,24 @@ crys_rslt_file = 'Analysis_Output-revised.dat' # obtained by removing the () for
 col_names = ['preliminary_order', 'No', 'E_eV_atom', 'spg_symbol_tol_0.1', 'spg_symbol_tol_0.2']
 df = pd.read_csv(crys_rslt_file, skiprows=[0], names=col_names, delim_whitespace=True, usecols=[0,1,2])
 
-# select the first 100 structures with lowest energy
+# select the first N structures with lowest energy
+
+# count the number of folders whose names are alphabeta 1, 2, 3, ..., N
+N = 0
+for i in os.listdir():
+    print(i)
+    if os.path.isdir(i):
+        # try if 'i' is a number, then N is increased by 1
+        try:
+            int(i)
+            N += 1
+        # raise an error to remind the user that there are folders whose names are not numbers
+        except ValueError:
+            print("Warning: this folder '{}' whose name is not a number, it's NOT included in analysis".format(i))
+            print("and will not affect the results")
+            continue
+
+print("there are {} folders".format(N))
 df_100 = df.sort_values(by=['E_eV_atom'])[:3]
 df_100['Spg_num_opt'] = np.nan
 df_100['Spg_sym_opt'] = np.nan
