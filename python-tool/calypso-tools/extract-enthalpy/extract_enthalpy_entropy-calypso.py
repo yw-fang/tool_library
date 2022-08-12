@@ -17,7 +17,6 @@ import numpy as np
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 from pymatgen.io.vasp.outputs import Oszicar, Outcar
 from pymatgen.core import Structure
-# use pandas to read the data/cryspy_rslt_energy_asc_after1250struct
 import pandas as pd
 import os
 
