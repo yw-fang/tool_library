@@ -14,6 +14,7 @@ import pickle
 # analyze space group of POSCAR using pymatgen
 import numpy as np
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
+from pymatgen.io.vasp.outputs import Oszicar, Outcar
 # use pandas to read the data/cryspy_rslt_energy_asc_after1250struct
 import pandas as pd
 import os
@@ -52,34 +53,40 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
         # read from CONTCAR using pymatgen
         from pymatgen.core import Structure
         opt_struct = Structure.from_file(dir_name + '/' + "CONTCAR")
-        spg_symbol_opt = SpacegroupAnalyzer(opt_struct, symprec=.1).get_space_group_number()
+        spg_symbol_opt = SpacegroupAnalyzer(opt_struct, symprec=.1).get_space_group_symbol()
+        spg_number_opt= SpacegroupAnalyzer(opt_struct, symprec=.1).get_space_group_number()
+        # update the Spg_num_opt column in df_100 using spg_number_opt
+        df_100.loc[df_100['id'] == cid, 'Spg_num_opt'] = spg_number_opt
+        df_100.loc[df_100['id'] == cid, 'Spg_sym_opt'] = spg_symbol_opt
         # how many atoms in the opt_struct
         n_atoms = opt_struct.num_sites
         # print(spg_symbol_opt)
-        # read the final energy from OSZICAR if OSZICAR exists, otherwise raise error
-        if os.path.isfile(dir_name + '/' + "OSZICAR"):
-            with open(dir_name + '/' + "OSZICAR", 'r') as f:
-                for line in f:
-                    if 'E0=' in line:
-                        E0 = float(line.split()[4])
-                        # print(E0)
-                        # preserve E0_per_atom having 8 decimal places
-                        E0_per_atom = round(E0/n_atoms, 8) # enthalpy eV normalized to per atom
-                        # save E0_per_atom in the column E_eV_atom of df_100
-                        df_100.loc[df_100['id'] == cid, 'E_eV_atom'] = round(E0_per_atom, 8)
-                        break
-        else:
-            # raise error that OSZICAR does not exist in the folder
+        # read the final energy E0 from OSZICAR if OSZICAR exists using pymatgen, otherwise raise error
+        try:
+            oszicar = Oszicar(dir_name + '/' + "OSZICAR")
+            E0 = oszicar.final_energy
+            E0_per_atom = round(E0/n_atoms, 8) # enthalpy eV normalized to per atom
+            # save E0_per_atom in the column E_eV_atom of df_100
+            df_100.loc[df_100['id'] == cid, 'E_eV_atom'] = round(E0_per_atom, 8)
+        except:
             raise FileNotFoundError('OSZICAR does not exist in the folder ' + dir_name)
-            # E0_per_atom = np.nan
-        # grep the EENTRO from OUTCAR and save the value to the floating variable entropy using shell
-        entropy = os.popen('grep "EENTRO" ' + dir_name + '/' + "OUTCAR").read().split()[-1]
-        entropy = float(entropy)  # eV per cell; convert into floating
-        print(float(entropy))
+
+        # read the final EENTRO (i.e. free energy TOTEN) from OUTCAR using pymatgen if OUTCAR exists,
+        # otherwise raise error
+        try:
+            outcar = Outcar(dir_name + '/' + "OUTCAR")
+            EENTRO = outcar.data['EENTRO'] # this is a nested list of EENTRO from OUTCAR
+            # get the last item in EENTRO and convert it into float
+            EENTRO = float(EENTRO[-1][0])
+            # final_fr_energy = outcar.data['final_energy'] # free energy TOTEN
+            # save EENTRO in the column Entropy_eV_cell of df_100
+            df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(EENTRO, 8)
+            print('Pymatgen: EENTRO is ', EENTRO)
+        except:
+            raise FileNotFoundError('OUTCAR does not exist in the folder ' + dir_name)
         # alternatively, we can use in shell
-        # entropy = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'')
-        # however, here, python's round will make the very small entropy into 0.00000000, so donot use it here.
-        df_100.loc[df_100['id'] == cid, 'Entropy_eV_cell'] = round(entropy, 8)
+        # EENTRO = os.system('grep "EENTRO" '+dir_name+'/'+'OUTCAR'+' | tail -1 | awk \'{print $5}\'')
+        # however, here, python's round will make the very small entropy into 0.00000000, so do not use it here.
 print(df_100.head(2))
 
 # save the df_100 to df_100.csv in which Entropy_eV_cell column has 8 decimal places, columns are separted with spacing
