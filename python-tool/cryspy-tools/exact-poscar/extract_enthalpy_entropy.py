@@ -89,5 +89,7 @@ with open('data/pkl_data/opt_struc_data.pkl', 'rb') as f:
         # however, here, python's round will make the very small entropy into 0.00000000, so do not use it here.
 print(df_100.head(2))
 
+# sort df_100 according to the E_eV_atom
+df_100 = df_100.sort_values(by=['E_eV_atom'])
 # save the df_100 to df_100.csv in which Entropy_eV_cell column has 8 decimal places, columns are separted with spacing
 df_100.to_csv('df_100.csv', index=False, float_format='%.8f', sep = ' ')
