@@ -14,6 +14,7 @@ import pickle
 # analyze space group of POSCAR using pymatgen
 import numpy as np
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
+from pymatgen.io.vasp.outputs import Oszicar, Outcar
 from pymatgen.core import Structure
 # use pandas to read the data/cryspy_rslt_energy_asc_after1250struct
 import pandas as pd
@@ -74,24 +75,19 @@ for dir_name in range(1,4):
     df_100.loc[df_100['preliminary_order'] == float(dir_name), 'Spg_num_opt'] = spg_number_opt
 
     # how many atoms in the opt_struct
-    n_atoms = opt_struct.num_sites
+    # n_atoms = opt_struct.num_sites
+    n_atoms = 1
     # print(spg_symbol_opt)
 
-    if os.path.isfile(dir_name + '/' + "OSZICAR"):
-        with open(dir_name + '/' + "OSZICAR", 'r') as f:
-            for line in f:
-                if 'E0=' in line:
-                    E0 = float(line.split()[4])
-                    # print(E0)
-                    # preserve E0_per_atom having 8 decimal places
-                    E0_per_atom = round(E0/n_atoms, 8) # enthalpy eV normalized to per atom
-                    # save E0_per_atom to the column E_eV_atom in the df_100
-                    df_100.loc[df_100['preliminary_order'] == float(dir_name), 'E_eV_atom'] = E0_per_atom
-                    break
-    else:
-        # raise error that OSZICAR does not exist in the folder
+    try:
+        oszicar = Oszicar(dir_name + '/' + "OSZICAR")
+        E0 = oszicar.final_energy
+        E0_per_atom = round(E0 / n_atoms, 8)  # enthalpy eV normalized to per atom
+        # save E0_per_atom in the column E_eV_atom of df_100
+        df_100.loc[df_100['preliminary_order'] == float(dir_name), 'E_eV_atom'] = E0_per_atom
+    except:
         raise FileNotFoundError('OSZICAR does not exist in the folder ' + dir_name)
-        # E0_per_atom = np.nan
+
     # grep the EENTRO from OUTCAR and save the value to the floating variable entropy using shell
     entropy = os.popen('grep "EENTRO" ' + dir_name + '/' + "OUTCAR").read().split()[-1]
     entropy = float(entropy)  # eV per cell; convert into floating
