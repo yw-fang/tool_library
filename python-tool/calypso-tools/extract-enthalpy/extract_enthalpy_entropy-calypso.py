@@ -47,7 +47,7 @@ for i in os.listdir():
             continue
 
 print("there are {} folders".format(N))
-df_100 = df.sort_values(by=['E_eV_atom'])[:3]
+df_100 = df.sort_values(by=['E_eV_atom'])[:N]
 df_100['Spg_num_opt'] = np.nan
 df_100['Spg_sym_opt'] = np.nan
 df_100['Entropy_eV_cell'] = np.nan
@@ -55,7 +55,7 @@ print(df.head(10))
 
 # read the CONTCAR in the folders 1 to 3
 # and extract the enthalpy and entropy from the OUTCAR/OSZICAR files
-for dir_name in range(1,4):
+for dir_name in range(1,N+1):
     dir_name = str(dir_name)
     opt_struct = Structure.from_file(dir_name + '/' + "CONTCAR")
     # analyze the space group using SpacegroupAnalyzer, if RuntimeError or TypeError happens, raise the error
@@ -91,8 +91,7 @@ for dir_name in range(1,4):
     df_100.loc[df_100['preliminary_order'] == float(dir_name), 'Spg_num_opt'] = spg_number_opt
 
     # how many atoms in the opt_struct
-    # n_atoms = opt_struct.num_sites
-    n_atoms = 1
+    n_atoms = opt_struct.num_sites
     # print(spg_symbol_opt)
 
     try:
@@ -118,3 +117,6 @@ for dir_name in range(1,4):
         print('Pymatgen: EENTRO is ', EENTRO)
     except:
         raise FileNotFoundError('OUTCAR does not exist in the folder ' + dir_name)
+
+df_100 = df_100.sort_values(by=['E_eV_atom'])
+df_100.to_csv('df_100.csv', index=False, float_format='%.8f', sep = ' ')
