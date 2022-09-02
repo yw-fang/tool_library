@@ -20,6 +20,8 @@ from pymatgen.core import Structure
 import pandas as pd
 import os
 
+
+
 # remind the user to prepare the files for reading in
 print("Please prepare the Analysis_Output-revised-revised.dat, and the DFT folders 1-N including")
 print("OUTCAR/POSCAR/OSZICAR files")
