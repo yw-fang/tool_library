@@ -11,5 +11,7 @@
 #
   for i in `ls -d */`
   do
-    tar -zcvf $i.tar.gz $i
+    j=${i::-1} # remove the last character '/'
+echo $j
+    tar -zcvf $j.tar.gz $j
   done
