@@ -1,0 +1,15 @@
+#!/bin/bash
+# ------------------------------------------------------------------
+# [Author] Yue-Wen Fang [Email] fyuewen@gmail.com
+#          Description
+#   [usage] tar every folder in the current folder
+#          History
+#  HISTORY
+#     2022/09/26 : Script creation
+# ------------------------------------------------------------------
+# compress each folder in current directory using tar
+#
+  for i in `ls -d */`
+  do
+    tar -zcvf $i.tar.gz $i
+  done
