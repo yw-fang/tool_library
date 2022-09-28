@@ -17,7 +17,7 @@ do
   j=${i::-1} # remove the last character '/'
   echo $j
   cd $j
-  rm -rf OUTCAR_*
+  rm -rf OUTCAR*
   rm -rf vasprun.xml*
   rm -rf CHG*
   rm -rf WAVECAR
