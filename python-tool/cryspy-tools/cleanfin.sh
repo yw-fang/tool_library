@@ -29,5 +29,6 @@ do
   rm -rf KPOINTS*
   rm -rf IBZKPT
   rm -rf XDATCAR
+  rm -rf POTCAR
   cd ..
 done
