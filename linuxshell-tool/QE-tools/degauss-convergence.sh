@@ -3,6 +3,7 @@
 # replace the line including "degauss" in scf.in with "degauss=0.01" using sed, and copy to scf.in.1
 # for loop from 0.005 to 0.1 with step 0.005
 
+# ref: https://stackoverflow.com/questions/12845638/how-do-i-change-the-decimal-separator-in-the-printf-command-in-bash
 export LC_NUMERIC="en_US.UTF-8" # in order to properly show decimals using dot as decimal separator
 for i in $(seq 0.005 0.005 0.1);
 do
