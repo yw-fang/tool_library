@@ -12,15 +12,19 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+fig, ax = plt.subplots(1,1)
+
 # read the data
 df = pd.read_csv('convergence.dat', sep='\s+', header=None, names=['degauss', 'energy'])
 print(df)
+print(type(df))
 df.sort_values(by='degauss', inplace=True)
-# plot the 1st and 2nd columns of "convergence.dat" file using the line marker
-plt.plot(df['degauss'], df['energy'], 'o-')
+# plot the dataframe df in ax
+# ax.plot(df['degauss'], df['energy'], 'o-')
+df.plot(x='degauss', y='energy', ax=ax, marker='o', linestyle='-', color='b')
 # set the x and y labels
-plt.xlabel('Degauss')
-plt.ylabel('Energy (Ry)')
+ax.set_xlabel('Degauss')
+ax.set_ylabel('Energy (Ry)')
 # set the x and y limits
 plt.xlim(0, 0.1)
 # set the x and y ticks
@@ -29,4 +33,4 @@ plt.yticks([])
 # set the x and y grid
 plt.grid(True, which='both')
 # save the figure
-plt.savefig('convergence.pdf', dpi=72)
+fig.savefig('convergence.pdf', dpi=72)
