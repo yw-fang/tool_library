@@ -7,11 +7,11 @@ file=$2
 if [ $CODE == 'vasp' ]
 then
         echo $CODE
-	grep 'free  energy   TOTEN' $file
+	grep 'free  energy   TOTEN' $file |  gawk '{print $5}' | tail -1 # tail -1 only gives you the final energy
 #grep TOTEN $1 | tail -3
 elif [ $CODE == 'pw' ]
 then
 	echo $CODE
 	grep '!    total energy' $file
-done
+fi
 
