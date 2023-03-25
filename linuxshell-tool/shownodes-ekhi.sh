@@ -3,7 +3,7 @@
 #the purpose is to see the information (CPUs, memory) of each node.
 #  The CPUS(A/I/O/T) column in the output of the sinfo command shows the number of allocated, idle, other, and total CPUs on each node.
 
-partitions=("regular" "long" "xlong" "serial" "test" "large" "xlarge")
+partitions=("all" "fat")
 
 #mthod1, show information overview
 # for partition in "${partitions[@]}"; do
