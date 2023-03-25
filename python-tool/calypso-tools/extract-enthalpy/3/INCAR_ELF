@@ -1,0 +1,28 @@
+NPAR=4
+ISYM=2
+SYSTEM = LOO
+PREC = Accurate 
+ENCUT = 600.0
+EDIFF = 1e-6
+EDIFFG = -1e-3
+# KSPACING=0.28
+# SYMPREC=1e-4
+IBRION = -1
+ISIF = 1
+NSW = 0
+ISMEAR = 0 ; SIGMA = 0.05
+POTIM = 0.10
+#Wavefunction and charge
+#LWAVE = FALSE
+#LCHARG = FALSE
+#Target Pressure
+PSTRESS = 1000
+ALGO=Fast
+LREAL=Auto
+NELM=130
+LELF=.TRUE.
+
+ NEDOS      = 6001             points
+ EMIN       = -20               initial energy
+ EMAX       = 20               final energy
+ LORBIT     = 11               create PROOUT; 10:LDOS; 11:ODOS
