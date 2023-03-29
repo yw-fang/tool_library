@@ -1,0 +1,22 @@
+NPAR=4
+ISYM=2
+SYSTEM = LOO
+PREC = Accurate 
+ENCUT = 600.0
+EDIFF = 1e-6
+EDIFFG = -1e-3
+# KSPACING=0.28
+# SYMPREC=1e-4
+IBRION = 1
+ISIF = 3
+NSW = 150
+ISMEAR = 0 ; SIGMA = 0.05
+POTIM = 0.30
+#Wavefunction and charge
+LWAVE = FALSE
+LCHARG = FALSE
+#Target Pressure
+PSTRESS = 1000
+ALGO=Fast
+LREAL=Auto
+NELM=130
