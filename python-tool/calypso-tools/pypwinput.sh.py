@@ -62,14 +62,14 @@ def gen_input():
 
     # Create the pw.x input file content
     pwscf_in = """&control
-        calculation = 'relax',
-        prefix = 'relax',
+        calculation = 'vc-relax',
+        prefix = 'RbH12',
         pseudo_dir = '/public5/home/sch8008/ywfang/vaspwork/RbH/RbH12/50GPa/pot',
         outdir = './',
         tprnfor = .true.,
         tstress = .true.,
-        etot_conv_thr = 1.0e-6,
-        forc_conv_thr = 1.0e-4,
+        etot_conv_thr = 1.0e-5,
+        forc_conv_thr = 1.0e-3,
      /
      &system
         ibrav = 0,
@@ -78,17 +78,18 @@ def gen_input():
         ecutwfc = 50.0,  ! Set your own value
         ecutrho = 400.0,  ! Set your own value
         occupations = 'smearing',
-        degauss = 0.01,
+        degauss = 0.05,
      /
      &electrons
-        conv_thr = 1.0e-8,
-        mixing_beta = 0.2,
+        conv_thr = 1.0e-7,
+        mixing_beta = 0.5,
      /
      &ions
         ion_dynamics = 'bfgs',
      /
      &cell
         cell_dynamics = 'bfgs',
+        press = 500,
      /
     ATOMIC_SPECIES
     H      1.00794 H.upf
