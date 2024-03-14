@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-
+# -*- coding: utf-8 -*-
 # this script is used to share how many users there are in the HPC who are running jobs
 # author: fyuewen@gmail.com
 import subprocess
+# wirte usage for this script
+print("Usage: python show-users.py or show-users.py")
 
 # Run the squeue command
 output = subprocess.check_output(['squeue']).decode('utf-8')
