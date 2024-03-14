@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # this script is used to share how many users there are in the HPC who are running jobs
 # author: fyuewen@gmail.com
 import subprocess
